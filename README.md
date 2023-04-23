@@ -22,6 +22,9 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 - 2023/04/23
 	- Model 1種、TI 1種、Lora 2種を追加しました。  
 	[リソースの更新](#リソースの更新) で追加ダウンロードできます。
+	- 情報追記
+		- 最小構成では [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel) をダウンロードします。
+		- 最小構成に加え [Model 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
 
 # インストール方法
 
@@ -38,8 +41,10 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 	- **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./_/doc/SdWebUiInstall/BatWarning.webp)
 	- [Civitai](https://civitai.com/) が、落ちていない時に実行してください。
-	- `SetupAll_SdWebUi.bat` は成人向けを含むモデルやLoRAを多数ダウンロードします。成人でない方は `SetupMin_SdWebUi.bat` をご利用ください。
 	- `SetupMin_SdWebUi.bat` で最小構成でセットアップしてから、`_\SdWebUi-Installer\` の `Model\` や `Lora\` にある bat ファイルで個別にダウンロードすることもできます。
+		- 最小構成では [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel) をダウンロードします。
+	- `SetupAll_SdWebUi.bat` は成人向けを含むモデルやLoRAを多数ダウンロードします。成人でない方は `SetupMin_SdWebUi.bat` をご利用ください。
+		- 最小構成に加え [Model 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
 	- ファイルのダウンロード時に配布元の URL を表示します。Ctrl + Clickで確認し、利用規約を遵守してご利用ください。
 4. インストールが終わるとブラウザに SdWebUi が表示されますので、上部タブから「Civitai Helper」を選択して、「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
