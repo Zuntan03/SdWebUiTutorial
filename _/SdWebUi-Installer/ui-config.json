@@ -1,0 +1,10 @@
+{
+	"txt2img/Sampling method/value": "DPM++ 2M Karras",
+	"txt2img/Sampling steps/value": 25,
+	"txt2img/Upscaler/value": "Latent (nearest-exact)",
+	"txt2img/Hires steps/value": 15,
+	"txt2img/Denoising strength/value": 0.6,
+	"txt2img/Upscale by/value": 1.5,
+	"txt2img/Height/value": 768,
+	"txt2img/CFG Scale/value": 8.0
+}
