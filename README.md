@@ -17,6 +17,12 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 
 で、[Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) を簡単に使える環境を用意してみました。
 
+# 直近の更新履歴
+
+- 2023/04/23
+	- Model 1種、TI 1種、Lora 2種を追加しました。  
+	[リソースの更新](#リソースの更新) で追加ダウンロードできます。
+
 # インストール方法
 
 簡易な説明でも理解できる人向けのインストール方法の説明です。  
