@@ -65,12 +65,14 @@ SdWebUiのインストールには、最小インストールとすべてをイ�
 
 - [`SetupMin_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupMin_SdWebUi.bat)（最小構成）
 	- 動作に最低限必要なファイルのみをダウンロードします。
-		- `_\SdWebUi-Installer\Model\` や `_\SdWebUi-Installer\Lora\` にある bat ファイルで、モデルやLoRA を追加でダウンロードできます。
+		- `_\SdWebUi-Installer\Model\` や `_\SdWebUi-Installer\Lora\` にある bat ファイルで、モデルやLoRA を追加で個別にダウンロードできます。
 	- 以降の説明は `SetupAll_SdWebUi.bat` で進めますので、読み替えてください。
 - [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り）
 	- SetupMin に加えて成人向けを含むモデルや LoRA をダウンロードします。成人でない場合は`SetupMin_SdWebUi.bat` を使用してください。
  
 インストール先のフォルダで `SetupAll_SdWebUi.bat` をダブルクリックすると SdWebUi 関連のダウンロードとインストールを進めます。  
+よく落ちている [Civitai](https://civitai.com/) からファイルをダウンロードしますので、[Civitai](https://civitai.com/) が落ちていない時に bat を実行してください。
+
 **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./BatWarning.webp)
 

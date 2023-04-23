@@ -1,6 +1,6 @@
 ﻿# Stable Diffusion web UI のチュートリアル
 
-画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) を簡単に使えるようにする環境とチュートリアルです。  
+画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) をローカルで簡単に使えるようにする環境とチュートリアルです。  
 bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA などの AI 画像生成の環境が整います。
 
 ![SdWebUiOverview](./_/doc/SdWebUiInstall/SdWebUiOverview.png)
@@ -29,9 +29,11 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 ![PythonPath](./_/doc/SdWebUiInstall/PythonPath.png)
 2. インストール先のフォルダを英数字のみの浅いパスに用意します（`C:\SdWebUiTutorial` や `C:\SD` など）。
 3. [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り） または [`SetupMin_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupMin_SdWebUi.bat)（最小構成） を **右クリックから「名前をつけてリンク先を保存…」** でインストール先にダウンロードして、ダブルクリックで実行します。  
-	- `SetupAll_SdWebUi.bat` は成人向けを含むモデルやLoRAをダウンロードします。成人でない方は `SetupMin_SdWebUi.bat` をご利用ください。
 	- **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./_/doc/SdWebUiInstall/BatWarning.webp)
+	- [Civitai](https://civitai.com/) が、落ちていない時に実行してください。
+	- `SetupAll_SdWebUi.bat` は成人向けを含むモデルやLoRAを多数ダウンロードします。成人でない方は `SetupMin_SdWebUi.bat` をご利用ください。
+	- `SetupMin_SdWebUi.bat` で最小構成でセットアップしてから、`_\SdWebUi-Installer\` の `Model\` や `Lora\` にある bat ファイルで個別にダウンロードすることもできます。
 	- ファイルのダウンロード時に配布元の URL を表示します。Ctrl + Clickで確認し、利用規約を遵守してご利用ください。
 4. インストールが終わるとブラウザに SdWebUi が表示されますので、上部タブから「Civitai Helper」を選択して、「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
