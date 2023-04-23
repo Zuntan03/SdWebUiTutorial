@@ -3,9 +3,30 @@
 画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) をローカルで簡単に使えるようにする環境とチュートリアルです。  
 bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA などの AI 画像生成の環境が整います。
 
-![SdWebUiOverview](./_/doc/SdWebUiInstall/SdWebUiOverview.png)
+## 目次
 
-![First1Girl](./_/doc/First1Girl/First1Girl.webp)
+- [インストール方法](#インストール方法)（簡易版）
+- [更新方法](#更新方法)
+- チュートリアル
+	- [Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)（詳細版）
+	- [最初の 1girl 画像生成](/_/doc/First1Girl/First1Girl.md)
+	- [Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)
+
+## 直近の更新履歴
+
+- 2023/04/24
+	- チュートリアルに「[Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)」を追加しました。
+
+- 2023/04/23
+	- Model 1種、TI 1種、Lora 2種を追加しました。  
+	[リソースの更新](#リソースの更新) で追加ダウンロードできます。
+	- 情報追記
+		- [`SetupMin_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupMin_SdWebUi.bat) の最小構成では [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel) をダウンロードします。
+		- [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat) は最小構成に加え [Model 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
+
+
+## 概要
+![SdWebUiOverview](./_/doc/SdWebUiInstall/SdWebUiOverview.png)
 
 過去に SdWebUi のチュートリアル的な記事をいくつか書きましたが、基盤となる環境がないために説明しづらい場面がありました。  
 
@@ -17,14 +38,6 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 
 で、[Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) を簡単に使える環境を用意してみました。
 
-# 直近の更新履歴
-
-- 2023/04/23
-	- Model 1種、TI 1種、Lora 2種を追加しました。  
-	[リソースの更新](#リソースの更新) で追加ダウンロードできます。
-	- 情報追記
-		- [`SetupMin_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupMin_SdWebUi.bat) の最小構成では [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel) をダウンロードします。
-		- [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat) は最小構成に加え [Model 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
 
 # インストール方法
 
@@ -50,13 +63,9 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
 5. スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」をします。  
 ![CivitaiHelperRefresh](./_/doc/SdWebUiInstall/CivitaiHelperRefresh.png)
-6. インストールは完了です。  
+6. インストールは完了です。以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。  
 [最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
-
-# チュートリアル
-
-- [Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)
-- [最初の 1girl 画像生成](/_/doc/First1Girl/First1Girl.md)
+![First1Girl](./_/doc/First1Girl/First1Girl.webp)
 
 # 更新方法
 

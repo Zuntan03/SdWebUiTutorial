@@ -86,6 +86,8 @@ SdWebUiのインストールには、最小インストールとすべてをイ�
 
 これにより [Civitai](https://civitai.com/) にあるモデルや LoRA のプレビュー画像が表示され、LoRA のキーワードを自動的に入力できるようになります。
 
+インストールは完了です。以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。  
+
 # 次は
 
 [最初の 1girl 画像生成](../First1Girl/First1Girl.md) で「1girl, school uniform」と簡単に指定するだけで、以下のような画像を生成します。
