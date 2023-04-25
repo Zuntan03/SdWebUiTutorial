@@ -14,6 +14,9 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 
 ## 直近の更新履歴
 
+- 2023/04/26
+	- [SdWebUi のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)に「[MEGA](https://mega.io/ja/)」から`4x-UltraSharp.bat` や `4x-AnimeSharp.bat` などを簡単に手動ダウンロードする手順を追記しました。
+
 - 2023/04/25
 	- 「[Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)」に「ダウンロードしたモデルや LoRA をつかう」を追記しました。
 
@@ -67,10 +70,13 @@ bat の実行だけで本体・拡張機能・モデル・VAE・TI・LoRA など
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
 5. スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」をします。  
 ![CivitaiHelperRefresh](./_/doc/SdWebUiInstall/CivitaiHelperRefresh.png)
-6. インストールは完了です。以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。  
+6. 以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。
+7. 画像を拡大するアップスケーラなどの追加のリソースを、簡単に手動でダウンロードできます。  
+`_\SdWebUi-ManualDownload` 以下の bat ファイルを実行すると、ダウンロードページとインストール先フォルダを開きます。  
+ダウンロード後に、インストール先へダウンロードしたファイルを移動してください。
+8. インストールは完了です。
 [最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
 ![First1Girl](./_/doc/First1Girl/First1Girl.webp)
-
 # 更新方法
 
 ## リソースの更新

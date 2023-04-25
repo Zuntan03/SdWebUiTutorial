@@ -3,9 +3,10 @@
 画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) を簡単にインストールして使えるようにします。
 
 1. [動作環境](#動作環境)
-1. [Git for Windows のインストール](#git-for-windows-のインストール)
-1. [Python のインストール](#python-のインストール)
-1. [SdWebUi のインストール](#sdwebui-のインストール)
+2. [Git for Windows のインストール](#git-for-windows-のインストール)
+3. [Python のインストール](#python-のインストール)
+4. [SdWebUi のインストール](#sdwebui-のインストール)
+5. [アップスケーラーの手動ダウンロード](#アップスケーラーの手動ダウンロード)
 
 # 動作環境
 
@@ -86,9 +87,30 @@ SdWebUiのインストールには、最小インストールとすべてをイ�
 
 これにより [Civitai](https://civitai.com/) にあるモデルや LoRA のプレビュー画像が表示され、LoRA のキーワードを自動的に入力できるようになります。
 
-インストールは完了です。以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。  
+以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。  
+
+# アップスケーラーの手動ダウンロード
+
+クラウドストレージである「[MEGA](https://mega.io/ja/)」にあるファイルを自動でダウンロードするには MEGA 専用プログラムのインストールが必要になります。  
+MEGA 専用プログラムのインストールは億劫ですので、手動で簡単にファイルをダウンロードするしくみを「`_\SdWebUi-ManualDownload\`」以下に用意しました。
+
+ここでは MEGA で配布されている画像拡大アップスケーラー「`4x-UltraSharp.pth`」と「`4x-AnimeSharp.pth`」をダウンロードします。
+
+1. エクスプローラーで「`_\SdWebUi-ManualDownload\Upscaler\`」を開くと「`4x-UltraSharp.bat`」と「`4x-AnimeSharp.bat`」があります。
+2. bat を実行すると Web ブラウザでダウンロードページを開き、エクスプローラーでとファイルのインストール先を開きます。
+3. ダウンロードページからファイルをダウンロードする際には、左上ではなく右下の「（↓）」ダウンロードボタンでダウンロードします。
+![UpscalerDownload](./UpscalerDownload.png)
+4. ダウンロードが終わったら「フォルダを開く」でダウンロード先フォルダからインストール先フォルダにファイルを移動します。
+![UpscalerInstall](./UpscalerInstall.png)
+
+他にも「[MEGA](https://mega.io/ja/)」からしかダウンロードできないものは、「`_\SdWebUi-ManualDownload\`」以下にダウンロード用の bat ファイルがあります。
+
+「[MEGA](https://mega.io/ja/)」からの無料ダウンロードは、大きなサイズをダウンロードをすると一定時間（6時間以上）ダウンロードが制限されます。  
+制限されたら翌日などにダウンロードを試しましょう。
 
 # 次は
+
+以上で SdWebUi のインストールは完了です。
 
 [最初の 1girl 画像生成](../First1Girl/First1Girl.md) で「1girl, school uniform」と簡単に指定するだけで、以下のような画像を生成します。
 
