@@ -3,6 +3,10 @@
 [Civitai](https://civitai.com/) は AI 画像生成の画風を制御するモデルと、特殊効果を加える LoRA などをダウンロードできるサイトです。  
 モデルや LoRA などが多く掲載されており、「[Civitai Helper 拡張](https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper)」でプレビュー画像の設定や LoRA のキーワード入力を自動化できることが特徴です。
 
+- [アカウントの登録](#アカウントの登録)
+- [モデルや LoRA のダウンロード](#モデルや-lora-のダウンロード)
+- [ダウンロードしたモデルや LoRA をつかう](#ダウンロードしたモデルや-lora-をつかう)
+
 # アカウントの登録
 
  Civitai のすべてのコンテンツを閲覧するにはアカウントの作成が必要です。
