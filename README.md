@@ -5,8 +5,7 @@
 bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusion-webui)・[拡張機能](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[モデル](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[VAE](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[LoRA](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) などの AI 画像生成の環境が整います。  
 追加で簡単に[アップスケーラー](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-ManualDownload/Upscaler)もダウンロードできます。
 
-
-<img src="./_/doc/SdWebUiInstall/SdWebUiOverview.png" width="50%" >
+<img src="./_/doc/SdWebUiInstall/SdWebUiOverview.png" width="50%" />
 
 # 直近の更新履歴
 - 2023/04/28
@@ -63,23 +62,23 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 ![BatWarning](./_/doc/SdWebUiInstall/BatWarning.webp)
 	- **[`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat)（基本構成）でインストールした場合は、寝る前などの時間の余裕がある時に「[リソースの更新](#リソースの更新)」に沿って、大量のモデルや LoRA をダウンロードしてください。**
 		- 基本構成では [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel)・[AbyssOrangeMix2Sfw](https://huggingface.co/WarriorMama777/OrangeMixs/),・[BasilMix](https://huggingface.co/nuigurumi/basil_mix) をダウンロードします。
+		- 基本構成でセットアップしてから、`_\SdWebUi-Installer\` の `Model\` や `Lora\` にある bat ファイルでモデルや LoRA を個別にダウンロードすることもできます。
 	- [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り）は 100GB を超えるファイルをダウンロードしますので、寝る前などにインストールする場合にご利用ください。
 		- モデルや LoRA は主に [Civitai](https://civitai.com/) からダウンロードしますので、[Civitai](https://civitai.com/) が落ちていない時に実行してください。
 		- 基本構成に加え [Model 一覧（巨大）](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
-	- `Setup_SdWebUi.bat` で基本構成でセットアップしてから、`_\SdWebUi-Installer\` の `Model\` や `Lora\` にある bat ファイルでモデルや LoRA を個別にダウンロードすることもできます。
+
 4. インストールが終わるとブラウザに SdWebUi が表示されますので、上部タブから「Civitai Helper」を選択して、「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
 5. スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」をします。  
 ![CivitaiHelperRefresh](./_/doc/SdWebUiInstall/CivitaiHelperRefresh.png)
 6. インストールは完了です。  
-**以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。**
-7. 画像を拡大するアップスケーラなどの追加のリソースを、簡単に手動で追加ダウンロードできます。  
+**以降は「`SdWebUi.bat`」をダブルクリックすれば SdWebUi を実行できます。**
+7. 画像を拡大するアップスケーラなどの自動でダウンロードできない追加のリソースを、簡単に手動でダウンロードできます。  
 `_\SdWebUi-ManualDownload` 以下の bat ファイルを実行すると、ダウンロードページとインストール先フォルダを開きます。  
-Zipではなく右下の下矢印ボタンでダウンロードして後に、インストール先へダウンロードしたファイルを移動してください。
+[MEGA](https://mega.io/ja) からのダウンロードは左上の Zip ダウンロードではなく右下の下矢印ボタンでダウンロードして、ダウンロードしたファイルをインストール先へ移動してください。
 ![UpscalerDownload](./_/doc/SdWebUiInstall/UpscalerDownload.png)
 8. [最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
-
-<img src="./_/doc/First1Girl/First1Girl.webp" width="50%" >
+<img src="./_/doc/First1Girl/First1Girl.webp" width="50%" />
 
 # 更新方法
 
