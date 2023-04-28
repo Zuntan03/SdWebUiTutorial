@@ -2,9 +2,9 @@
 pushd %~dp0..\..\..\..\SdWebUi\Model\
 
 echo SunshineMix.safetensors: https://civitai.com/models/9291/sunshinemixsunlightmix
-if not exist Semireal\ ( mkdir Semireal\ )
-if not exist Semireal\SunshineMix.safetensors (
-	curl -Lo Semireal\SunshineMix.safetensors^
+if not exist Semi\ ( mkdir Semi\ )
+if not exist Semi\SunshineMix.safetensors (
+	curl -Lo Semi\SunshineMix.safetensors^
 	https://civitai.com/api/download/models/11756
 )
 
