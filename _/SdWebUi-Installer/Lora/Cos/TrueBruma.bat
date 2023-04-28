@@ -6,6 +6,7 @@ if not exist Cos\School\ ( mkdir Cos\School\ )
 if not exist Cos\School\TrueBurumaV2.5.safetensors (
 	curl -Lo Cos\School\TrueBurumaV2.5.safetensors^
 	https://civitai.com/api/download/models/52736
+	timeout /t 10 /nobreak
 )
 
 popd

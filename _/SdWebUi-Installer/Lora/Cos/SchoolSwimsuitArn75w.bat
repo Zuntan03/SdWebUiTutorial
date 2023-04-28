@@ -6,6 +6,7 @@ if not exist Cos\School\ ( mkdir Cos\School\ )
 if not exist Cos\School\SchoolSwimsuitArn75w.safetensors (
 	curl -Lo Cos\School\SchoolSwimsuitArn75w.safetensors^
 	https://civitai.com/api/download/models/37311
+	timeout /t 10 /nobreak
 )
 
 popd

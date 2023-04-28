@@ -6,6 +6,7 @@ if not exist Cos\School\ ( mkdir Cos\School\ )
 if not exist Cos\School\Kitakou.safetensors (
 	curl -Lo Cos\School\Kitakou.safetensors^
 	https://civitai.com/api/download/models/41165
+	timeout /t 10 /nobreak
 )
 
 popd

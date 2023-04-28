@@ -6,6 +6,7 @@ if not exist Style\_\ ( mkdir Style\_\ )
 if not exist Style\_\AnimeLineart.safetensors (
 	curl -Lo Style\_\AnimeLineart.safetensors^
 	https://civitai.com/api/download/models/28907
+	timeout /t 10 /nobreak
 )
 
 popd

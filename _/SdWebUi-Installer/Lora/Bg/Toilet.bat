@@ -6,6 +6,7 @@ if not exist Bg\Jp\ ( mkdir Bg\Jp\ )
 if not exist Bg\Jp\Toilet.safetensors (
 	curl -Lo Bg\Jp\Toilet.safetensors^
 	https://civitai.com/api/download/models/32482
+	timeout /t 10 /nobreak
 )
 
 popd

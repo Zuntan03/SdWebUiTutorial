@@ -6,6 +6,7 @@ if not exist Bg\Jp\ ( mkdir Bg\Jp\ )
 if not exist Bg\Jp\Hankyu3000.safetensors (
 	curl -Lo Bg\Jp\Hankyu3000.safetensors^
 	https://civitai.com/api/download/models/14283
+	timeout /t 10 /nobreak
 )
 
 popd

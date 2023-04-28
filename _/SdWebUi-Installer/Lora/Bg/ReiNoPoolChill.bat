@@ -6,6 +6,7 @@ if not exist Bg\Jp\ ( mkdir Bg\Jp\ )
 if not exist Bg\Jp\ReiNoPoolChill.safetensors (
 	curl -Lo Bg\Jp\ReiNoPoolChill.safetensors^
 	https://civitai.com/api/download/models/26239
+	timeout /t 10 /nobreak
 )
 
 popd

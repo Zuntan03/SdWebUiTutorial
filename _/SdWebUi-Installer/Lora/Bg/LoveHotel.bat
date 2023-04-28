@@ -6,6 +6,7 @@ if not exist Bg\Jp\ ( mkdir Bg\Jp\ )
 if not exist Bg\Jp\LoveHotel.safetensors (
 	curl -Lo Bg\Jp\LoveHotel.safetensors^
 	https://civitai.com/api/download/models/21552
+	timeout /t 10 /nobreak
 )
 
 popd
