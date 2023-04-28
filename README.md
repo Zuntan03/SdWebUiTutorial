@@ -15,7 +15,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 		アクセス制限が解除されるように、しばらく待ってから再実行してください。
 			- 連続的な LoRA のダウンロードリクエストで規制されないように、10秒の待ち時間を設けました。
 		- ダウンロードを途中が途中で止まり、ファイルサイズが 10KB 以上になっている場合は、手動でダウンロードに失敗したファイルを削除してください。
-	- LoRA を 58 種追加しました。
+	- LoRA を 80 種追加しました。
 	- ControlNet 1.1 の Tile モデルの更新に対応しました。
 - 2023/04/26
 	- [SdWebUi のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)に「[MEGA](https://mega.io/ja/)」から`4x-UltraSharp.bat` や `4x-AnimeSharp.bat` などを簡単に手動ダウンロードする手順を追記しました。
