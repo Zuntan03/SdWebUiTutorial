@@ -10,7 +10,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 # 直近の更新履歴
 - 2023/04/28
 	- モデルや LoRA のダウンロードサイズが大きいため、基本構成に追加でモデルや LoRA をダウンロードする説明に整理しなおしました。
-	- LoRA を 9 種追加しました。
+	- LoRA を 46 種追加しました。
 	- ControlNet 1.1 の Tile モデルの更新に対応しました。
 - 2023/04/26
 	- [SdWebUi のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)に「[MEGA](https://mega.io/ja/)」から`4x-UltraSharp.bat` や `4x-AnimeSharp.bat` などを簡単に手動ダウンロードする手順を追記しました。
@@ -89,6 +89,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 トラブルが発生する可能性は低いので、気楽に更新してください。
 
 1. [Civitai](https://civitai.com/) が落ちていないことを確認して、「`UpdateResource.bat`」 を実行します。
+	- ダウンロードに失敗した場合に、10KB 未満のモデルや LoRA が保存される場合があります。  
+	正しくダウンロードできていなさそうなモデルや LoRA は削除して、「`UpdateResource.bat`」 を再実行してください。
 2. 更新後に SdWebUi が立ち上がったら、上部タブから「Civitai Helper」を選択して「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
 	- Scan ボタンの下に「`Connect to Civitai API service failed. Wait a while and try again, check console log for detail`」といったメッセージが表示されたら、しばらく待ってから再実行してください。
