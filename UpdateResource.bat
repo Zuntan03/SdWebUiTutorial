@@ -39,8 +39,14 @@ pushd .\_\SdWebUi-Installer\
 for /r .\ControlNetModel %%b in (*.bat) do (call %%b)
 for /r .\Embedding %%b in (*.bat) do (call %%b)
 for /r .\Vae %%b in (*.bat) do (call %%b)
-for /r .\Model %%b in (*.bat) do (call %%b)
-for /r .\Lora %%b in (*.bat) do (call %%b)
+for /r .\Model %%b in (*.bat) do (
+	call %%b
+	timeout /t 10 /NOBREAK
+)
+for /r .\Lora %%b in (*.bat) do (
+	call %%b
+	timeout /t 10 /NOBREAK
+)
 popd
 
 call .\SdWebUi.bat
