@@ -1,6 +1,9 @@
 @echo off
 pushd %~dp0
 
+cd
+git pull
+
 pushd .\SdWebUi\
 for /r .\ControlNetModel %%f in (*.pth) do (
 	if %%~zf LSS 10240 ( del %%f )
