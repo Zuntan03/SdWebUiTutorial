@@ -7,6 +7,7 @@
 	- チュートリアルに「[Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)」を追加しました。
 
 - 2023/04/23
+	- [公開を告知](https://twitter.com/Zuntan03/status/1650006478986805248)しました。
 	- Model 1種、TI 1種、Lora 2種を追加しました。  
 	[リソースの更新](#リソースの更新) で追加ダウンロードできます。
 	- 情報追記
