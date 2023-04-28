@@ -2,9 +2,9 @@
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
 echo Gakkiten.safetensors: https://civitai.com/models/14992/musical-instrument-store
-if not exist Bg\_\ ( mkdir Bg\_\ )
-if not exist Bg\_\Gakkiten.safetensors (
-	curl -Lo Bg\_\Gakkiten.safetensors^
+if not exist Bg\ ( mkdir Bg\ )
+if not exist Bg\Gakkiten.safetensors (
+	curl -Lo Bg\Gakkiten.safetensors^
 	https://civitai.com/api/download/models/17663
 	timeout /t 10 /nobreak
 )
