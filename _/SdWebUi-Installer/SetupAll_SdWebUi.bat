@@ -21,7 +21,7 @@ git clone https://github.com/Zuntan03/SdWebUiTutorial
 robocopy .\SdWebUiTutorial\ . /s /move
 
 call .\_\SdWebUi-Install.bat
-call .\_\SdWebUi-DownloadModelR18.bat
+call .\_\SdWebUi-DownloadModelAndLora.bat
 
 start SdWebUi.bat
 popd

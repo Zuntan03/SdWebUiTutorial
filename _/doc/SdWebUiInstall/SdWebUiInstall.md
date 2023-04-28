@@ -16,6 +16,9 @@
 	- 動作確認は Geforce RTX 3060 12GB で実施
 - 150GB 程度のディスク容量
 
+成人向けのモデルや Lora を含みますので、成人でない方の利用は禁止です。  
+ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
+
 # Git for Windows のインストール
 
 [Git for Windows](https://gitforwindows.org/) はファイルの履歴を管理するツールですが、生成 AI 関連では様々なモノのダウンロードによく使用します。  
@@ -59,25 +62,25 @@ git と同様に、このオプションで PC のどのフォルダからでも
 
 まず、インストール先のフォルダを英数字のみの浅いパスに用意します（例: `C:\SdWebUiTutorial\` や `C:\SD\` など）。  
 
-SdWebUiのインストールには、最小インストールとすべてをインストールするオプションがあります。  
-最小インストールのオプションでは、必要に応じて自身で個別にファイルをダウンロードすることになります。
+SdWebUiのインストールには、基本インストールとすべてをインストールするオプションがあります。  
+すべてをインストールは 100GB 超えのダウンロードをしますのでご注意ください。  
+基本インストールのオプションでは、個別に追加のファイルをダウンロードすることもできます。
 
 次のどちらかの bat ファイルを **右クリックから「名前をつけてリンク先を保存…」** でインストール先のフォルダにダウンロードします。
 
-- [`SetupMin_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupMin_SdWebUi.bat)（最小構成）
-	- 動作に最低限必要なファイルのみをダウンロードします。
-		- `_\SdWebUi-Installer\Model\` や `_\SdWebUi-Installer\Lora\` にある bat ファイルで、モデルやLoRA を追加で個別にダウンロードできます。
+- [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat)（基本構成）
+	- 基本構成では動作に必要な [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel)・[AbyssOrangeMix2Sfw](https://huggingface.co/WarriorMama777/OrangeMixs/),・[BasilMix](https://huggingface.co/nuigurumi/basil_mix) をダウンロードします。
+	- `_\SdWebUi-Installer\Model\` や `_\SdWebUi-Installer\Lora\` にある bat ファイルで、モデルやLoRA を追加で個別にダウンロードできます。
+	- 時間のある時に「[リソースの更新](../../../README.md#%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E6%9B%B4%E6%96%B0)」でモデルや LoRA を追加でダウンロードします。
 	- 以降の説明は `SetupAll_SdWebUi.bat` で進めますので、読み替えてください。
-- [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り）
-	- SetupMin に加えて成人向けを含むモデルや LoRA をダウンロードします。成人でない場合は`SetupMin_SdWebUi.bat` を使用してください。
+- [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り、100GB 超えダウンロード）
+	- 基本構成に加え [Model 一覧（巨大）](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
  
 インストール先のフォルダで `SetupAll_SdWebUi.bat` をダブルクリックすると SdWebUi 関連のダウンロードとインストールを進めます。  
-よく落ちている [Civitai](https://civitai.com/) からファイルをダウンロードしますので、[Civitai](https://civitai.com/) が落ちていない時に bat を実行してください。
+モデルや LoRA は主に [Civitai](https://civitai.com/) からファイルをダウンロードしますので、[Civitai](https://civitai.com/) が落ちていない時に bat を実行してください。
 
 **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./BatWarning.webp)
-
-ファイルのダウンロード時に配布元の URL を表示します。URL を Ctrl + Click して配布元を確認し、利用規約を遵守してご利用ください。
 
 インストールが終わるとブラウザに SdWebUi が表示されますので、上部タブから「Civitai Helper」を選択して、「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./CivitaiHelperScan.png)
@@ -85,9 +88,10 @@ SdWebUiのインストールには、最小インストールとすべてをイ�
 スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」をします。  
 ![CivitaiHelperRefresh](./CivitaiHelperRefresh.png)
 
-これにより [Civitai](https://civitai.com/) にあるモデルや LoRA のプレビュー画像が表示され、LoRA のキーワードを自動的に入力できるようになります。
+これにより [Civitai](https://civitai.com/) にあるモデルや LoRA のプレビュー画像が表示され、LoRA のキーワードを自動的に入力できるようになります。  
+つかいかたは「[Civitai からのモデルや LoRA のダウンロード](../DownloadFromCivitai/DownloadFromCivitai.md)」で解説してます。
 
-以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。  
+**以降は「SdWebUi.bat」をダブルクリックすれば SdWebUi を実行できます。**
 
 # アップスケーラーの手動ダウンロード
 
