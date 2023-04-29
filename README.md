@@ -8,6 +8,10 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 <img src="./_/doc/SdWebUiInstall/SdWebUiOverview.png" width="50%" />
 
 # 直近の更新履歴
+- 2023/04/29
+	- モデルに CounterfeitV3.0、BreakDomain、BreakDro を追加しました。
+	- TI に EasyNegativeV2 を追加しました。
+	- LoRA の OnTheDesk を新バージョンに更新しました。
 - 2023/04/28
 	- モデルや LoRA のダウンロードサイズが大きいため、基本構成に追加でモデルや LoRA をダウンロードする説明に整理しなおしました。
 	- [Civitai](https://civitai.com/) のアクセス制限でファイルのダウンロードに失敗したと思われるファイル（サイズが 10KB 未満）を更新時に自動削除するようにしました。
@@ -55,7 +59,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 簡易な説明でも理解できる人向けのインストール方法の説明です。  
 **より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。**
 
-最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、150GB 程度のディスク容量が必要です。  
+最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、200GB 程度のディスク容量が必要です。  
 成人向けのモデルや Lora を含みますので、成人でない方の利用は禁止です。  
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
 
