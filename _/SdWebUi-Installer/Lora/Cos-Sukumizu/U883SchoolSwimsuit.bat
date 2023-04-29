@@ -5,7 +5,7 @@ echo U883SchoolSwimsuit.safetensors: https://civitai.com/models/33268/u883-schoo
 if not exist Cos-Sukumizu\ ( mkdir Cos-Sukumizu\ )
 if not exist Cos-Sukumizu\U883SchoolSwimsuit.safetensors (
 	curl -Lo Cos-Sukumizu\U883SchoolSwimsuit.safetensors^
-	https://civitai.com/api/download/models/39606
+	https://civitai.com/api/download/models/57752
 	timeout /t 10 /nobreak
 )
 

@@ -9,9 +9,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 - 2023/04/29
-	- モデルに CounterfeitV3.0、BreakDomain、BreakDro を追加しました。
+	- モデルに CounterfeitV3.0、BreakDomain、BreakDro、Crosskemono を追加しました。
 	- TI に EasyNegativeV2 を追加しました。
-	- LoRA の OnTheDesk を新バージョンに更新しました。
+	- LoRA の OnTheDesk、U883SchoolSwimsuit を新バージョンに更新しました。
 - 2023/04/28
 	- モデルや LoRA のダウンロードサイズが大きいため、基本構成に追加でモデルや LoRA をダウンロードする説明に整理しなおしました。
 	- [Civitai](https://civitai.com/) のアクセス制限でファイルのダウンロードに失敗したと思われるファイル（サイズが 10KB 未満）を更新時に自動削除するようにしました。
