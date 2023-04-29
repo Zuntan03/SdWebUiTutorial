@@ -2,9 +2,9 @@
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
 echo PenetrationGesture.safetensors: https://civitai.com/models/37555/penetrationgesture
-if not exist Z-Pose-Z\ ( mkdir Z-Pose-Z\ )
-if not exist Z-Pose-Z\PenetrationGesture.safetensors (
-	curl -Lo Z-Pose-Z\PenetrationGesture.safetensors^
+if not exist Pose\ ( mkdir Pose\ )
+if not exist Pose\PenetrationGesture.safetensors (
+	curl -Lo Pose\PenetrationGesture.safetensors^
 	https://civitai.com/api/download/models/48618
 	timeout /t 10 /nobreak
 )
