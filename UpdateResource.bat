@@ -10,11 +10,11 @@ for /r .\ControlNetModel %%f in (*.pth) do (
 )
 
 for /r .\Embedding %%f in (*.pt) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 3072 ( del %%f )
 )
 
 for /r .\Embedding %%f in (*.safetensors) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 3072 ( del %%f )
 )
 
 for /r .\Lora %%f in (*.safetensors) do (
