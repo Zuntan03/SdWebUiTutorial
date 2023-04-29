@@ -9,8 +9,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 - 2023/04/29
-	- モデルに CounterfeitV3.0、BreakDomain、BreakDro、Crosskemono を追加しました。
+	- モデルに CounterfeitV3.0、BreakDomain、BreakDro、Aniflatmix、DreamWorld、Crosskemono を追加しました。
 	- TI に EasyNegativeV2 を追加しました。
+	- LoRA に TechpunkMask、CyberHelmet、Motorbike、AkiraMotorbike、StandingFullBodyWithBG、Squeezer、LegPanties を追加しました。
 	- LoRA の OnTheDesk、U883SchoolSwimsuit を新バージョンに更新しました。
 	- 成人向け LoRA が意図せず表示されることを防ぐため、フォルダ名を「Z-*-Z」に変更しました。
 - 2023/04/28
