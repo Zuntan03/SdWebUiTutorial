@@ -9,7 +9,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 - 2023/04/30
-	- LoRA を 50 種追加しました。
+	- LoRA を 67 種追加しました。
 - 2023/04/29
 	- モデルを 14 種追加しました。
 	- LoRA を 65 種追加しました。
