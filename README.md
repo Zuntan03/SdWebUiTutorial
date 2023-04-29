@@ -8,9 +8,11 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 <img src="./_/doc/SdWebUiInstall/SdWebUiOverview.png" width="50%" />
 
 # 直近の更新履歴
+- 2023/04/30
+	- LoRA を 50 種追加しました。
 - 2023/04/29
 	- モデルを 14 種追加しました。
-	- LoRA を 58 種追加しました。
+	- LoRA を 65 種追加しました。
 	- TI を 6 種追加しました。
 	- LoRA の OnTheDesk U883SchoolSwimsuit を新バージョンに更新しました。
 	- 成人向け LoRA が意図せず表示されることを防ぐため、フォルダ名を「Z-*-Z」に変更しました。
