@@ -9,6 +9,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+- 2023/05/01
+	- LoRA の増加に伴いフォルダ構成を変更しました。
 - 2023/04/30
 	- モデルを 1 種追加しました。
 	- LoRA を 185 種追加しました。
