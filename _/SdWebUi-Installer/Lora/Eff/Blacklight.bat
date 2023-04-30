@@ -6,7 +6,7 @@ if not exist Eff\ ( mkdir Eff\ )
 if not exist Eff\Blacklight.safetensors (
 	curl -Lo Eff\Blacklight.safetensors^
 	https://civitai.com/api/download/models/18765
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

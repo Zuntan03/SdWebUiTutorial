@@ -6,7 +6,7 @@ if not exist Char\ ( mkdir Char\ )
 if not exist Char\SiegeEngines.safetensors (
 	curl -Lo Char\SiegeEngines.safetensors^
 	https://civitai.com/api/download/models/39959
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

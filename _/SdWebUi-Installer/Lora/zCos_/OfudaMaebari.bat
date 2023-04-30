@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\OfudaMaebari.safetensors (
 	curl -Lo zCos_\OfudaMaebari.safetensors^
 	https://civitai.com/api/download/models/9372
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Item\ ( mkdir Item\ )
 if not exist Item\HeadMountedDisplay.safetensors (
 	curl -Lo Item\HeadMountedDisplay.safetensors^
 	https://civitai.com/api/download/models/40483
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

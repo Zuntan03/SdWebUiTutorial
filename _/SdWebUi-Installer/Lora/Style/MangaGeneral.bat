@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\MangaGeneral.safetensors (
 	curl -Lo Style\MangaGeneral.safetensors^
 	https://civitai.com/api/download/models/10224
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

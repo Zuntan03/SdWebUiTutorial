@@ -6,7 +6,7 @@ if not exist zAss\ ( mkdir zAss\ )
 if not exist zAss\HugeAssAndBoobs.safetensors (
 	curl -Lo zAss\HugeAssAndBoobs.safetensors^
 	https://civitai.com/api/download/models/8002
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

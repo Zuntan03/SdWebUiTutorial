@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\Sukebura.safetensors (
 	curl -Lo zCos_\Sukebura.safetensors^
 	https://civitai.com/api/download/models/31852
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

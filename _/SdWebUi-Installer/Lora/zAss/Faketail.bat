@@ -6,7 +6,7 @@ if not exist zAss\ ( mkdir zAss\ )
 if not exist zAss\Faketail.safetensors (
 	curl -Lo zAss\Faketail.safetensors^
 	https://civitai.com/api/download/models/29717
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

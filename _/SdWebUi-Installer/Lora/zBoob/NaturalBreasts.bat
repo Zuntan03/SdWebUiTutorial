@@ -6,7 +6,7 @@ if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\NaturalBreasts.safetensors (
 	curl -Lo zBoob\NaturalBreasts.safetensors^
 	https://civitai.com/api/download/models/29529
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

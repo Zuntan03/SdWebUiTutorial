@@ -6,7 +6,7 @@ if not exist Style-Ai\ ( mkdir Style-Ai\ )
 if not exist Style-Ai\TentacleHorrorAI.safetensors (
 	curl -Lo Style-Ai\TentacleHorrorAI.safetensors^
 	https://civitai.com/api/download/models/47143
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\HumanDog.safetensors (
 	curl -Lo zCos_\HumanDog.safetensors^
 	https://civitai.com/api/download/models/13864
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

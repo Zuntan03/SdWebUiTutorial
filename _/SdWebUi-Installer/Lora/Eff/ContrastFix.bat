@@ -6,7 +6,7 @@ if not exist Eff\ ( mkdir Eff\ )
 if not exist Eff\ContrastFix.safetensors (
 	curl -Lo Eff\ContrastFix.safetensors^
 	https://civitai.com/api/download/models/10638
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

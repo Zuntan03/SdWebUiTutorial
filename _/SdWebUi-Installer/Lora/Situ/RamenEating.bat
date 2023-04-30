@@ -6,7 +6,7 @@ if not exist Situ\ ( mkdir Situ\ )
 if not exist Situ\RamenEating.safetensors (
 	curl -Lo Situ\RamenEating.safetensors^
 	https://civitai.com/api/download/models/34339
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

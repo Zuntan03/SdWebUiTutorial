@@ -6,7 +6,7 @@ if not exist Eff\ ( mkdir Eff\ )
 if not exist Eff\PaintedMiniature.safetensors (
 	curl -Lo Eff\PaintedMiniature.safetensors^
 	https://civitai.com/api/download/models/15606
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

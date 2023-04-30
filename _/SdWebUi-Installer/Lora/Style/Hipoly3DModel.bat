@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\Hipoly3DModel.safetensors (
 	curl -Lo Style\Hipoly3DModel.safetensors^
 	https://civitai.com/api/download/models/44566
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

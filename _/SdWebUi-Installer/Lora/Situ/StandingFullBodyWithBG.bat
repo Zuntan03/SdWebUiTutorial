@@ -6,7 +6,7 @@ if not exist Situ\ ( mkdir Situ\ )
 if not exist Situ\StandingFullBodyWithBG.safetensors (
 	curl -Lo Situ\StandingFullBodyWithBG.safetensors^
 	https://civitai.com/api/download/models/20072
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\SceneryScene.safetensors (
 	curl -Lo Bg\SceneryScene.safetensors^
 	https://civitai.com/api/download/models/44399
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist zBg_\ ( mkdir zBg_\ )
 if not exist zBg_\Sento.safetensors (
 	curl -Lo zBg_\Sento.safetensors^
 	https://civitai.com/api/download/models/47536
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -11,6 +11,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 - 2023/05/01
 	- LoRA の増加に伴いフォルダ構成を変更しました。
+	- Civitai でのダウンロード後の待ち時間を 3 秒に変更しました。
 - 2023/04/30
 	- モデルを 1 種追加しました。
 	- LoRA を 185 種追加しました。

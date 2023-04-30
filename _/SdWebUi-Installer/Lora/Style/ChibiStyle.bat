@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\ChibiStyle.safetensors (
 	curl -Lo Style\ChibiStyle.safetensors^
 	https://civitai.com/api/download/models/8096
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

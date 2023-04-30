@@ -6,7 +6,7 @@ if not exist zItem_\ ( mkdir zItem_\ )
 if not exist zItem_\Ayatori.safetensors (
 	curl -Lo zItem_\Ayatori.safetensors^
 	https://civitai.com/api/download/models/19005
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

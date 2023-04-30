@@ -6,7 +6,7 @@ if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\PaffyTippai.safetensors (
 	curl -Lo zBoob\PaffyTippai.safetensors^
 	https://civitai.com/api/download/models/45244
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

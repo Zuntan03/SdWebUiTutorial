@@ -6,7 +6,7 @@ if not exist zSex\ ( mkdir zSex\ )
 if not exist zSex\PenetrationGesture.safetensors (
 	curl -Lo zSex\PenetrationGesture.safetensors^
 	https://civitai.com/api/download/models/48618
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

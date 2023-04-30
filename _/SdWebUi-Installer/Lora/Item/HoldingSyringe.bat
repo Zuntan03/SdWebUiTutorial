@@ -6,7 +6,7 @@ if not exist Item\ ( mkdir Item\ )
 if not exist Item\HoldingSyringe.safetensors (
 	curl -Lo Item\HoldingSyringe.safetensors^
 	https://civitai.com/api/download/models/32086
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

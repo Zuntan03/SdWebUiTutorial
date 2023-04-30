@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\BlankEyes.safetensors (
 	curl -Lo Parts\BlankEyes.safetensors^
 	https://civitai.com/api/download/models/49769
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

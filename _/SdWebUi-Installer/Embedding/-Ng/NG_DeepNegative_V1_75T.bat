@@ -6,7 +6,7 @@ if not exist -Ng\ ( mkdir -Ng\ )
 if not exist -Ng\NG_DeepNegative_V1_75T.pt (
 	curl -Lo -Ng\NG_DeepNegative_V1_75T.pt^
 	https://civitai.com/api/download/models/5637
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

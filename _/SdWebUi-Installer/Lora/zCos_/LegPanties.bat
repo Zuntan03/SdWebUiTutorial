@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\LegPanties.safetensors (
 	curl -Lo zCos_\LegPanties.safetensors^
 	https://civitai.com/api/download/models/54041
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

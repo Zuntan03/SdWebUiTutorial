@@ -6,7 +6,7 @@ if not exist zSex\ ( mkdir zSex\ )
 if not exist zSex\PovWaistGrab.safetensors (
 	curl -Lo zSex\PovWaistGrab.safetensors^
 	https://civitai.com/api/download/models/23224
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

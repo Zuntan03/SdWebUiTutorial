@@ -6,7 +6,7 @@ if not exist Cos-Jp\ ( mkdir Cos-Jp\ )
 if not exist Cos-Jp\HotLimit.safetensors (
 	curl -Lo Cos-Jp\HotLimit.safetensors^
 	https://civitai.com/api/download/models/54280
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

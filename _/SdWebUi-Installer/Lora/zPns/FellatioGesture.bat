@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\FellatioGesture.safetensors (
 	curl -Lo zPns\FellatioGesture.safetensors^
 	https://civitai.com/api/download/models/38294
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist zAss\ ( mkdir zAss\ )
 if not exist zAss\BbcAnal.safetensors (
 	curl -Lo zAss\BbcAnal.safetensors^
 	https://civitai.com/api/download/models/27331
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

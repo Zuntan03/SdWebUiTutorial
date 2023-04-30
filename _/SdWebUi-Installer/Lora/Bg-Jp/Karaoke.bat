@@ -6,7 +6,7 @@ if not exist Bg-Jp\ ( mkdir Bg-Jp\ )
 if not exist Bg-Jp\Karaoke.safetensors (
 	curl -Lo Bg-Jp\Karaoke.safetensors^
 	https://civitai.com/api/download/models/28998
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

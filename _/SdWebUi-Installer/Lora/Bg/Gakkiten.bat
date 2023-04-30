@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\Gakkiten.safetensors (
 	curl -Lo Bg\Gakkiten.safetensors^
 	https://civitai.com/api/download/models/17663
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

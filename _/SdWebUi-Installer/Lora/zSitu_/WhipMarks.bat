@@ -6,7 +6,7 @@ if not exist zSitu_\ ( mkdir zSitu_\ )
 if not exist zSitu_\WhipMarks.safetensors (
 	curl -Lo zSitu_\WhipMarks.safetensors^
 	https://civitai.com/api/download/models/57898
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Eff\ ( mkdir Eff\ )
 if not exist Eff\HighKey.safetensors (
 	curl -Lo Eff\HighKey.safetensors^
 	https://civitai.com/api/download/models/10914
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

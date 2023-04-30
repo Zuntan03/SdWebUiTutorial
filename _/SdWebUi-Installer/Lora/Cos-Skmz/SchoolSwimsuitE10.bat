@@ -6,7 +6,7 @@ if not exist Cos-Skmz\ ( mkdir Cos-Skmz\ )
 if not exist Cos-Skmz\SchoolSwimsuitE10.safetensors (
 	curl -Lo Cos-Skmz\SchoolSwimsuitE10.safetensors^
 	https://civitai.com/api/download/models/37219
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

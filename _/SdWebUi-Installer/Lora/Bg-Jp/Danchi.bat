@@ -6,7 +6,7 @@ if not exist Bg-Jp\ ( mkdir Bg-Jp\ )
 if not exist Bg-Jp\Danchi.safetensors (
 	curl -Lo Bg-Jp\Danchi.safetensors^
 	https://civitai.com/api/download/models/22569
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

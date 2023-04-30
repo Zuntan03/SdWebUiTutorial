@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\ColoredInnerHair.safetensors (
 	curl -Lo Parts\ColoredInnerHair.safetensors^
 	https://civitai.com/api/download/models/27455
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

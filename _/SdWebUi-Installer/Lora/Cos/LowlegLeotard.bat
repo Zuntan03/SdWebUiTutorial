@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\LowlegLeotard.safetensors (
 	curl -Lo Cos\LowlegLeotard.safetensors^
 	https://civitai.com/api/download/models/56151
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\VomitingCum.safetensors (
 	curl -Lo zPns\VomitingCum.safetensors^
 	https://civitai.com/api/download/models/39006
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

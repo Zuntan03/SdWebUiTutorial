@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\Straitjacket.safetensors (
 	curl -Lo zCos_\Straitjacket.safetensors^
 	https://civitai.com/api/download/models/12624
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

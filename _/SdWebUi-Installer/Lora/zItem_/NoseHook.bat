@@ -6,7 +6,7 @@ if not exist zItem_\ ( mkdir zItem_\ )
 if not exist zItem_\NoseHook.safetensors (
 	curl -Lo zItem_\NoseHook.safetensors^
 	https://civitai.com/api/download/models/25304
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

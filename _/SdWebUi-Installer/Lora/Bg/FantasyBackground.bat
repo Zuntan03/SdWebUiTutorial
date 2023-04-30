@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\FantasyBackground.safetensors (
 	curl -Lo Bg\FantasyBackground.safetensors^
 	https://civitai.com/api/download/models/6449
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

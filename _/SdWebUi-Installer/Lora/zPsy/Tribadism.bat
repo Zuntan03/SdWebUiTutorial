@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\Tribadism.safetensors (
 	curl -Lo zPsy\Tribadism.safetensors^
 	https://civitai.com/api/download/models/43680
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

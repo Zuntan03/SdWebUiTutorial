@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\HandjobFromBehind.safetensors (
 	curl -Lo zPns\HandjobFromBehind.safetensors^
 	https://civitai.com/api/download/models/40982
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

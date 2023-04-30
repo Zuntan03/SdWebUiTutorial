@@ -6,7 +6,7 @@ if not exist Style-Ai\ ( mkdir Style-Ai\ )
 if not exist Style-Ai\GemstoneAI.safetensors (
 	curl -Lo Style-Ai\GemstoneAI.safetensors^
 	https://civitai.com/api/download/models/53955
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

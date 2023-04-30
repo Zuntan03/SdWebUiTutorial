@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\ScifiProsthesis.safetensors (
 	curl -Lo Cos\ScifiProsthesis.safetensors^
 	https://civitai.com/api/download/models/26674
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

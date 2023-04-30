@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\BetterHands.safetensors (
 	curl -Lo Parts\BetterHands.safetensors^
 	https://civitai.com/api/download/models/55199
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

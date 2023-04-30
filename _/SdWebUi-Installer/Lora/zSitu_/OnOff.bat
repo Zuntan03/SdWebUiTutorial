@@ -6,7 +6,7 @@ if not exist zSitu_\ ( mkdir zSitu_\ )
 if not exist zSitu_\OnOff.safetensors (
 	curl -Lo zSitu_\OnOff.safetensors^
 	https://civitai.com/api/download/models/55073
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

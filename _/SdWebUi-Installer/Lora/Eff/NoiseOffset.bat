@@ -6,7 +6,7 @@ if not exist Eff\ ( mkdir Eff\ )
 if not exist Eff\NoiseOffset.safetensors (
 	curl -Lo Eff\NoiseOffset.safetensors^
 	https://civitai.com/api/download/models/16576
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

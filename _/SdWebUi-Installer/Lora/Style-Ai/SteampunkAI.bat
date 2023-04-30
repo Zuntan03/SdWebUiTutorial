@@ -6,7 +6,7 @@ if not exist Style-Ai\ ( mkdir Style-Ai\ )
 if not exist Style-Ai\SteampunkAI.safetensors (
 	curl -Lo Style-Ai\SteampunkAI.safetensors^
 	https://civitai.com/api/download/models/24794
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

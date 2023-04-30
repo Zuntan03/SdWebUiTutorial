@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\Miaobishenghua.safetensors (
 	curl -Lo Style\Miaobishenghua.safetensors^
 	https://civitai.com/api/download/models/26197
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

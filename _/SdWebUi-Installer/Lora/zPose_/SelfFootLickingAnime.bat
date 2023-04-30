@@ -6,7 +6,7 @@ if not exist zPose_\ ( mkdir zPose_\ )
 if not exist zPose_\SelfFootLickingAnime.safetensors (
 	curl -Lo zPose_\SelfFootLickingAnime.safetensors^
 	https://civitai.com/api/download/models/26141
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

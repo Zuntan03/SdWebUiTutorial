@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\RecordingStudio.safetensors (
 	curl -Lo Bg\RecordingStudio.safetensors^
 	https://civitai.com/api/download/models/21563
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd

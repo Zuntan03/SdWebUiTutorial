@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\ZiraikeiFashion.safetensors (
 	curl -Lo Cos\ZiraikeiFashion.safetensors^
 	https://civitai.com/api/download/models/33010
-	timeout /t 10 /nobreak
+	timeout /t 3 /nobreak
 )
 
 popd
