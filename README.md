@@ -11,7 +11,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 - 2023/04/30
 	- モデルを 1 種追加しました。
-	- LoRA を 115 種追加しました。
+	- LoRA を 185 種追加しました。
 		- 通常適用で平坦に、**マイナス適用でデティールを追加する** LoRA [`Eff/Flat-Detail`](https://huggingface.co/2vXpSwA7/iroiro-lora) を追加しました。
 - 2023/04/29
 	- モデルを 14 種追加しました。
@@ -66,7 +66,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 簡易な説明でも理解できる人向けのインストール方法の説明です。  
 **より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。**
 
-最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、200GB 程度のディスク容量が必要です。  
+最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、300GB 程度のディスク容量が必要です。  
 成人向けのモデルや Lora を含みますので、成人でない方の利用は禁止です。  
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
 
