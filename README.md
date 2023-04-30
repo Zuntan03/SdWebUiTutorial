@@ -9,8 +9,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 - 2023/04/30
-	- LoRA を 68 種追加しました。
-		- [通常適用で平坦にマイナス適用でデティールを追加する LoRA `Eff/Flat-Detail`](https://huggingface.co/2vXpSwA7/iroiro-lora) を追加しました。
+	- モデルを 1 種追加しました。
+	- LoRA を 76 種追加しました。
+		- 通常適用で平坦に、**マイナス適用でデティールを追加する** LoRA [`Eff/Flat-Detail`](https://huggingface.co/2vXpSwA7/iroiro-lora) を追加しました。
 - 2023/04/29
 	- モデルを 14 種追加しました。
 	- LoRA を 65 種追加しました。
