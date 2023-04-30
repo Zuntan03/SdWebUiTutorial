@@ -6,6 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\MicroBikini.pt (
 	curl -Lo Cos\MicroBikini.pt^
 	https://civitai.com/api/download/models/5344
+	timeout /t 10 /nobreak
 )
 
 popd

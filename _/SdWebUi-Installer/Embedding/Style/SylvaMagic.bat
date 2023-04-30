@@ -6,6 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\SylvaMagic.pt (
 	curl -Lo Style\SylvaMagic.pt^
 	https://civitai.com/api/download/models/8836
+	timeout /t 10 /nobreak
 )
 
 popd

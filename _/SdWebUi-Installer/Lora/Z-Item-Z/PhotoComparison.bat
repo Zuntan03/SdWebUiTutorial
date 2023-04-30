@@ -5,7 +5,7 @@ echo PhotoComparison.safetensors: https://civitai.com/models/43965/photo-compari
 if not exist Z-Item-Z\ ( mkdir Z-Item-Z\ )
 if not exist Z-Item-Z\PhotoComparison.safetensors (
 	curl -Lo Z-Item-Z\PhotoComparison.safetensors^
-	https://civitai.com/api/download/models/48602
+	https://civitai.com/api/download/models/58585
 	timeout /t 10 /nobreak
 )
 

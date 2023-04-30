@@ -6,6 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\DarkSkin.pt (
 	curl -Lo Parts\DarkSkin.pt^
 	https://civitai.com/api/download/models/19238
+	timeout /t 10 /nobreak
 )
 
 popd
