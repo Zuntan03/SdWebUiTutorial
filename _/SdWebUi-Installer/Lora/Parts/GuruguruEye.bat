@@ -8,4 +8,9 @@ if not exist "Parts\GuruguruEye.safetensors" (
 	https://huggingface.co/SenY/LoRA/resolve/main/guruguru.safetensors
 )
 
+if not exist "Parts\GuruguruEye.jpg" (
+	curl -Lo "Parts\GuruguruEye.jpg"^
+	https://i.imgur.com/fFgiHltm.jpg
+)
+
 popd

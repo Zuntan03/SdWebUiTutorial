@@ -8,4 +8,9 @@ if not exist "zChar_\OhaD-mature female.safetensors" (
 	https://huggingface.co/nnmx/ohaD_test/resolve/main/test_no_test/ohaD_test_2_epoch9_BW.safetensors
 )
 
+if not exist "zChar_\OhaD-mature female.png" (
+	curl -Lo "zChar_\OhaD-mature female.png"^
+	https://i.imgur.com/evXrIMM.png
+)
+
 popd

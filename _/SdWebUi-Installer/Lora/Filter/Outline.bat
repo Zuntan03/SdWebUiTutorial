@@ -8,4 +8,9 @@ if not exist Filter\Outline.safetensors (
 	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/test2/outline.safetensors
 )
 
+if not exist Filter\Outline.png (
+	curl -Lo Filter\Outline.png^
+	https://i.imgur.com/oOOAOou.png
+)
+
 popd

@@ -8,4 +8,9 @@ if not exist "Eff\PopUpParade-pop up parade.safetensors" (
 	https://huggingface.co/stma/lora-dump/resolve/main/pop%%20up%%20parade/pop_up_parade%%20%%5Balpha16%%5D.safetensors
 )
 
+if not exist "Eff\PopUpParade-pop up parade.png" (
+	curl -Lo "Eff\PopUpParade-pop up parade.png"^
+	https://huggingface.co/stma/lora-dump/resolve/main/pop%%20up%%20parade/pop_up_parade%%20%%5Balpha16%%5D.png
+)
+
 popd

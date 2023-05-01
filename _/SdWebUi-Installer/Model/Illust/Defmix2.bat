@@ -8,4 +8,9 @@ if not exist Illust\Defmix2.safetensors (
 	https://huggingface.co/Defpoint/Defmix-v2.0/resolve/main/Defmix-v2.0.safetensors
 )
 
+if not exist Illust\Defmix2.jpg (
+	curl -Lo Illust\Defmix2.jpg^
+	https://i.imgur.com/a25fE5f.jpeg
+)
+
 popd

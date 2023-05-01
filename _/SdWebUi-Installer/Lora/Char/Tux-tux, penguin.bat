@@ -8,4 +8,10 @@ if not exist "Char\Tux-tux, penguin.safetensors" (
 	https://huggingface.co/SenY/LoRA/resolve/main/tux.safetensors
 )
 
+if not exist "Char\Tux-tux, penguin.jpg" (
+	curl -Lo "Char\Tux-tux, penguin.jpg"^
+	https://imgur.com/jjNm1hAm.jpg
+)
+
+
 popd

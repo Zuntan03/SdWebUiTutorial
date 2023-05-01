@@ -8,4 +8,9 @@ if not exist "Pose\DoubleV-1girl, wvu.safetensors" (
 	https://huggingface.co/SenY/LoRA/resolve/main/double_v.safetensors
 )
 
+if not exist "Pose\DoubleV-1girl, wvu.jpg" (
+	curl -Lo "Pose\DoubleV-1girl, wvu.jpg"^
+	https://imgur.com/99QRjJCm.jpg
+)
+
 popd

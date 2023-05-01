@@ -8,4 +8,9 @@ if not exist Eff\Nendroid-nendoroid.safetensors (
 	https://huggingface.co/stma/lora-dump/resolve/main/nendoroid/nendoroid5.safetensors
 )
 
+if not exist Eff\Nendroid-nendoroid.png (
+	curl -Lo Eff\Nendroid-nendoroid.png^
+	https://huggingface.co/stma/lora-dump/resolve/main/nendoroid/nendoroid5.png
+)
+
 popd

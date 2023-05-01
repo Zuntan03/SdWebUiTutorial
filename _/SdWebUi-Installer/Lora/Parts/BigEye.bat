@@ -8,4 +8,9 @@ if not exist Parts\BigEye.safetensors (
 	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/test/test-bigeye.safetensors
 )
 
+if not exist Parts\BigEye.png (
+	curl -Lo Parts\BigEye.png^
+	https://i.imgur.com/zaRoIAy.png
+)
+
 popd

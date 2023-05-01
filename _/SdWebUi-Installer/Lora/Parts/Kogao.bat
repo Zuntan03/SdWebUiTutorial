@@ -8,4 +8,9 @@ if not exist Parts\Kogao.safetensors (
 	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/test/test-faceage.safetensors
 )
 
+if not exist Parts\Kogao.jpg (
+	curl -Lo Parts\Kogao.jpg^
+	https://i.imgur.com/56CDjVw.jpg
+)
+
 popd

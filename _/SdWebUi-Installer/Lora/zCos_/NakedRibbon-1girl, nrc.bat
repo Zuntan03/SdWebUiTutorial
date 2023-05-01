@@ -8,4 +8,9 @@ if not exist "zCos_\NakedRibbon-1girl, nrc.safetensors" (
 	https://huggingface.co/SenY/LoRA/resolve/main/naked_ribbon.safetensors
 )
 
+if not exist "zCos_\NakedRibbon-1girl, nrc.jpg" (
+	curl -Lo "zCos_\NakedRibbon-1girl, nrc.jpg"^
+	https://imgur.com/fDrEEoVm.jpg
+)
+
 popd

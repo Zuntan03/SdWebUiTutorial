@@ -8,4 +8,9 @@ if not exist Filter\Saturation.safetensors (
 	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/test2/saturation.safetensors
 )
 
+if not exist Filter\Saturation.jpg (
+	curl -Lo Filter\Saturation.jpg^
+	https://i.imgur.com/czJt9VM.jpg
+)
+
 popd

@@ -8,4 +8,10 @@ if not exist "BgJp\Danchi-indoors, stairs_outdoors.safetensors" (
 	https://huggingface.co/SenY/LoRA/resolve/main/danchi.safetensors
 )
 
+if not exist "BgJp\Danchi-indoors, stairs_outdoors.webp" (
+	curl -Lo "BgJp\Danchi-indoors, stairs_outdoors.webp"^
+	https://huggingface.co/SenY/LoRA/resolve/main/danchi.webp
+)
+
+
 popd

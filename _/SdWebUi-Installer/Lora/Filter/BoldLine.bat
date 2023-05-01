@@ -8,4 +8,8 @@ if not exist Filter\BoldLine.safetensors (
 	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/test/test-boldline.safetensors
 )
 
+if not exist Filter\BoldLine.jpg (
+	curl -Lo Filter\BoldLine.jpg^
+	https://i.imgur.com/xM25qex.jpg
+)
 popd
