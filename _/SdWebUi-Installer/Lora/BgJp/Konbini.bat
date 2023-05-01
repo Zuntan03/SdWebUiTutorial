@@ -2,9 +2,9 @@
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
 echo Konbini.safetensors: https://civitai.com/models/23380/japanese-convenience-store-lora
-if not exist Bg-Jp\ ( mkdir Bg-Jp\ )
-if not exist Bg-Jp\Konbini.safetensors (
-	curl -Lo Bg-Jp\Konbini.safetensors^
+if not exist BgJp\ ( mkdir BgJp\ )
+if not exist BgJp\Konbini.safetensors (
+	curl -Lo BgJp\Konbini.safetensors^
 	https://civitai.com/api/download/models/27919
 	timeout /t 3 /nobreak
 )

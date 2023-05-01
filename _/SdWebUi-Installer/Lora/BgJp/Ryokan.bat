@@ -2,9 +2,9 @@
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
 echo Ryokan.safetensors: https://civitai.com/models/37055/ryokan
-if not exist Bg-Jp\ ( mkdir Bg-Jp\ )
-if not exist Bg-Jp\Ryokan.safetensors (
-	curl -Lo Bg-Jp\Ryokan.safetensors^
+if not exist BgJp\ ( mkdir BgJp\ )
+if not exist BgJp\Ryokan.safetensors (
+	curl -Lo BgJp\Ryokan.safetensors^
 	https://civitai.com/api/download/models/43083
 	timeout /t 3 /nobreak
 )
