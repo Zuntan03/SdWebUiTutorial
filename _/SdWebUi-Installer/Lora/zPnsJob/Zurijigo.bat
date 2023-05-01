@@ -2,9 +2,9 @@
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
 echo Zurijigo.safetensors: https://civitai.com/models/10513/zurijigo
-if not exist zPns\ ( mkdir zPns\ )
-if not exist zPns\Zurijigo.safetensors (
-	curl -Lo zPns\Zurijigo.safetensors^
+if not exist zPnsJob\ ( mkdir zPnsJob\ )
+if not exist zPnsJob\Zurijigo.safetensors (
+	curl -Lo zPnsJob\Zurijigo.safetensors^
 	https://civitai.com/api/download/models/12483
 	timeout /t 3 /nobreak
 )
