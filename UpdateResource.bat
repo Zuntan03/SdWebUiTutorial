@@ -6,43 +6,43 @@ git pull
 
 pushd .\SdWebUi\
 for /r .\ControlNetModel %%f in (*.pth) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 10240 ( del "%%f" )
 )
 
 for /r .\Embedding %%f in (*.pt) do (
-	if %%~zf LSS 3072 ( del %%f )
+	if %%~zf LSS 3072 ( del "%%f" )
 )
 
 for /r .\Embedding %%f in (*.safetensors) do (
-	if %%~zf LSS 3072 ( del %%f )
+	if %%~zf LSS 3072 ( del "%%f" )
 )
 
 for /r .\Lora %%f in (*.safetensors) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 10240 ( del "%%f" )
 )
 
 for /r .\Lora %%f in (*.jpg) do (
-	if %%~zf LSS 3072 ( del %%f )
+	if %%~zf LSS 3072 ( del "%%f" )
 )
 
 for /r .\Lora %%f in (*.png) do (
-	if %%~zf LSS 3072 ( del %%f )
+	if %%~zf LSS 3072 ( del "%%f" )
 )
 
 for /r .\Model %%f in (*.safetensors) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 10240 ( del "%%f" )
 )
 
 for /r .\Vae %%f in (*.safetensors) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 10240 ( del "%%f" )
 )
 
 for /r .\Vae %%f in (*.ckpt) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 10240 ( del "%%f" )
 )
 
 for /r .\Vae %%f in (*.pt) do (
-	if %%~zf LSS 10240 ( del %%f )
+	if %%~zf LSS 10240 ( del "%%f" )
 )
 popd
 
