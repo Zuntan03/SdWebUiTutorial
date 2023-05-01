@@ -11,6 +11,7 @@ if not exist Parts\Kogao.safetensors (
 if not exist Parts\Kogao.jpg (
 	curl -Lo Parts\Kogao.jpg^
 	https://i.imgur.com/56CDjVw.jpg
+	timeout /t 3 /nobreak
 )
 
 popd

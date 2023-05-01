@@ -11,6 +11,7 @@ if not exist Real\ElZipang.safetensors (
 if not exist Real\ElZipang.png (
 	curl -Lo Real\ElZipang.png^
 	https://i.imgur.com/Of7YoTxm.png.png
+	timeout /t 3 /nobreak
 )
 
 popd

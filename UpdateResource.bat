@@ -21,6 +21,14 @@ for /r .\Lora %%f in (*.safetensors) do (
 	if %%~zf LSS 10240 ( del %%f )
 )
 
+for /r .\Lora %%f in (*.jpg) do (
+	if %%~zf LSS 3072 ( del %%f )
+)
+
+for /r .\Lora %%f in (*.png) do (
+	if %%~zf LSS 3072 ( del %%f )
+)
+
 for /r .\Model %%f in (*.safetensors) do (
 	if %%~zf LSS 10240 ( del %%f )
 )

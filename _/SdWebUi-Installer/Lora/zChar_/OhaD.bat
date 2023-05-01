@@ -11,6 +11,7 @@ if not exist "zChar_\OhaD-mature female.safetensors" (
 if not exist "zChar_\OhaD-mature female.png" (
 	curl -Lo "zChar_\OhaD-mature female.png"^
 	https://i.imgur.com/evXrIMM.png
+	timeout /t 3 /nobreak
 )
 
 popd

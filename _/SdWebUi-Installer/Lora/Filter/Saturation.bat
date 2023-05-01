@@ -11,6 +11,7 @@ if not exist Filter\Saturation.safetensors (
 if not exist Filter\Saturation.jpg (
 	curl -Lo Filter\Saturation.jpg^
 	https://i.imgur.com/czJt9VM.jpg
+	timeout /t 3 /nobreak
 )
 
 popd

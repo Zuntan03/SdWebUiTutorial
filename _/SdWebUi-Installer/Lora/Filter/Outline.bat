@@ -11,6 +11,7 @@ if not exist Filter\Outline.safetensors (
 if not exist Filter\Outline.png (
 	curl -Lo Filter\Outline.png^
 	https://i.imgur.com/oOOAOou.png
+	timeout /t 3 /nobreak
 )
 
 popd

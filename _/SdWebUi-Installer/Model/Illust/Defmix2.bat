@@ -11,6 +11,7 @@ if not exist Illust\Defmix2.safetensors (
 if not exist Illust\Defmix2.jpg (
 	curl -Lo Illust\Defmix2.jpg^
 	https://i.imgur.com/a25fE5f.jpeg
+	timeout /t 3 /nobreak
 )
 
 popd

@@ -11,6 +11,7 @@ if not exist Anime\7thAnimeV3A.safetensors (
 if not exist Anime\7thAnimeV3A.jpg (
 	curl -Lo Anime\7thAnimeV3A.jpg^
 	https://i.imgur.com/oCZyzdA.jpg
+	timeout /t 3 /nobreak
 )
 
 popd

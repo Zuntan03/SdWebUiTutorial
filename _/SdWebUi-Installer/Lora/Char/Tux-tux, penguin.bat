@@ -11,6 +11,7 @@ if not exist "Char\Tux-tux, penguin.safetensors" (
 if not exist "Char\Tux-tux, penguin.jpg" (
 	curl -Lo "Char\Tux-tux, penguin.jpg"^
 	https://imgur.com/jjNm1hAm.jpg
+	timeout /t 3 /nobreak
 )
 
 

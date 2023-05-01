@@ -11,6 +11,7 @@ if not exist Parts\AgoMaru.safetensors (
 if not exist Parts\AgoMaru.jpg (
 	curl -Lo Parts\AgoMaru.jpg^
 	https://i.imgur.com/cVyJp5o.jpg
+	timeout /t 3 /nobreak
 )
 
 popd

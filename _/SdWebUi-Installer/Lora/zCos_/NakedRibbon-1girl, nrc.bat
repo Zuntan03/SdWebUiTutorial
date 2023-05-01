@@ -11,6 +11,7 @@ if not exist "zCos_\NakedRibbon-1girl, nrc.safetensors" (
 if not exist "zCos_\NakedRibbon-1girl, nrc.jpg" (
 	curl -Lo "zCos_\NakedRibbon-1girl, nrc.jpg"^
 	https://imgur.com/fDrEEoVm.jpg
+	timeout /t 3 /nobreak
 )
 
 popd

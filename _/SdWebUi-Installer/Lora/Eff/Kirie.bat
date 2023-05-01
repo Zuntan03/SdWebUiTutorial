@@ -10,6 +10,7 @@ if not exist Eff\KirieAny.safetensors (
 if not exist Eff\KirieAny.png (
 	curl -Lo Eff\KirieAny.png^
 	https://i.imgur.com/7SDgD7p.png
+	timeout /t 3 /nobreak
 )
 
 if not exist Eff\KirieAom.safetensors (
@@ -19,6 +20,7 @@ if not exist Eff\KirieAom.safetensors (
 if not exist Eff\KirieAom.png (
 	curl -Lo Eff\KirieAom.png^
 	https://i.imgur.com/7SDgD7p.png
+	timeout /t 3 /nobreak
 )
 
 if not exist Eff\KirieBasil.safetensors (
@@ -28,6 +30,7 @@ if not exist Eff\KirieBasil.safetensors (
 if not exist Eff\KirieBasil.png (
 	curl -Lo Eff\KirieBasil.png^
 	https://i.imgur.com/7SDgD7p.png
+	timeout /t 3 /nobreak
 )
 
 popd

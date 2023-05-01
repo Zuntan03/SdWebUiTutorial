@@ -11,6 +11,7 @@ if not exist "Item\Backpack-backpack, female child.safetensors" (
 if not exist "Item\Backpack-backpack, female child.jpg" (
 	curl -Lo "Item\Backpack-backpack, female child.jpg"^
 	https://i.imgur.com/G3ucTvUm.jpg
+	timeout /t 3 /nobreak
 )
 
 popd
