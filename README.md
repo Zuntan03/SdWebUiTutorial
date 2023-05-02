@@ -10,6 +10,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 # 直近の更新履歴
 
 - 2023/05/02
+	- LoRA を 10 種追加しました。
 	- 可能な範囲で HuggingFace からダウンロードしたモノのプレビュー表示に対応しました。
 - 2023/05/01
 	- モデルを 2 種追加しました。
