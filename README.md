@@ -9,6 +9,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+- 2023/05/03
+	- LoRA を 49 種追加しました。
+	- MEGA からの手動ダウンロード時に、ファイルのリネーム例を表示するようにしました。
 - 2023/05/02
 	- LoRA を 12 種追加しました。
 	- 可能な範囲で HuggingFace からダウンロードしたモノのプレビュー表示に対応しました。
