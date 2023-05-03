@@ -8,8 +8,6 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
-[更新履歴](./ChangeLog.md)
-
 ## 2023/05/03
 - インストール方法を更新し、モデルや LoRA などのリソースを一般向けと成人向けに分離して、あとからダウンロードするようにしました。
 	- [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) でインストール後に、一般向けの `UpdateResourceSfw.bat` か、成人向けの `UpdateResourceNsfw.bat` でリソースをダウンロードします。
@@ -27,6 +25,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - LoRA を 61 種追加しました。
 - LoRA の増加に伴いフォルダ構成を変更しました。
 - Civitai でアクセス過多を防ぐためのダウンロード後の待ち時間を 10 秒から3 秒に変更しました。
+
+[過去の更新履歴](./ChangeLog.md)
 
 # 目次
 
@@ -60,11 +60,11 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 # インストール方法
 
 簡易な説明でも理解できる人向けのインストール方法の説明です。  
-<!-- **より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。** -->
+**より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。**
 
 最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、300GB 程度のディスク容量が必要です。  
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。  
-成人でない方が成人向けと記載されているコンテンツを利用することは禁止です。
+成人でない方が成人向けのコンテンツを利用することは禁止です。
 
 1. [Git for Windows](https://gitforwindows.org/) と [Python 3.10.6](https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe) を、**パスを通して**インストールします。  
 ![GitForWindowsInstall](./_/doc/SdWebUiInstall/GitForWindowsInstall.png)
