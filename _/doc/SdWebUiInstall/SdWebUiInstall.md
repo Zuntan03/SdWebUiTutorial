@@ -78,7 +78,7 @@ git と同様に、このオプションで PC のどのフォルダからでも
 モデルや LoRA といったリソースを大量にダウンロードします。  
 回線速度にもよりますが、ダウンロードに時間が掛かりますので寝る前などの実行がおすすめです。
 
-1. [Civitai](https://civitai.com/) が落ちていないことを確認して、一般向けの `UpdateResourceSfw.bat` か 成人向けの `UpdateResourceNsfw.bat` を実行します。
+1. [Civitai](https://civitai.com/) が落ちていないことを確認して、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` を実行します。
 	- 正しくダウンロードできていなさそうなモデルや LoRA がありましたら、削除して bat を再実行してください。
 2. 更新後に SdWebUi が立ち上がったら、上部タブから「Civitai Helper」を選択して「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./CivitaiHelperScan.png)

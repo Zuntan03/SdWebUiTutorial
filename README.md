@@ -84,7 +84,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 モデルや LoRA などのリソースを更新します。  
 トラブルが発生する可能性は低いので、気楽に更新してください。
 
-1. [Civitai](https://civitai.com/) が落ちていないことを確認して、一般向けの `UpdateResourceSfw.bat` か 成人向けの `UpdateResourceNsfw.bat` を実行します。
+1. [Civitai](https://civitai.com/) が落ちていないことを確認して、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` を実行します。
 	- 正しくダウンロードできていなさそうなモデルや LoRA がありましたら、削除して bat を再実行してください。
 2. 更新後に SdWebUi が立ち上がったら、上部タブから「Civitai Helper」を選択して「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
