@@ -106,10 +106,10 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 SdWebUi の更新はトラブルが起きがちですので、時間的に余裕のあるタイミングで実施してください。  
 トラブル対応のためにバックアップをとるため、「`SdWebUi\stable-diffusion-webui\`」相当(10GB 前後)のディスク容量を消費します。
 
-1. SdWebUi を終了した状態で、インストール先の「`_\SdWebUi-UpdateAll.bat`」で更新します。
-	- モデルや LoRA を個別に手動ダウンロードしている方は「`_\SdWebUi-Update.bat`」をご利用ください。
-2. 更新後に問題が発生した場合は、「`SdWebUi\stable-diffusion-webui\`」をリネームまたは削除し、「`SdWebUi\stable-diffusion-webui_backup\`」を「`SdWebUi\stable-diffusion-webui\`」にリネームして巻き戻します。
-3. 安定動作を確認できたのであれば、「`SdWebUi\stable-diffusion-webui_backup\`」を削除しても問題ありません。
+1. SdWebUi を終了した状態で、`_\SdWebUi-Update.bat` で更新します。
+2. 更新後に問題が発生した場合は SdWebUi を終了し、`SdWebUi\stable-diffusion-webui\venv\` を削除してから `SdWebUi.bat` で再起動します。
+2. 更新後の問題が解決できない場合は `SdWebUi\stable-diffusion-webui\` を削除して、`SdWebUi\stable-diffusion-webui_backup\` を `SdWebUi\stable-diffusion-webui\` にリネームして巻き戻します。
+3. 安定動作を確認できたのであれば、`SdWebUi\stable-diffusion-webui_backup\` を削除しても問題ありません。
 
 # ライセンス
 
