@@ -8,4 +8,10 @@ if not exist "zPnsJob\HandjobFromBack-1girl, 1boy, hfb, handjob.safetensors" (
 	https://huggingface.co/SenY/LoRA/resolve/main/hfb.safetensors
 )
 
+if not exist "zPnsJob\HandjobFromBack-1girl, 1boy, hfb, handjob.png" (
+	curl -Lo "zPnsJob\HandjobFromBack-1girl, 1boy, hfb, handjob.png"^
+	https://cdn-thumbnails.huggingface.co/social-thumbnails/models/SenY/LoRA.png
+	timeout /t 3 /nobreak
+)
+
 popd

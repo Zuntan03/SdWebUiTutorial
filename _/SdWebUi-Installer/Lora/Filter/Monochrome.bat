@@ -8,4 +8,10 @@ if not exist Filter\Monochrome.safetensors (
 	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/filterlora/monochrome.safetensors
 )
 
+if not exist Filter\Monochrome.png (
+	curl -Lo Filter\Monochrome.png^
+	https://cdn-thumbnails.huggingface.co/social-thumbnails/models/2vXpSwA7/iroiro-lora.png
+	timeout /t 3 /nobreak
+)
+
 popd
