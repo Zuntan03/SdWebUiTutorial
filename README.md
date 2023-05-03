@@ -9,8 +9,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 # 直近の更新履歴
 
 ## 2023/05/03
-- インストール方法を更新し、モデルや LoRA などのリソースを一般向けと成人向けに分離して、あとからダウンロードするようにしました。
-	- [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) でインストール後に、一般向けの `UpdateResourceSfw.bat` か、成人向けの `UpdateResourceNsfw.bat` でリソースをダウンロードします。
+- インストール方法を更新し、モデルや LoRA などのリソースを Safe For Work と Not Safe For Work に分離して、あとからダウンロードするようにしました。
+	- [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) でインストール後に、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` でリソースをダウンロードします。
 - モデル 4 種追加しました。
 - LoRA を 56 種追加しました。
 - TI を 1 種追加しました。
