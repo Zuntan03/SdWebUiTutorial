@@ -6,10 +6,7 @@ git pull
 popd
 
 pushd %~dp0SdWebUi-Installer\
-for /r .\ControlNetModel %%b in (*.bat) do (call %%b)
-for /r .\Embedding %%b in (*.bat) do (call %%b)
-for /r .\Extension %%b in (*.bat) do (call %%b)
-for /r .\Vae %%b in (*.bat) do (call %%b)
+for /r .\Extension %%b in (*.bat) do (call "%%b")
 popd
 
 pushd %~dp0..\SdWebUi\

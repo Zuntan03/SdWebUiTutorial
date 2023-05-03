@@ -3,47 +3,30 @@
 画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) を簡単にローカルで使えるようにする環境とチュートリアルです。
 
 bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusion-webui)・[拡張機能](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[モデル](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[VAE](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[LoRA](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) などの AI 画像生成の環境が整います。  
-追加で簡単に[アップスケーラー](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-ManualDownload/Upscaler)もダウンロードできます。
 
 <img src="./_/doc/SdWebUiInstall/SdWebUiOverview.png" width="50%" />
 
 # 直近の更新履歴
 
-- 2023/05/03
-	- モデル 3 種追加しました。
-	- LoRA を 56 種追加しました。
-	- TI を 1 種追加しました。
-	- MEGA からの手動ダウンロード時に、ファイルのリネーム例を表示するようにしました。
-- 2023/05/02
-	- LoRA を 12 種追加しました。
-	- 可能な範囲で HuggingFace からダウンロードしたモノのプレビュー表示に対応しました。
-- 2023/05/01
-	- モデルを 2 種追加しました。
-	- LoRA を 61 種追加しました。
-	- LoRA の増加に伴いフォルダ構成を変更しました。
-	- Civitai でアクセス過多を防ぐためのダウンロード後の待ち時間を 10 秒から3 秒に変更しました。
-- 2023/04/30
-	- モデルを 1 種追加しました。
-	- LoRA を 185 種追加しました。
-		- 通常適用で平坦に、**マイナス適用でデティールを追加する** LoRA [`Eff/Flat-Detail`](https://huggingface.co/2vXpSwA7/iroiro-lora) を追加しました。
-- 2023/04/29
-	- モデルを 14 種追加しました。
-	- LoRA を 65 種追加しました。
-	- TI を 6 種追加しました。
-	- LoRA の OnTheDesk U883SchoolSwimsuit を新バージョンに更新しました。
-	- 成人向け LoRA が意図せず表示されることを防ぐため、フォルダ名を「Z-*-Z」に変更しました。
-- 2023/04/28
-	- モデルや LoRA のダウンロードサイズが大きいため、基本構成に追加でモデルや LoRA をダウンロードする説明に整理しなおしました。
-	- [Civitai](https://civitai.com/) のアクセス制限でファイルのダウンロードに失敗したと思われるファイル（サイズが 10KB 未満）を更新時に自動削除するようにしました。
-		- `UpdateResource.bat` を実行すると自動的にダウンロードに失敗したファイルを削除し、再度ダウンロードを試みます。  
-		アクセス制限が解除されるように、しばらく待ってから再実行してください。
-			- 連続的な LoRA のダウンロードリクエストで規制されないように、10秒の待ち時間を設けました。
-		- ダウンロードを途中が途中で止まり、ファイルサイズが 10KB 以上になっている場合は、手動でダウンロードに失敗したファイルを削除してください。
-	- LoRA を 127 種追加しました。
-	- ControlNet 1.1 の Tile モデルの更新に対応しました。
-- 2023/04/26
-	- [SdWebUi のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)に「[MEGA](https://mega.io/ja/)」から`4x-UltraSharp.bat` や `4x-AnimeSharp.bat` などを簡単に手動ダウンロードする手順を追記しました。
-- [より古い更新履歴](./ChangeLog.md)
+[更新履歴](./ChangeLog.md)
+
+## 2023/05/03
+- インストール方法を更新し、モデルや LoRA などのリソースを一般向けと成人向けに分離して、あとからダウンロードするようにしました。
+	- `Setup_SdWebUi.bat` でインストール後に、一般向けの `UpdateResourceSfw.bat` か、成人向けの `UpdateResourceNsfw.bat` でリソースをダウンロードします。
+- モデル 4 種追加しました。
+- LoRA を 56 種追加しました。
+- TI を 1 種追加しました。
+- MEGA からの手動ダウンロード時に、ファイルのリネームを例示するようにしました。
+
+## 2023/05/02
+- LoRA を 12 種追加しました。
+- 可能な範囲で HuggingFace からダウンロードしたモノのプレビュー表示に対応しました。
+
+## 2023/05/01
+- モデルを 2 種追加しました。
+- LoRA を 61 種追加しました。
+- LoRA の増加に伴いフォルダ構成を変更しました。
+- Civitai でアクセス過多を防ぐためのダウンロード後の待ち時間を 10 秒から3 秒に変更しました。
 
 # 目次
 
@@ -80,51 +63,45 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 **より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。**
 
 最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、300GB 程度のディスク容量が必要です。  
-成人向けのモデルや Lora を含みますので、成人でない方の利用は禁止です。  
-ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
+ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。  
+成人でない方が成人向けと記載されているコンテンツを利用することは禁止です。
 
 1. [Git for Windows](https://gitforwindows.org/) と [Python 3.10.6](https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe) を、**パスを通して**インストールします。  
 ![GitForWindowsInstall](./_/doc/SdWebUiInstall/GitForWindowsInstall.png)
 ![PythonPath](./_/doc/SdWebUiInstall/PythonPath.png)
 2. インストール先のフォルダを英数字のみの浅いパスに用意します（`C:\SdWebUiTutorial` や `C:\SD` など）。
-3. [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat)（基本構成）または [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り、100GB 超え）を **右クリックから「名前をつけてリンク先を保存…」** でインストール先にダウンロードして、ダブルクリックで実行します。  
+3. [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) を **右クリックから「名前をつけてリンク先を保存…」** でインストール先にダウンロードして、ダブルクリックで実行します。  
 	- **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./_/doc/SdWebUiInstall/BatWarning.webp)
-	- **[`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat)（基本構成）でインストールした場合は、寝る前などの時間の余裕がある時に「[リソースの更新](#リソースの更新)」に沿って、大量のモデルや LoRA をダウンロードしてください。**
-		- 基本構成では [VAE 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[拡張一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[ControlNetModel 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/ControlNetModel)・[AbyssOrangeMix2Sfw](https://huggingface.co/WarriorMama777/OrangeMixs/),・[BasilMix](https://huggingface.co/nuigurumi/basil_mix) をダウンロードします。
-		- 基本構成でセットアップしてから、`_\SdWebUi-Installer\` の `Model\` や `Lora\` にある bat ファイルでモデルや LoRA を個別にダウンロードすることもできます。
-	- [`SetupAll_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/SetupAll_SdWebUi.bat)（全部入り）は 100GB を超えるファイルをダウンロードしますので、寝る前などにインストールする場合にご利用ください。
-		- モデルや LoRA は主に [Civitai](https://civitai.com/) からダウンロードしますので、[Civitai](https://civitai.com/) が落ちていない時に実行してください。
-		- 基本構成に加え [Model 一覧（巨大）](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[LoRA 一覧](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) をダウンロードします。
-
 4. インストールが終わるとブラウザに SdWebUi が表示されますので、上部タブから「Civitai Helper」を選択して、「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
-5. スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」をします。  
-![CivitaiHelperRefresh](./_/doc/SdWebUiInstall/CivitaiHelperRefresh.png)
-6. インストールは完了です。  
+5. インストールは完了です。  
 **以降は「`SdWebUi.bat`」をダブルクリックすれば SdWebUi を実行できます。**
-7. 画像を拡大するアップスケーラなどの自動でダウンロードできない追加のリソースを、簡単に手動でダウンロードできます。  
-`_\SdWebUi-ManualDownload` 以下の bat ファイルを実行すると、ダウンロードページとインストール先フォルダを開きます。  
-[MEGA](https://mega.io/ja) からのダウンロードは左上の Zip ダウンロードではなく右下の下矢印ボタンでダウンロードして、ダウンロードしたファイルをインストール先へ移動してください。
-![UpscalerDownload](./_/doc/SdWebUiInstall/UpscalerDownload.png)
-8. [最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
-<img src="./_/doc/First1Girl/First1Girl.webp" width="50%" />
+6. [最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
 
 # 更新方法
 
 ## リソースの更新
 
-追加されたモデルや LoRA などを、すべてダウンロードします。  
+モデルや LoRA などのリソースを更新します。  
 トラブルが発生する可能性は低いので、気楽に更新してください。
 
-1. [Civitai](https://civitai.com/) が落ちていないことを確認して、「`UpdateResource.bat`」 を実行します。
-	- ダウンロードに失敗した場合に、10KB 未満のモデルや LoRA が保存される場合があります。  
-	正しくダウンロードできていなさそうなモデルや LoRA は削除して、「`UpdateResource.bat`」 を再実行してください。
+1. [Civitai](https://civitai.com/) が落ちていないことを確認して、一般向けの `UpdateResourceSfw.bat` か 成人向けの `UpdateResourceNsfw.bat` を実行します。
+	- 正しくダウンロードできていなさそうなモデルや LoRA がありましたら、削除して bat を再実行してください。
 2. 更新後に SdWebUi が立ち上がったら、上部タブから「Civitai Helper」を選択して「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
-	- Scan ボタンの下に「`Connect to Civitai API service failed. Wait a while and try again, check console log for detail`」といったメッセージが表示されたら、しばらく待ってから再実行してください。
-3. スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」をします。  
+	- Scan ボタンの下に「`Connect to Civitai API service failed. Wait a while and try again, check console log for detail`」といったエラーメッセージが表示されたら、しばらく待ってから再実行してください。
+3. スキャンが終わったら、上部タブの「txt2img」に戻って花札マークの「extra networks」から「リフレッシュ」と「Refresh Civitai Helper's additional buttons」を押します。  
 ![CivitaiHelperRefresh](./_/doc/SdWebUiInstall/CivitaiHelperRefresh.png)
+
+## 手動でダウンロードするリソース
+
+画像を拡大するアップスケーラなどの自動でダウンロードできない追加のリソースを、簡単に手動でダウンロードできます。  
+
+1. `_\SdWebUi-ManualDownload` 以下の bat ファイルを実行すると、ダウンロードページとインストール先フォルダを開きます。
+	- コンソールにファイルのリネームや配置場所のヒントを表示しています。
+2. [MEGA](https://mega.io/ja) からのダウンロードは左上の Zip ダウンロードではなく右下の下矢印ボタンでダウンロードして、ダウンロードしたファイルをインストール先へ移動してください。
+![UpscalerDownload](./_/doc/SdWebUiInstall/UpscalerDownload.png)
 
 ## すべての更新
 
