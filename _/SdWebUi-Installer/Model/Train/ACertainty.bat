@@ -14,9 +14,4 @@ if not exist Train\ACertainty.png (
 	timeout /t 3 /nobreak
 )
 
-if not exist Train\ACertainty.jpg (
-	curl -Lo Train\ACertainty.jpg^
-	blob://huggingface.co/389941e5-4e6a-4bc0-8004-f85bddda1da2
-	timeout /t 3 /nobreak
-)
 popd
