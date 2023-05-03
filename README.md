@@ -73,11 +73,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 3. [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) を **右クリックから「名前をつけてリンク先を保存…」** でインストール先にダウンロードして、ダブルクリックで実行します。  
 	- **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./_/doc/SdWebUiInstall/BatWarning.webp)
-4. インストールが終わるとブラウザに SdWebUi が表示されますので、上部タブから「Civitai Helper」を選択して、「Scan Models for Civitai」で「Scan」します。  
-![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
-5. インストールは完了です。  
+4. インストールは完了すると、ブラウザに SdWebUi が表示されます。  
 **以降は「`SdWebUi.bat`」をダブルクリックすれば SdWebUi を実行できます。**
-6. [最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
+5. [リソースの更新](#リソースの更新) でモデルや LoRA などをダウンロードするか、[最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
 
 # 更新方法
 
