@@ -60,7 +60,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 # インストール方法
 
 簡易な説明でも理解できる人向けのインストール方法の説明です。  
-**より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。**
+<!-- **より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。** -->
 
 最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、300GB 程度のディスク容量が必要です。  
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。  
@@ -94,16 +94,16 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 ## 手動でダウンロードするリソース
 
-画像を拡大するアップスケーラなどの自動でダウンロードできない追加のリソースを、簡単に手動でダウンロードできます。  
+画像をキレイに拡大するアップスケーラなどの自動でダウンロードできない追加のリソースを、簡単に手動でダウンロードできます。  
 
 1. `_\SdWebUi-ManualDownload` 以下の bat ファイルを実行すると、ダウンロードページとインストール先フォルダを開きます。
-	- コンソールにファイルのリネームや配置場所のヒントを表示しています。
+	- コンソールに LoRA などのファイル名や配置場所を表示する場合があります。
 2. [MEGA](https://mega.io/ja) からのダウンロードは左上の Zip ダウンロードではなく右下の下矢印ボタンでダウンロードして、ダウンロードしたファイルをインストール先へ移動してください。
 ![UpscalerDownload](./_/doc/SdWebUiInstall/UpscalerDownload.png)
 
-## すべての更新
+## SdWebUi の更新
 
-SdWebUi の更新はトラブルが起きがちですので、時間的に余裕のあるタイミングで実施してください。  
+SdWebUi や拡張機能の更新はトラブルが起きがちですので、時間に余裕のあるタイミングで実施してください。  
 トラブル対応のためにバックアップをとるため、「`SdWebUi\stable-diffusion-webui\`」相当(10GB 前後)のディスク容量を消費します。
 
 1. SdWebUi を終了した状態で、`_\SdWebUi-Update.bat` で更新します。

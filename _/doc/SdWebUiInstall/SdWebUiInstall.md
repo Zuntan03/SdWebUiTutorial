@@ -1,5 +1,7 @@
 ﻿# Stable Diffusion web UI のインストール
 
+工事中、[トップページのインストール方法](https://github.com/Zuntan03/SdWebUiTutorial#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95)を参照してください。
+
 画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) を簡単にインストールして使えるようにします。
 
 1. [動作環境](#動作環境)
@@ -16,7 +18,7 @@
 	- 動作確認は Geforce RTX 3060 12GB で実施
 - 300GB 程度のディスク容量
 
-成人でない方が成人向けと記載されているコンテンツを利用することは禁止です。
+成人でない方が成人向けと記載されているコンテンツを利用することは禁止です。  
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
 
 # Git for Windows のインストール
