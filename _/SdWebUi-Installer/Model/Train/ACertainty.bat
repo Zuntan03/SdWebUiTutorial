@@ -1,10 +1,10 @@
 rem @echo off
 pushd %~dp0..\..\..\..\SdWebUi\Model\
 
-echo ACertainty.safetensors: https://huggingface.co/JosephusCheung/ACertainty
+echo ACertainty.ckpt: https://huggingface.co/JosephusCheung/ACertainty
 if not exist Train\ ( mkdir Train\ )
-if not exist Train\ACertainty.safetensors (
-	curl -Lo Train\ACertainty.safetensors^
+if not exist Train\ACertainty.ckpt (
+	curl -Lo Train\ACertainty.ckpt^
 	https://huggingface.co/JosephusCheung/ACertainty/resolve/main/ACertainty.ckpt
 )
 

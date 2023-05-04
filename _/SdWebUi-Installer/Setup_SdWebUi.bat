@@ -1,4 +1,10 @@
 @echo off
+echo ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
+echo 成人でない方が成人向けのコンテンツを利用することは禁止です。
+echo 以上の利用上の注意事項に同意しますか？(y/n)
+set /p YES_OR_NO=
+if /i not "%YES_OR_NO%" == "Y" ( exit /b ) 
+
 pushd %~dp0
 
 python --version | findstr "3.10.6" || (

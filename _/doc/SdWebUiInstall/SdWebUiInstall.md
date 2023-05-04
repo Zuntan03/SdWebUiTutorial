@@ -66,7 +66,7 @@ git と同様に、このオプションで PC のどのフォルダからでも
 
 次に [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) を **右クリックから「名前をつけてリンク先を保存…」** でインストール先のフォルダにダウンロードします。
  
-インストール先のフォルダで `Setup_SdWebUi.bat` をダブルクリックで実行すると SdWebUi のダウンロードとインストールが進みます。  
+インストール先のフォルダで `Setup_SdWebUi.bat` をダブルクリックで実行すると、注意事項の確認の後に SdWebUi のダウンロードとインストールが進みます。  
 **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./BatWarning.webp)
 

@@ -8,6 +8,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/05/05
+- インストーラの起動時に注意事項を確認するようにしました。
+
 ## 2023/05/04
 - モデルを 2 種追加しました。
 - LoRA を 37 種追加しました。
@@ -77,7 +80,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 3. [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) を **右クリックから「名前をつけてリンク先を保存…」** でインストール先にダウンロードして、ダブルクリックで実行します。  
 	- **「WindowsによってPCが保護されました」と表示されたら、「詳細表示」から「実行」します。**  
 ![BatWarning](./_/doc/SdWebUiInstall/BatWarning.webp)
-4. インストールは完了すると、ブラウザに SdWebUi が表示されます。  
+4. 注意事項の確認の後にダウンロードとインストールが完了すると、ブラウザに SdWebUi が表示されます。  
 **以降は「`SdWebUi.bat`」をダブルクリックすれば SdWebUi を実行できます。**
 5. [リソースの更新](#リソースの更新) でモデルや LoRA などをダウンロードするか、[最初の 1girl 画像生成](./_/doc/First1Girl/First1Girl.md) で簡単に画像を生成できることを確認します。  
 
