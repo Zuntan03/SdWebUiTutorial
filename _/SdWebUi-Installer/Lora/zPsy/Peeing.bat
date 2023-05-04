@@ -5,7 +5,7 @@ echo Peeing.safetensors: https://civitai.com/models/30945/peeing
 if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\Peeing.safetensors (
 	curl -Lo zPsy\Peeing.safetensors^
-	https://civitai.com/api/download/models/37330
+	https://civitai.com/api/download/models/62108
 	timeout /t 3 /nobreak
 )
 
