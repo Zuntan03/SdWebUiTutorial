@@ -8,6 +8,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/05/04
+- LoRA を 3 種追加しました。
+
 ## 2023/05/03
 - インストール方法を更新し、モデルや LoRA などのリソースを Safe For Work と Not Safe For Work に分離して、あとからダウンロードするようにしました。
 	- [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) でインストール後に、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` でリソースをダウンロードします。
