@@ -1,5 +1,23 @@
 ﻿# 更新履歴
 
+## 2023/05/03
+- インストール方法を更新し、モデルや LoRA などのリソースを Safe For Work と Not Safe For Work に分離して、あとからダウンロードするようにしました。
+	- [`Setup_SdWebUi.bat`](https://github.com/Zuntan03/SdWebUiTutorial/raw/main/_/SdWebUi-Installer/Setup_SdWebUi.bat) でインストール後に、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` でリソースをダウンロードします。
+- モデル 4 種追加しました。
+- LoRA を 56 種追加しました。
+- TI を 1 種追加しました。
+- MEGA からの手動ダウンロード時に、ファイルのリネームを例示するようにしました。
+
+## 2023/05/02
+- LoRA を 12 種追加しました。
+- 可能な範囲で HuggingFace からダウンロードしたモノのプレビュー表示に対応しました。
+
+## 2023/05/01
+- モデルを 2 種追加しました。
+- LoRA を 61 種追加しました。
+- LoRA の増加に伴いフォルダ構成を変更しました。
+- Civitai でアクセス過多を防ぐためのダウンロード後の待ち時間を 10 秒から3 秒に変更しました。
+
 ## 2023/04/30
 - モデルを 1 種追加しました。
 - LoRA を 185 種追加しました。
