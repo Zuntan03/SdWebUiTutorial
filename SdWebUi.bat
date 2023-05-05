@@ -20,7 +20,7 @@ set COMMANDLINE_ARGS=--xformers^
  --embeddings-dir ../Embedding^
  --lora-dir ../Lora^
  --autolaunch^
- %1
+ %~1
 
 call webui.bat
 

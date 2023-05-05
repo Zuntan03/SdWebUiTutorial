@@ -10,7 +10,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 ## 2023/05/05
 - インストーラの起動時に注意事項を確認するようにしました。
-- LoRA を 68 種追加しました。
+- LoRA を 69 種追加しました。
 
 ## 2023/05/04
 - モデルを 2 種追加しました。
