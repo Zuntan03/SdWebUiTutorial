@@ -2,4 +2,5 @@
 /SdImage/
 /SdWebUi/
 /Setup_SdWebUi.bat
-
+/*?SdWebUi.bat
+/SdWebUi?*.bat
