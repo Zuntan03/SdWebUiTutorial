@@ -1,7 +1,7 @@
 @echo off
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
-echo AnimeEgara.safetensors: https://huggingface.co/2vXpSwA7/iroiro-lora
+echo AnimeEgara.safetensors: https://twitter.com/2vXpSwA7/status/1656920989350105088
 if not exist Style\ ( mkdir Style\ )
 if not exist Style\AnimeEgara.safetensors (
 	curl -Lo Style\AnimeEgara.safetensors^

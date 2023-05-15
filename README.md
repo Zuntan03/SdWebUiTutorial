@@ -27,7 +27,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - SdWebUiが生成した絵を自動的に大きく表示するツール `GenImageViewer.bat` を追加しました。
 - 生成した絵からいらないモノを消せるツール `LamaCleaner.bat` を追加しました。
 	- 初回起動時はインストールで数分程度の時間がかかります。
-- LoRA を 3 種追加しました。
+- LoRA を 7 種追加しました。
 - 拡張機能を 4 種追加しました。
 
 [過去の更新履歴](./ChangeLog.md)
