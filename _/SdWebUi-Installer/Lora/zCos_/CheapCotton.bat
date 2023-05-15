@@ -11,7 +11,7 @@ if not exist "zCos_\CheapCotton.safetensors" (
 if not exist "zCos_\CheapCotton.jpg" (
 	curl -Lo "zCos_\CheapCotton.jpg"^
 	https://i.imgur.com/gmFprFc.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

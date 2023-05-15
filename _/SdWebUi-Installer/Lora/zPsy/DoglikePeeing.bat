@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\DoglikePeeing.safetensors (
 	curl -Lo zPsy\DoglikePeeing.safetensors^
 	https://civitai.com/api/download/models/61493
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

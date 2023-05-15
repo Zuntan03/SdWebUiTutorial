@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\ForeskinPov.safetensors (
 	curl -Lo zPns\ForeskinPov.safetensors^
 	https://civitai.com/api/download/models/54653
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

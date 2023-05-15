@@ -6,7 +6,7 @@ if not exist BgJp\ ( mkdir BgJp\ )
 if not exist BgJp\Yubinkyoku.safetensors (
 	curl -Lo BgJp\Yubinkyoku.safetensors^
 	https://civitai.com/api/download/models/47638
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

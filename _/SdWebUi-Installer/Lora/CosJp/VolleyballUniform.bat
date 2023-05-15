@@ -6,7 +6,7 @@ if not exist CosJp\ ( mkdir CosJp\ )
 if not exist CosJp\VolleyballUniform.safetensors (
 	curl -Lo CosJp\VolleyballUniform.safetensors^
 	https://civitai.com/api/download/models/46527
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

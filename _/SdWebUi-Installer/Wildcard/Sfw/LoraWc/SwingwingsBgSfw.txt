@@ -1,0 +1,20 @@
+﻿recbooth {, DYNMIC, microphone, microphone stand|, MDRCD0900ST, headphone|, CONMIC|} <lora:RecordingBooth
+{recbooth|controlroom} {, DYNMIC, microphone, microphone stand|, MDRCD0900ST, headphones|, CONMIC|} <lora:RecordingStudio
+rihasuta {, DYNMIC, microphone, microphone stand|, MDRCD0900ST, headphone|} <lora:RehearsalStudio:
+AMTS {, indoors, restaurant|, scenery, restaurant, exterior, outdoors} <lora:AnnaMillers
+coffeeyadream {, outdoors|, indoors|, indoors, SOSD} <lora:CafeDream
+DOJO, sliding doors, architecture, east asian architecture, indoors, tatami, shouji, scenery <lora:Dojo
+{kyoushitsu, classroom|rouka, hallway|kaidan, stairs}, indoors <lora:Gakkou
+genkan, {JMG0, outdoors|JMG1, indoors|JMG2, indoors|JMG3, indoors}, door <lora:Genkan
+Hankyu3000, train interior <lora:Hankyu3000
+murayakuba, izakaya, indoors, poster <lora:Izakaya
+E235, train interior <lora:JrE235
+karaokeroom {, JOYPAD|, DENMOKU|, microphone{, AT-CLM7000TX|, AT-CLM7000TX|, DYNMIC, microphone stand|}|} <lora:Karaoke
+konbini, {indoors, convenience store|outdoors, shop|backroom, indoors} <lora:Konbini
+koyoenst, scenery, {platfrom, train station, outdoors|kaisatsu, train station|exterior, train station, outdoors|outdoors} <lora:KoyoenEki
+{NCT0, outdoors|NCT1, outdoors|MCT2, library, book, shelf, bookshelf|MCT2, chair, book, shelf, bookshelf}, scenery <lora:Library
+{shimonadaeki, exterior|shimonadaeki1, outdoors, ocean|shimonadaeki2, outdoors|shimonadaeki3, outdoors}, scenery {, ekimeihyou, shimonadaeki|}{, kiha32, train|} <lora:ShimonadaEki
+{taiikukan {, stage|} |shikiten, taiikukan, stage|taikusouko, gymnastics mat, vaulting horse, basketball}, indoors, scenery <lora:Taiikukan
+{taketomi|nishisambashi, ocean|beach} {, cow, ground vehicle|} <lora:Taketomijima
+washitsu, scenery, table, indoors, sliding doors, tatami <lora:Washitsu
+JPO, outdoors, scenery <lora:Yubinkyoku

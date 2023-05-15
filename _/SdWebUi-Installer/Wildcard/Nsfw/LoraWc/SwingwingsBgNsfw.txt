@@ -1,0 +1,9 @@
+﻿danshitoire, toilet {, syobenki|, koshitsu|, syobenki, koshitsu} ,white tile wall, indoors, scenery, faucet, door, window, white tile floor <lora:Danshitoire
+lovehotel {, lhbedpanel|} , bed, pillow, table, couch, indoors, phone, tissue box, wooden floor, cushion, ceiling light <lora:LoveHotel
+shs mmgou, mmgou, window, curtains, couch, indoors, tree, cityscape, city <lora:MMGou
+{JMF, indoors, window, reflection, bathroom, scenery, bathtub|JML, indoors, wooden floor, door, scenery, electrical outlet, realistic, photo (medium), photo background} <lora:Ofuro
+shs reinopool, reinopool, pool, indoors, tile floor, tile wall <lora:ReiNoPool
+reinopool <lora:ReiNoPoolChill
+{SB1, indoors, shop, calendar (object)|SD1, scenery, calendar (object), clock, table, chair, indoors, lamp, box|SR1, scenery, shower head, indoors, bathroom, shower (place),kerorin, washbowl|sentou, bathroom, scenery, water, window} <lora:Sento
+soapland {, soapmat|} {, sukebeisu, shower stool with a u-shaped hole in the middle|} {, kuguriisu, bath stool|} {, bath bowl|} {, towel, {pink|brown} towel|} <lora:SoapLand
+JMT, toilet, indoors <lora:Toilet

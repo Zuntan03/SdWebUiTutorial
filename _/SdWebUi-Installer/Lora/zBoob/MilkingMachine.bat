@@ -6,7 +6,7 @@ if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\MilkingMachine.safetensors (
 	curl -Lo zBoob\MilkingMachine.safetensors^
 	https://civitai.com/api/download/models/38297
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

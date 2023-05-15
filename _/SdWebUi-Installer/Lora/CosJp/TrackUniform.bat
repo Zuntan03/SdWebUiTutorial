@@ -6,7 +6,7 @@ if not exist CosJp\ ( mkdir CosJp\ )
 if not exist CosJp\TrackUniform.safetensors (
 	curl -Lo CosJp\TrackUniform.safetensors^
 	https://civitai.com/api/download/models/30001
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

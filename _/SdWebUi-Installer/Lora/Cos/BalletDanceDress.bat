@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\BalletDanceDress.safetensors (
 	curl -Lo Cos\BalletDanceDress.safetensors^
 	https://civitai.com/api/download/models/51420
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

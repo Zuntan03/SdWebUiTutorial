@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\BindingShorts.safetensors (
 	curl -Lo Cos\BindingShorts.safetensors^
 	https://civitai.com/api/download/models/31776
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

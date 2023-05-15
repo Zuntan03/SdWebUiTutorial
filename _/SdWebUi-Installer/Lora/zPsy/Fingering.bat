@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\Fingering.safetensors (
 	curl -Lo zPsy\Fingering.safetensors^
 	https://civitai.com/api/download/models/12045
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

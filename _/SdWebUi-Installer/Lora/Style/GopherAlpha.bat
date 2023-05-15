@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\GopherAlpha.safetensors (
 	curl -Lo Style\GopherAlpha.safetensors^
 	https://civitai.com/api/download/models/21214
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

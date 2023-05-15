@@ -6,7 +6,7 @@ if not exist zSex\ ( mkdir zSex\ )
 if not exist zSex\ImpliedSex.safetensors (
 	curl -Lo zSex\ImpliedSex.safetensors^
 	https://civitai.com/api/download/models/60953
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

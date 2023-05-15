@@ -6,7 +6,7 @@ if not exist zPnsFela\ ( mkdir zPnsFela\ )
 if not exist zPnsFela\Teamwork.safetensors (
 	curl -Lo zPnsFela\Teamwork.safetensors^
 	https://civitai.com/api/download/models/46635
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

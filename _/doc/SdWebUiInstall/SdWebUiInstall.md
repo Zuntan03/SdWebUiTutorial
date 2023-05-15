@@ -15,7 +15,8 @@
 	- 要 Windows Update 適用
 - 最近の NVIDIA 製ビデオカード
 	- 動作確認は Geforce RTX 3060 12GB で実施
-- **300GB 程度のディスク容量**
+- **200GB 程度のディスク容量**
+	- ひとつが数 GB のモデルを、追加でどの程度ダウンロードするかによります。
 
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。
 成人でない方が成人向けのコンテンツを利用することは禁止です。  
@@ -79,6 +80,8 @@ git と同様に、このオプションで PC のどのフォルダからでも
 回線速度にもよりますが、ダウンロードに時間が掛かりますので寝る前などの実行がおすすめです。
 
 1. [Civitai](https://civitai.com/) が落ちていないことを確認して、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` を実行します。
+	- 追加のモデルはサイズが大きいため、`_\SdWebUi-Installer\ModelAll` 以下の bat ファイルを実行して個別にダウンロードします。
+	- ディスク容量に数百GBの余裕があり、すべてのモデルをダウンロードする場合は `UpdateResourceAllSfw.bat` か `UpdateResourceAllNsfw.bat` を実行します。
 	- 正しくダウンロードできていなさそうなモデルや LoRA がありましたら、削除して bat を再実行してください。
 2. 更新後に SdWebUi が立ち上がったら、上部タブから「Civitai Helper」を選択して「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./CivitaiHelperScan.png)

@@ -10,7 +10,7 @@ if not exist Eff\Dolfie1.safetensors (
 if not exist Eff\Dolfie1.jpg (
 	curl -Lo Eff\Dolfie1.jpg^
 	https://i.imgur.com/qYrgn8r.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 if not exist Eff\Dolfie2.safetensors (
 	curl -Lo Eff\Dolfie2.safetensors^
@@ -19,6 +19,6 @@ if not exist Eff\Dolfie2.safetensors (
 if not exist Eff\Dolfie2.jpg (
 	curl -Lo Eff\Dolfie2.jpg^
 	https://i.imgur.com/2UFgZ3W.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 popd

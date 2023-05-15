@@ -6,7 +6,7 @@ if not exist zItem_\ ( mkdir zItem_\ )
 if not exist zItem_\EggLaying.safetensors (
 	curl -Lo zItem_\EggLaying.safetensors^
 	https://civitai.com/api/download/models/49171
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

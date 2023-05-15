@@ -6,7 +6,7 @@ if not exist zPose_\ ( mkdir zPose_\ )
 if not exist zPose_\StraddlingIncomingKiss.safetensors (
 	curl -Lo zPose_\StraddlingIncomingKiss.safetensors^
 	https://civitai.com/api/download/models/51245
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

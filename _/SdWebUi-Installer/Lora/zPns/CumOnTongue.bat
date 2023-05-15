@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\CumOnTongue.safetensors (
 	curl -Lo zPns\CumOnTongue.safetensors^
 	https://civitai.com/api/download/models/19802
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

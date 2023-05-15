@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\GirlyPenisForAnimeFutas.safetensors (
 	curl -Lo zPns\GirlyPenisForAnimeFutas.safetensors^
 	https://civitai.com/api/download/models/20169
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

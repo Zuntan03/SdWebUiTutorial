@@ -6,7 +6,7 @@ if not exist Filter\ ( mkdir Filter\ )
 if not exist Filter\DetailTweaker.safetensors (
 	curl -Lo Filter\DetailTweaker.safetensors^
 	https://civitai.com/api/download/models/62833
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

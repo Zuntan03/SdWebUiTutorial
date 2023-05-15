@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\SpreadPussy.safetensors (
 	curl -Lo zPsy\SpreadPussy.safetensors^
 	https://civitai.com/api/download/models/25584
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

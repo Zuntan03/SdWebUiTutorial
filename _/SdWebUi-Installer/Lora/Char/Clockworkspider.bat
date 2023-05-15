@@ -6,7 +6,7 @@ if not exist Char\ ( mkdir Char\ )
 if not exist Char\Clockworkspider.safetensors (
 	curl -Lo Char\Clockworkspider.safetensors^
 	https://civitai.com/api/download/models/32433
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

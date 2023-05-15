@@ -6,7 +6,7 @@ if not exist BgJp\ ( mkdir BgJp\ )
 if not exist BgJp\JrE235.safetensors (
 	curl -Lo BgJp\JrE235.safetensors^
 	https://civitai.com/api/download/models/11296
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

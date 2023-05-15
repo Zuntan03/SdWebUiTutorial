@@ -11,7 +11,7 @@ if not exist "CosJp\Smock-smock, female child.safetensors" (
 if not exist "CosJp\Smock-smock, female child.jpg" (
 	curl -Lo "CosJp\Smock-smock, female child.jpg"^
 	https://i.imgur.com/GgZFT7Hm.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

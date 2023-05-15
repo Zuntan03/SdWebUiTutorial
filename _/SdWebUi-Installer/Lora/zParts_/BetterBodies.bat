@@ -6,7 +6,7 @@ if not exist zParts_\ ( mkdir zParts_\ )
 if not exist zParts_\BetterBodies.safetensors (
 	curl -Lo zParts_\BetterBodies.safetensors^
 	https://civitai.com/api/download/models/23250
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

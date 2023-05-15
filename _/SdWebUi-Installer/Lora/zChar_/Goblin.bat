@@ -6,7 +6,7 @@ if not exist zChar_\ ( mkdir zChar_\ )
 if not exist zChar_\Goblin.safetensors (
 	curl -Lo zChar_\Goblin.safetensors^
 	https://civitai.com/api/download/models/28866
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

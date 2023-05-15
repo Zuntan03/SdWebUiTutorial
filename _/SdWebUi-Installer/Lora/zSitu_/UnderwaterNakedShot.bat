@@ -6,7 +6,7 @@ if not exist zSitu_\ ( mkdir zSitu_\ )
 if not exist zSitu_\UnderwaterNakedShot.safetensors (
 	curl -Lo zSitu_\UnderwaterNakedShot.safetensors^
 	https://civitai.com/api/download/models/35510
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

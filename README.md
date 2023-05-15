@@ -1,6 +1,6 @@
 ﻿# Stable Diffusion web UI のチュートリアル
 
-画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) を簡単にローカルで使えるようにする環境とチュートリアルです。
+画像生成 AI ツールの [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)(SdWebUi) を簡単にローカルで使えるようにする簡単ローカル環境とチュートリアルの紹介です。
 
 bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusion-webui)・[拡張機能](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Extension)・[モデル](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Model)・[VAE](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Vae)・[TI](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Embedding)・[LoRA](https://github.com/Zuntan03/SdWebUiTutorial/tree/main/_/SdWebUi-Installer/Lora) などの AI 画像生成の環境が整います。  
 
@@ -8,35 +8,43 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
-## 2023/05/06
-- モデルを 1 種追加しました。
+## 2023/05/15
+- **大幅な更新をしました。**  
+**簡単ローカル環境をすでにインストール済みの方は [SdWebUi の更新](#sdwebui-の更新) に沿って SdWebUi 本体と拡張機能を更新してください。**
+	- UI が英語表記になってしまった場合は「Settings」の「Bilingual Localization」にある「Enable Bilingual Localization」のチェックを外して SdWebUi を再起動してください。
+	- Stable Diffusion web UI のバージョンも 1.2.1 まで上がっていますので、`SdWebUi\stable-diffusion-webui\venv\` の削除と再起動が必要になる可能性もあります。
+- ボタンをポチポチするだけでステキな絵を生成するポチガチャと、チュートリアル「[簡単ポチガチャでステキな絵を探究する](./_/doc/PochiGacha/PochiGacha.md)」を公開しました。  
+	- [Wildcard](https://github.com/adieyal/sd-dynamic-prompts) の txt や [Easy Prompot Selector](https://github.com/blue-pen5805/sdweb-easy-prompt-selector) の yaml のセットアップを自動化しています。
+	- LoRA ガチャに対応しています。
+	- Sfw(Safe For Work) と Nsfw(Not Safe For Work) に対応しています。
+![GachaSet0H](./_/doc/PochiGacha/img/GachaSet0H.webp)
+	- 次回のチュートリアル更新で、ガチャの打率向上と後処理について説明するつもりです。
+![PostprocessV](./_/doc/PochiGacha/img/PostprocessV.webp)
+- ディスク容量の大部分を占めるモデルを、個別に選択してダウンロードするようにしました。
+	- 標準インストールでのディスク容量が 150GB 程度減ります。
+	- `_\SdWebUi-Installer\ModelAll\` 以下のバッチファイルを実行して、個別にモデルをダウンロードします。
+	- ディスク容量に数百 GB の余裕がある方は `UpdateResourceAllSfw.bat` や `UpdateResourceAllNsfw.bat` で、これまでと同様にすべてのモデルをダウンロードできます。
+- SdWebUiが生成した絵を自動的に大きく表示するツール `GenImageViewer.bat` を追加しました。
+- 生成した絵からいらないモノを消せるツール `LamaCleaner.bat` を追加しました。
+	- 初回起動時はインストールで数分程度の時間がかかります。
 - LoRA を 3 種追加しました。
-
-## 2023/05/05
-- インストーラの起動時に注意事項を確認するようにしました。
-- LoRA を 69 種追加しました。
-- [Easy Generate Forever](https://github.com/blue-pen5805/sdweb-easy-generate-forever) を追加。
-	 - 拡張機能は [SdWebUi の更新](#sdwebui-の更新) で更新できます。
-
-## 2023/05/04
-- モデルを 2 種追加しました。
-- LoRA を 37 種追加しました。
+- 拡張機能を 4 種追加しました。
 
 [過去の更新履歴](./ChangeLog.md)
 
 # 目次
 
 日付が古いものは、内容が古くなっている可能性があります。  
-日付の記載ないものは、最新の状況にあわせてメンテナンスしていますので、問題があれば [Twitter](https://twitter.com/Zuntan03) や [Issues](https://github.com/Zuntan03/SdWebUiTutorial/issues) でお知らせください。
 
 - [インストール方法（簡易版）](#インストール方法)
 - [更新方法](#更新方法)
 
 ## チュートリアル初級
 
-- [Stable Diffusion web UI のインストール（詳細版）](./_/doc/SdWebUiInstall/SdWebUiInstall.md)
-- [最初の 1girl 画像生成](/_/doc/First1Girl/First1Girl.md)
-- [Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)
+- [2023/04/23] [Stable Diffusion web UI のインストール（詳細版）](./_/doc/SdWebUiInstall/SdWebUiInstall.md)
+- [2023/04/23] [最初の 1girl 画像生成](/_/doc/First1Girl/First1Girl.md)
+- [2023/04/24] [Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)
+- [2023/05/15] [簡単ポチガチャでステキな絵を探究する](./_/doc/PochiGacha/PochiGacha.md)
 
 ## チュートリアル中級
 
@@ -58,7 +66,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 簡易な説明でも理解できる人向けのインストール方法の説明です。  
 **より丁寧なインストール方法の説明は「[Stable Diffusion web UI のインストール](./_/doc/SdWebUiInstall/SdWebUiInstall.md)」にあります。**
 
-最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、300GB 程度のディスク容量が必要です。  
+最近の NVIDIA 製ビデオカードを搭載した Windows 10（Windows Update済み）以降の PC で、200GB 程度のディスク容量が必要です。  
 ファイルのダウンロード時に配布元の URL をコンソールに表示します。URL を Ctrl + Click で開き、利用規約などを遵守してご利用ください。  
 成人でない方が成人向けのコンテンツを利用することは禁止です。
 
@@ -81,6 +89,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 トラブルが発生する可能性は低いので、気楽に更新してください。
 
 1. [Civitai](https://civitai.com/) が落ちていないことを確認して、Safe For Work の `UpdateResourceSfw.bat` か、Not Safe For Work の `UpdateResourceNsfw.bat` を実行します。
+	- 追加のモデルはサイズが大きいため、`_\SdWebUi-Installer\ModelAll` 以下の bat ファイルを実行して個別にダウンロードします。
+	- ディスク容量に数百 GB の余裕があり、すべてのモデルをダウンロードする場合は `UpdateResourceAllSfw.bat` か `UpdateResourceAllNsfw.bat` を実行します。
 	- 正しくダウンロードできていなさそうなモデルや LoRA がありましたら、削除して bat を再実行してください。
 2. 更新後に SdWebUi が立ち上がったら、上部タブから「Civitai Helper」を選択して「Scan Models for Civitai」で「Scan」します。  
 ![CivitaiHelperScan](./_/doc/SdWebUiInstall/CivitaiHelperScan.png)
@@ -104,8 +114,8 @@ SdWebUi や拡張機能の更新はトラブルが起きがちですので、時
 
 1. SdWebUi を終了した状態で、`_\SdWebUi-Update.bat` で更新します。
 2. 更新後に問題が発生した場合は SdWebUi を終了し、`SdWebUi\stable-diffusion-webui\venv\` を削除してから `SdWebUi.bat` で再起動します。
-2. 更新後の問題が解決できない場合は `SdWebUi\stable-diffusion-webui\` を削除して、`SdWebUi\stable-diffusion-webui_backup\` を `SdWebUi\stable-diffusion-webui\` にリネームして巻き戻します。
-3. 安定動作を確認できたのであれば、`SdWebUi\stable-diffusion-webui_backup\` を削除しても問題ありません。
+3. 更新後の問題が解決できない場合は `SdWebUi\stable-diffusion-webui\` を削除して、`SdWebUi\stable-diffusion-webui_backup\` を `SdWebUi\stable-diffusion-webui\` にリネームして巻き戻します。
+4. 安定動作を確認できたのであれば、`SdWebUi\stable-diffusion-webui_backup\` を削除しても問題ありません。
 
 # ライセンス
 

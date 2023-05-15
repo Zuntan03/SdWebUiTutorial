@@ -6,7 +6,7 @@ if not exist BgJp\ ( mkdir BgJp\ )
 if not exist BgJp\Konbini.safetensors (
 	curl -Lo BgJp\Konbini.safetensors^
 	https://civitai.com/api/download/models/27919
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

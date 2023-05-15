@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\MicroBikini.pt (
 	curl -Lo zCos_\MicroBikini.pt^
 	https://civitai.com/api/download/models/5344
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

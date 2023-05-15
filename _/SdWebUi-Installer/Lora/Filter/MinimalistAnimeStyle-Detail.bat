@@ -6,7 +6,7 @@ if not exist Filter\ ( mkdir Filter\ )
 if not exist Filter\MinimalistAnimeStyle-Detail.safetensors (
 	curl -Lo Filter\MinimalistAnimeStyle-Detail.safetensors^
 	https://civitai.com/api/download/models/29709
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

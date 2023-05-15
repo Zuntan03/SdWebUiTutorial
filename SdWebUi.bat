@@ -14,11 +14,15 @@ set VENV_DIR=
 @rem https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris
 @rem --lyco-dir ../Lora
 
-set COMMANDLINE_ARGS=--xformers^
+@rem set PYTORCH_CUDA_ALLOC_CONF=garbage_collection_threshold:0.75,max_split_size_mb:128
+
+set COMMANDLINE_ARGS=^
  --ckpt-dir ../Model^
  --vae-dir ../Vae^
  --embeddings-dir ../Embedding^
  --lora-dir ../Lora^
+ --xformers^
+ --no-half-vae^
  --autolaunch^
  %~1
 

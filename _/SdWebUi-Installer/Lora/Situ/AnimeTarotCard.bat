@@ -6,7 +6,7 @@ if not exist Situ\ ( mkdir Situ\ )
 if not exist Situ\AnimeTarotCard.safetensors (
 	curl -Lo Situ\AnimeTarotCard.safetensors^
 	https://civitai.com/api/download/models/28609
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

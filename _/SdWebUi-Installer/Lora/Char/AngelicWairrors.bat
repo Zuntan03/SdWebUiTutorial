@@ -6,7 +6,7 @@ if not exist Char\ ( mkdir Char\ )
 if not exist Char\AngelicWairrors.safetensors (
 	curl -Lo Char\AngelicWairrors.safetensors^
 	https://civitai.com/api/download/models/23289
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

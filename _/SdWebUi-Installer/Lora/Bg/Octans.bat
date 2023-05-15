@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\Octans.safetensors (
 	curl -Lo Bg\Octans.safetensors^
 	https://civitai.com/api/download/models/28093
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

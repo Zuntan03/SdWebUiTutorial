@@ -6,7 +6,7 @@ if not exist zChar_\ ( mkdir zChar_\ )
 if not exist zChar_\Corruption2.safetensors (
 	curl -Lo zChar_\Corruption2.safetensors^
 	https://civitai.com/api/download/models/38801
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

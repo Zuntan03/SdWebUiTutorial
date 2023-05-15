@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\StandingCunnilingus.safetensors (
 	curl -Lo zPsy\StandingCunnilingus.safetensors^
 	https://civitai.com/api/download/models/60276
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

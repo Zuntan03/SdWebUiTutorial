@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\Pantyhose20D.safetensors (
 	curl -Lo Cos\Pantyhose20D.safetensors^
 	https://civitai.com/api/download/models/17988
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

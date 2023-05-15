@@ -6,7 +6,7 @@ if not exist Pose\ ( mkdir Pose\ )
 if not exist Pose\DoubleVConcept.safetensors (
 	curl -Lo Pose\DoubleVConcept.safetensors^
 	https://civitai.com/api/download/models/48325
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

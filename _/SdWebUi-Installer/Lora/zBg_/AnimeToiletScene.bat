@@ -6,7 +6,7 @@ if not exist zBg_\ ( mkdir zBg_\ )
 if not exist zBg_\AnimeToiletScene.safetensors (
 	curl -Lo zBg_\AnimeToiletScene.safetensors^
 	https://civitai.com/api/download/models/28285
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

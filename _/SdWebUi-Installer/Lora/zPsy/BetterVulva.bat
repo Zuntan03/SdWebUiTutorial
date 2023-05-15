@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\BetterVulva.safetensors (
 	curl -Lo zPsy\BetterVulva.safetensors^
 	https://civitai.com/api/download/models/12873
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

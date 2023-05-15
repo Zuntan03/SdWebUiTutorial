@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\CondomOnPenis.safetensors (
 	curl -Lo zPns\CondomOnPenis.safetensors^
 	https://civitai.com/api/download/models/24326
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

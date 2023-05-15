@@ -6,7 +6,7 @@ if not exist zItem_\ ( mkdir zItem_\ )
 if not exist zItem_\LargePenetrationInsertion.safetensors (
 	curl -Lo zItem_\LargePenetrationInsertion.safetensors^
 	https://civitai.com/api/download/models/49072
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

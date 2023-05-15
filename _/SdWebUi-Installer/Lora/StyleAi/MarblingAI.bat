@@ -6,7 +6,7 @@ if not exist StyleAi\ ( mkdir StyleAi\ )
 if not exist StyleAi\MarblingAI.safetensors (
 	curl -Lo StyleAi\MarblingAI.safetensors^
 	https://civitai.com/api/download/models/59470
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

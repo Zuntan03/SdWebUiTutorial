@@ -11,7 +11,7 @@ if not exist Parts\BigEye.safetensors (
 if not exist Parts\BigEye.png (
 	curl -Lo Parts\BigEye.png^
 	https://i.imgur.com/zaRoIAy.png
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

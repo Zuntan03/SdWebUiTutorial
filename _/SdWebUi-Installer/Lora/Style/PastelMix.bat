@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\PastelMix.safetensors (
 	curl -Lo Style\PastelMix.safetensors^
 	https://civitai.com/api/download/models/7397
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

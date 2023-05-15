@@ -6,7 +6,7 @@ if not exist Situ\ ( mkdir Situ\ )
 if not exist Situ\AnimeMagazineCover.safetensors (
 	curl -Lo Situ\AnimeMagazineCover.safetensors^
 	https://civitai.com/api/download/models/32847
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

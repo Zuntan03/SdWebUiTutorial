@@ -6,7 +6,7 @@ if not exist zChar_\ ( mkdir zChar_\ )
 if not exist zChar_\SexToyTransformation.safetensors (
 	curl -Lo zChar_\SexToyTransformation.safetensors^
 	https://civitai.com/api/download/models/10613
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist StyleAi\ ( mkdir StyleAi\ )
 if not exist StyleAi\FairyTaleAI.safetensors (
 	curl -Lo StyleAi\FairyTaleAI.safetensors^
 	https://civitai.com/api/download/models/46955
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

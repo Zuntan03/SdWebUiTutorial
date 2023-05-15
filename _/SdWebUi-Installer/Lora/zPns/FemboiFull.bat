@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\FemboiFull.safetensors (
 	curl -Lo zPns\FemboiFull.safetensors^
 	https://civitai.com/api/download/models/20713
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

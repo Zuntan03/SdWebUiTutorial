@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\FxMeme.safetensors (
 	curl -Lo Parts\FxMeme.safetensors^
 	https://civitai.com/api/download/models/61666
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Filter\ ( mkdir Filter\ )
 if not exist Filter\ContrastFix.safetensors (
 	curl -Lo Filter\ContrastFix.safetensors^
 	https://civitai.com/api/download/models/10638
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

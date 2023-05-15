@@ -6,7 +6,7 @@ if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\RealisticVaginasGodPussy1.safetensors (
 	curl -Lo zPsy\RealisticVaginasGodPussy1.safetensors^
 	https://civitai.com/api/download/models/32156
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

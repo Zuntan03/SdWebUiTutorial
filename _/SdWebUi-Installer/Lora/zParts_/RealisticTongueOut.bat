@@ -6,7 +6,7 @@ if not exist zParts_\ ( mkdir zParts_\ )
 if not exist zParts_\RealisticTongueOut.safetensors (
 	curl -Lo zParts_\RealisticTongueOut.safetensors^
 	https://civitai.com/api/download/models/38655
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

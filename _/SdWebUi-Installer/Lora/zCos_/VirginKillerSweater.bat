@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\VirginKillerSweater.safetensors (
 	curl -Lo zCos_\VirginKillerSweater.safetensors^
 	https://civitai.com/api/download/models/36720
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist zAss\ ( mkdir zAss\ )
 if not exist zAss\AssGrab.safetensors (
 	curl -Lo zAss\AssGrab.safetensors^
 	https://civitai.com/api/download/models/49461
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Char\ ( mkdir Char\ )
 if not exist Char\FantasticDragon.safetensors (
 	curl -Lo Char\FantasticDragon.safetensors^
 	https://civitai.com/api/download/models/18259
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

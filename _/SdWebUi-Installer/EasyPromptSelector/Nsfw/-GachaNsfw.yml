@@ -1,0 +1,94 @@
+﻿1girl: "1girl,"
+EsNg2: "EasyNegativeV2,"
+NgQu: "(worst quality, low quality:1.4),"
+詳細1: "<lora:Flat-Detail:-1:biimoO>"
+詳細2: "<lora:Flat-DetailV2:-1:biimoO>"
+詳細3: "<lora:DetailTweaker:1:biimoO>"
+KonyconiAiスタイル: "__LoraWc/KonyconiStyleAi__:1:BIimOO>,"
+Swingwings背景: "{__LoraWc/SwingwingsBgSfw__|__LoraWc/SwingwingsBgNsfw__}:1:biIMOo>,"
+Swingwings背景Sfw: "__LoraWc/SwingwingsBgSfw__:1:biIMOo>,"
+Swingwings背景Nsfw: "__LoraWc/SwingwingsBgNsfw__:1:biIMOo>,"
+NaiWcNsfw:
+  行為: __NaiWc/SexAct__
+  おもちゃ: __NaiWc/SexToy__
+  BDSM 道具: __NaiWc/BdsmGear__
+  拘束: __NaiWc/BdsmPosition__
+  フェチ: __NaiWc/Fetish__
+  露出: __NaiWc/Publicity__
+  体位: __NaiWc/SexPosition__
+  射精: __NaiWc/Cumplay__
+  カバー: __NaiWc/Covering__
+  表情: __NaiWc/NsfwExpression__
+NaiWcNsfw 服:
+  裸衣装: __NaiWc/NakedState__
+  下着: __NaiWc/Lingerie__
+  下着状態: __NaiWc/LingerieState__
+  水着: __NaiWc/Swimwear__
+  水着状態: __NaiWc/SwimwearState__
+  露出服: __NaiWc/Exposing__
+  上半身状態: __NaiWc/TorsowearState__
+  服状態: __NaiWc/ClothingState__
+  胸状態: __NaiWc/BreastState__
+NaiWcNsfw 下着:
+  パンツ: __NaiWc/Panties__
+  パンツ色: __NaiWc/PantiesColor__
+  パンツ柄: __NaiWc/PantiesPattern__
+  パンツ詳細: __NaiWc/PantiesDetails__
+  パンツ動き: __NaiWc/PantiesActions__
+  ブラ型: __NaiWc/BraType__
+  ブラ色: __NaiWc/BraColor__
+  ブラ装飾: __NaiWc/BraPattern__
+  ブラ動き: __NaiWc/BraAction__
+ことさん:
+  服全種: __Tsak/ClothingSet/ftbClothingset__
+  ファンタジー: __Tsak/ClothingSet/ftbFantasies__
+  カジュアル: __Tsak/ClothingSet/ftbCasuals__
+  制服: __Tsak/ClothingSet/ftbUniforms__
+  フォーマル: __Tsak/ClothingSet/ftbFormals__
+  ねまき: __Tsak/ClothingSet/ftbLingeries__
+  水着: __Tsak/ClothingSet/ftbSwimsuits__
+  ポーズ: __Tsak/Pose__
+  美味ヤミ: __Tsak/Oiyami__
+  FantasiesNoDH: __Tsak/FantasiesNoDH__
+  Spoken: __Tsak/Spoken__
+BDさん https://note.com/br_d/:
+  旅: "@BD_旅:旅@"
+  ファンタジーコーデ: "@BD_ファンタジコーデ:ファンタジーコーデ@"
+  コーデ: "@BD_コーデ:コーデ@"
+  感情: "@BD_感情:感情@"
+  エフェクト: "@BD_エフェクト:エフェクト@"
+  自然言語エフェクト: "@BD_自然言語エフェクト_3:（自然言語）エフェクト@"
+としあき:
+  ファッション: __Tsak/Fasion__
+  職業: __Tsak/Job__
+  スポーツ競技: __Tsak/Sports__
+  民族衣装＋地名: __Tsak/NationalCos__
+  人物構図: __Tsak/Composition__
+  厨二病: __Tsak/Tyuuni__
+  動物: __Tsak/Animal__
+  メガネ: __Tsak/Glasses__
+  ブラ: __Tsak/Bra__
+  神様100柱: __Tsak/God100__
+  エジプト神: __Tsak/GodEgypt__
+NaiWc:
+  場所: __NaiWc/Location__
+  祝日: __NaiWc/Celebration__
+  フォーマット: __NaiWc/Format__
+  スタイル: __NaiWc/Style__
+  アングル: __NaiWc/Angle__
+  ポーズ: __NaiWc/Pose__
+  職業: __NaiWc/Jobs__
+  スポーツ: __NaiWc/Sports__
+  キャラ: __NaiWc/Characters__
+  体構図: __NaiWc/Bodyframing__
+  服: __NaiWc/Clothing__
+  靴: __NaiWc/Footwear__
+  表情: __NaiWc/Face__
+  ヘアスタイル: __NaiWc/HairStyle__
+  髪の色: __NaiWc/HairColor__
+  髪の形容: __NaiWc/HairTexture__
+  頭装飾: __NaiWc/Headwear__
+  髪の長さ: __NaiWc/HairLength__
+  前髪: __NaiWc/Bangs__
+  髪上部: __NaiWc/HairTop__
+  目の色: __NaiWc/EyeColor__

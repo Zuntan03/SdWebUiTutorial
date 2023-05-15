@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\Gloryhole.safetensors (
 	curl -Lo zPns\Gloryhole.safetensors^
 	https://civitai.com/api/download/models/22024
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

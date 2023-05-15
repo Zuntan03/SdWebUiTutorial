@@ -6,7 +6,7 @@ if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\NippleTweakFromBehind.safetensors (
 	curl -Lo zBoob\NippleTweakFromBehind.safetensors^
 	https://civitai.com/api/download/models/44587
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

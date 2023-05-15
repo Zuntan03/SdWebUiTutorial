@@ -6,7 +6,7 @@ if not exist zPnsJob\ ( mkdir zPnsJob\ )
 if not exist zPnsJob\PaizuriPov.safetensors (
 	curl -Lo zPnsJob\PaizuriPov.safetensors^
 	https://civitai.com/api/download/models/42864
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

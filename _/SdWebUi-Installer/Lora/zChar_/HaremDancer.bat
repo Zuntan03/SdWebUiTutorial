@@ -6,7 +6,7 @@ if not exist zChar_\ ( mkdir zChar_\ )
 if not exist zChar_\HaremDancer.safetensors (
 	curl -Lo zChar_\HaremDancer.safetensors^
 	https://civitai.com/api/download/models/23879
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

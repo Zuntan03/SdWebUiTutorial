@@ -6,7 +6,7 @@ if not exist -Ng\ ( mkdir -Ng\ )
 if not exist -Ng\badhandv4.pt (
 	curl -Lo -Ng\badhandv4.pt^
 	https://civitai.com/api/download/models/20068
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

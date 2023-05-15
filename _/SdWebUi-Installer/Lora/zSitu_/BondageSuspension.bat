@@ -6,7 +6,7 @@ if not exist zSitu_\ ( mkdir zSitu_\ )
 if not exist zSitu_\BondageSuspension.safetensors (
 	curl -Lo zSitu_\BondageSuspension.safetensors^
 	https://civitai.com/api/download/models/15553
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

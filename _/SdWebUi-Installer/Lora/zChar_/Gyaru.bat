@@ -6,7 +6,7 @@ if not exist zChar_\ ( mkdir zChar_\ )
 if not exist zChar_\Gyaru.safetensors (
 	curl -Lo zChar_\Gyaru.safetensors^
 	https://civitai.com/api/download/models/44769
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

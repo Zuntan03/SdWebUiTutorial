@@ -6,7 +6,7 @@ if not exist StyleAi\ ( mkdir StyleAi\ )
 if not exist StyleAi\BrassInstrumentAI.safetensors (
 	curl -Lo StyleAi\BrassInstrumentAI.safetensors^
 	https://civitai.com/api/download/models/54409
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

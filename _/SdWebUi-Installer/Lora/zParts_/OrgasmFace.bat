@@ -6,7 +6,7 @@ if not exist zParts_\ ( mkdir zParts_\ )
 if not exist zParts_\OrgasmFace.safetensors (
 	curl -Lo zParts_\OrgasmFace.safetensors^
 	https://civitai.com/api/download/models/24731
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

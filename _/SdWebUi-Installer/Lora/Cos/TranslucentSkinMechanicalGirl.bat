@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\TranslucentSkinMechanicalGirl.safetensors (
 	curl -Lo Cos\TranslucentSkinMechanicalGirl.safetensors^
 	https://civitai.com/api/download/models/40651
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

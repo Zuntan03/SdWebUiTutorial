@@ -6,7 +6,7 @@ if not exist Filter\ ( mkdir Filter\ )
 if not exist Filter\Lowra.safetensors (
 	curl -Lo Filter\Lowra.safetensors^
 	https://civitai.com/api/download/models/52753
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

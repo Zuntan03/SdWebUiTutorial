@@ -6,7 +6,7 @@ if not exist zBg_\ ( mkdir zBg_\ )
 if not exist zBg_\SoapLand.safetensors (
 	curl -Lo zBg_\SoapLand.safetensors^
 	https://civitai.com/api/download/models/59772
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

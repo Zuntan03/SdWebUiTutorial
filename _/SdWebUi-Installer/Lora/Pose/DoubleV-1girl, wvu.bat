@@ -11,7 +11,7 @@ if not exist "Pose\DoubleV-1girl, wvu.safetensors" (
 if not exist "Pose\DoubleV-1girl, wvu.jpg" (
 	curl -Lo "Pose\DoubleV-1girl, wvu.jpg"^
 	https://imgur.com/99QRjJCm.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

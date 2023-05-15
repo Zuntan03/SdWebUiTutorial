@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\RussianStewardess.safetensors (
 	curl -Lo Cos\RussianStewardess.safetensors^
 	https://civitai.com/api/download/models/40079
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

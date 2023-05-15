@@ -6,7 +6,7 @@ if not exist zItem_\ ( mkdir zItem_\ )
 if not exist zItem_\CupCum.safetensors (
 	curl -Lo zItem_\CupCum.safetensors^
 	https://civitai.com/api/download/models/50362
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

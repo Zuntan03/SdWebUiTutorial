@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\SeeThroughSilhouette.safetensors (
 	curl -Lo zCos_\SeeThroughSilhouette.safetensors^
 	https://civitai.com/api/download/models/28884
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

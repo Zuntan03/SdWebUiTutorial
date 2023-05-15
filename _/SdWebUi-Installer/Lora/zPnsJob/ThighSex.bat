@@ -6,7 +6,7 @@ if not exist zPnsJob\ ( mkdir zPnsJob\ )
 if not exist zPnsJob\ThighSex.safetensors (
 	curl -Lo zPnsJob\ThighSex.safetensors^
 	https://civitai.com/api/download/models/23020
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

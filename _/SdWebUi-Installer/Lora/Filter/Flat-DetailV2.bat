@@ -11,7 +11,7 @@ if not exist Filter\Flat-DetailV2.safetensors (
 if not exist Filter\Flat-DetailV2.jpg (
 	curl -Lo Filter\Flat-DetailV2.jpg^
 	https://i.imgur.com/czJt9VM.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

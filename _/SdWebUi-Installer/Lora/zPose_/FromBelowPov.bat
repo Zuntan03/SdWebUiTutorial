@@ -6,7 +6,7 @@ if not exist zPose_\ ( mkdir zPose_\ )
 if not exist zPose_\FromBelowPov.safetensors (
 	curl -Lo zPose_\FromBelowPov.safetensors^
 	https://civitai.com/api/download/models/20174
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

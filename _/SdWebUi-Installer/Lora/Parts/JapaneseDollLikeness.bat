@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\JapaneseDollLikeness.safetensors (
 	curl -Lo Parts\JapaneseDollLikeness.safetensors^
 	https://civitai.com/api/download/models/34562
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

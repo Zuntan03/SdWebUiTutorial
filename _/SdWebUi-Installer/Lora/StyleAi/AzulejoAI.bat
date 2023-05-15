@@ -6,7 +6,7 @@ if not exist StyleAi\ ( mkdir StyleAi\ )
 if not exist StyleAi\AzulejoAI.safetensors (
 	curl -Lo StyleAi\AzulejoAI.safetensors^
 	https://civitai.com/api/download/models/50844
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

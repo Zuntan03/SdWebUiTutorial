@@ -6,7 +6,7 @@ if not exist StyleMng\ ( mkdir StyleMng\ )
 if not exist StyleMng\AnimeLineart.safetensors (
 	curl -Lo StyleMng\AnimeLineart.safetensors^
 	https://civitai.com/api/download/models/28907
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

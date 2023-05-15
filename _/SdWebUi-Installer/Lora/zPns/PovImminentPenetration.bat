@@ -6,7 +6,7 @@ if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\PovImminentPenetration.safetensors (
 	curl -Lo zPns\PovImminentPenetration.safetensors^
 	https://civitai.com/api/download/models/11192
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

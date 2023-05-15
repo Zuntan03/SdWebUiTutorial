@@ -6,7 +6,7 @@ if not exist StyleMng\ ( mkdir StyleMng\ )
 if not exist StyleMng\PenSketch.safetensors (
 	curl -Lo StyleMng\PenSketch.safetensors^
 	https://civitai.com/api/download/models/35516
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

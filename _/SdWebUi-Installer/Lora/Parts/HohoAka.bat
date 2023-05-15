@@ -11,7 +11,7 @@ if not exist Parts\HohoAka.safetensors (
 if not exist Parts\HohoAka.jpg (
 	curl -Lo Parts\HohoAka.jpg^
 	https://i.imgur.com/uPbqqCn.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

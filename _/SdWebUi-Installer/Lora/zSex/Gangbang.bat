@@ -6,7 +6,7 @@ if not exist zSex\ ( mkdir zSex\ )
 if not exist zSex\Gangbang.safetensors (
 	curl -Lo zSex\Gangbang.safetensors^
 	https://civitai.com/api/download/models/48691
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

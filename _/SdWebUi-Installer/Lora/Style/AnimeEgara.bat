@@ -11,7 +11,7 @@ if not exist Style\AnimeEgara.safetensors (
 if not exist Style\AnimeEgara.jpg (
 	curl -Lo Style\AnimeEgara.jpg^
 	https://i.imgur.com/Sd1GaDf.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

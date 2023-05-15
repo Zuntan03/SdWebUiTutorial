@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\ClassicAnimeExpressions.safetensors (
 	curl -Lo Parts\ClassicAnimeExpressions.safetensors^
 	https://civitai.com/api/download/models/30666
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

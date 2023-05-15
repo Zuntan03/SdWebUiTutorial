@@ -6,7 +6,7 @@ if not exist CosSkmz\ ( mkdir CosSkmz\ )
 if not exist CosSkmz\ShinSukumizu.safetensors (
 	curl -Lo CosSkmz\ShinSukumizu.safetensors^
 	https://civitai.com/api/download/models/31306
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

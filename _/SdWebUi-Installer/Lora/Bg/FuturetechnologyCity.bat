@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\FuturetechnologyCity.safetensors (
 	curl -Lo Bg\FuturetechnologyCity.safetensors^
 	https://civitai.com/api/download/models/32964
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

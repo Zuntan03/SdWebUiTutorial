@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\SunAndShadow.safetensors (
 	curl -Lo Bg\SunAndShadow.safetensors^
 	https://civitai.com/api/download/models/21065
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

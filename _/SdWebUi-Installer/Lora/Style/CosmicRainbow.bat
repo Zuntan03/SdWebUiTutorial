@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\CosmicRainbow.safetensors (
 	curl -Lo Style\CosmicRainbow.safetensors^
 	https://civitai.com/api/download/models/16555
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

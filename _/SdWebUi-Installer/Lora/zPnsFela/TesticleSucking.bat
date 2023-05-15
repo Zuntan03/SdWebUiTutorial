@@ -6,7 +6,7 @@ if not exist zPnsFela\ ( mkdir zPnsFela\ )
 if not exist zPnsFela\TesticleSucking.safetensors (
 	curl -Lo zPnsFela\TesticleSucking.safetensors^
 	https://civitai.com/api/download/models/33997
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

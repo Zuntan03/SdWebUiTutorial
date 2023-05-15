@@ -6,7 +6,7 @@ if not exist zPnsFela\ ( mkdir zPnsFela\ )
 if not exist zPnsFela\FellatioFfm.safetensors (
 	curl -Lo zPnsFela\FellatioFfm.safetensors^
 	https://civitai.com/api/download/models/50954
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

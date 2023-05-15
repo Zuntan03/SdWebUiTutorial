@@ -6,7 +6,7 @@ if not exist CosJp\ ( mkdir CosJp\ )
 if not exist CosJp\TaisoufukuR.safetensors (
 	curl -Lo CosJp\TaisoufukuR.safetensors^
 	https://civitai.com/api/download/models/58018
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

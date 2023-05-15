@@ -6,7 +6,7 @@ if not exist BgJp\ ( mkdir BgJp\ )
 if not exist BgJp\ShimonadaEki.safetensors (
 	curl -Lo BgJp\ShimonadaEki.safetensors^
 	https://civitai.com/api/download/models/42841
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

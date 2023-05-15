@@ -6,7 +6,7 @@ if not exist Style\ ( mkdir Style\ )
 if not exist Style\ThickCoatCg.safetensors (
 	curl -Lo Style\ThickCoatCg.safetensors^
 	https://civitai.com/api/download/models/30063
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

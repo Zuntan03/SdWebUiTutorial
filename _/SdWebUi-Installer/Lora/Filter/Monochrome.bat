@@ -11,7 +11,7 @@ if not exist Filter\Monochrome.safetensors (
 if not exist Filter\Monochrome.png (
 	curl -Lo Filter\Monochrome.png^
 	https://cdn-thumbnails.huggingface.co/social-thumbnails/models/2vXpSwA7/iroiro-lora.png
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

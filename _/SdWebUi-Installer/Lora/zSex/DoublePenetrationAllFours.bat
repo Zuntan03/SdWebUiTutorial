@@ -6,7 +6,7 @@ if not exist zSex\ ( mkdir zSex\ )
 if not exist zSex\DoublePenetrationAllFours.safetensors (
 	curl -Lo zSex\DoublePenetrationAllFours.safetensors^
 	https://civitai.com/api/download/models/49111
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

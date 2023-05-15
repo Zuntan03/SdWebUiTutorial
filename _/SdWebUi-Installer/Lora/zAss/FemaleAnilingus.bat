@@ -6,7 +6,7 @@ if not exist zAss\ ( mkdir zAss\ )
 if not exist zAss\FemaleAnilingus.safetensors (
 	curl -Lo zAss\FemaleAnilingus.safetensors^
 	https://civitai.com/api/download/models/33833
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

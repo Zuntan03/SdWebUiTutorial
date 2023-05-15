@@ -6,7 +6,7 @@ if not exist Item\ ( mkdir Item\ )
 if not exist Item\AkiraMotorbike.safetensors (
 	curl -Lo Item\AkiraMotorbike.safetensors^
 	https://civitai.com/api/download/models/40824
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

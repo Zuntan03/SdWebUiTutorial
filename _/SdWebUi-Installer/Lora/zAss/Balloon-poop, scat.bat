@@ -11,7 +11,7 @@ if not exist "zAss\Balloon-poop, scat.pt" (
 if not exist "zAss\Balloon-poop, scat.jpg" (
 	curl -Lo "zAss\Balloon-poop, scat.jpg"^
 	https://i.imgur.com/Cmdkp0a.jpeg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

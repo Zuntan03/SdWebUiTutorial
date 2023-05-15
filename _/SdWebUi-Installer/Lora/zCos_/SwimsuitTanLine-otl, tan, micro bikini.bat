@@ -11,7 +11,7 @@ if not exist "zCos_\SwimsuitTanLine-otl, tan, micro bikini.safetensors" (
 if not exist "zCos_\SwimsuitTanLine-otl, tan, micro bikini.jpg" (
 	curl -Lo "zCos_\SwimsuitTanLine-otl, tan, micro bikini.jpg"^
 	https://i.imgur.com/yTzTtljm.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

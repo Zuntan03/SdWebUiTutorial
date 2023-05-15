@@ -6,7 +6,7 @@ if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\ReverseTranslucentBunnysuit.safetensors (
 	curl -Lo zCos_\ReverseTranslucentBunnysuit.safetensors^
 	https://civitai.com/api/download/models/10240
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

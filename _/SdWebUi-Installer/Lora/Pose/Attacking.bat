@@ -6,7 +6,7 @@ if not exist Pose\ ( mkdir Pose\ )
 if not exist Pose\Attacking.safetensors (
 	curl -Lo Pose\Attacking.safetensors^
 	https://civitai.com/api/download/models/30506
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

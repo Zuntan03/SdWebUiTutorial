@@ -11,7 +11,7 @@ if not exist "Parts\GuruguruEye.safetensors" (
 if not exist "Parts\GuruguruEye.jpg" (
 	curl -Lo "Parts\GuruguruEye.jpg"^
 	https://i.imgur.com/fFgiHltm.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\CuteGirlMix4.safetensors (
 	curl -Lo Parts\CuteGirlMix4.safetensors^
 	https://civitai.com/api/download/models/16677
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

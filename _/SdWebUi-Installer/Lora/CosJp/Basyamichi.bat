@@ -6,7 +6,7 @@ if not exist CosJp\ ( mkdir CosJp\ )
 if not exist CosJp\Basyamichi.safetensors (
 	curl -Lo CosJp\Basyamichi.safetensors^
 	https://civitai.com/api/download/models/31308
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

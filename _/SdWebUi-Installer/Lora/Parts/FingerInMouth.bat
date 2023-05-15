@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\FingerInMouth.safetensors (
 	curl -Lo Parts\FingerInMouth.safetensors^
 	https://civitai.com/api/download/models/21236
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

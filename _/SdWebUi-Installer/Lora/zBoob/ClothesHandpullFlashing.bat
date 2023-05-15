@@ -6,7 +6,7 @@ if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\ClothesHandpullFlashing.safetensors (
 	curl -Lo zBoob\ClothesHandpullFlashing.safetensors^
 	https://civitai.com/api/download/models/59098
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

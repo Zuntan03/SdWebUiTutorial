@@ -11,7 +11,7 @@ if not exist Filter\NoLine.safetensors (
 if not exist Filter\NoLine.png (
 	curl -Lo Filter\NoLine.png^
 	https://i.imgur.com/5W273dv.png
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

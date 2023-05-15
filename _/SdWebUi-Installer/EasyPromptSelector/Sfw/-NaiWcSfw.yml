@@ -1,0 +1,43 @@
+﻿全体:
+  場所: __NaiWc/Location__
+  祝日: __NaiWc/Celebration__
+  フォーマット: __NaiWc/Format__
+  スタイル: __NaiWc/Style__
+  背景: __NaiWc/Background__
+  コンポジ: __NaiWc/Composition__
+  アングル: __NaiWc/Angle__
+  視点: __NaiWc/View__
+  時間: __NaiWc/Time__
+体:
+  ポーズ: __NaiWc/Pose__
+  職業: __NaiWc/Jobs__
+  スポーツ: __NaiWc/Sports__
+  キャラ: __NaiWc/Characters__
+  体構図: __NaiWc/Bodyframing__
+  服: __NaiWc/Clothing__
+  脚装飾: __NaiWc/Legwear__
+  靴: __NaiWc/Footwear__
+  フォーカス: __NaiWc/Focus__
+  手足装飾: __NaiWc/Limbwear__
+  腕修飾: __NaiWc/LimbwearState__
+  装飾: __NaiWc/TorsoExtras__
+  服掴み: __NaiWc/TouchingClothes__
+  服プリント: __NaiWc/ClothingPrint__
+  服スタイル: __NaiWc/ClothingStyle__
+頭:
+  表情: __NaiWc/Face__
+  ヘアスタイル: __NaiWc/HairStyle__
+  髪の色: __NaiWc/HairColor__
+  髪の形容: __NaiWc/HairTexture__
+  頭装飾: __NaiWc/Headwear__
+  髪の長さ: __NaiWc/HairLength__
+  前髪: __NaiWc/Bangs__
+  髪上部: __NaiWc/HairTop__
+  目の色: __NaiWc/EyeColor__
+  首装飾: __NaiWc/Neckwear__
+  襟: __NaiWc/Collar__
+  イヤリング: __NaiWc/Earrings__
+  マスク: __NaiWc/Masks__
+  首装飾色: __NaiWc/NeckwearColor__
+  首装飾パターン: __NaiWc/NeckwearPattern__
+  ジュエリー: __NaiWc/Jewelry__

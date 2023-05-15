@@ -6,7 +6,7 @@ if not exist zBg_\ ( mkdir zBg_\ )
 if not exist zBg_\ReiNoPool.safetensors (
 	curl -Lo zBg_\ReiNoPool.safetensors^
 	https://civitai.com/api/download/models/11903
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

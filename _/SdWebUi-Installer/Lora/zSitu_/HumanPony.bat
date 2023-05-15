@@ -6,7 +6,7 @@ if not exist zSitu_\ ( mkdir zSitu_\ )
 if not exist zSitu_\HumanPony.safetensors (
 	curl -Lo zSitu_\HumanPony.safetensors^
 	https://civitai.com/api/download/models/51217
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

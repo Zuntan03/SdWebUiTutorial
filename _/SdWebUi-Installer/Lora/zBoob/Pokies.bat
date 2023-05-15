@@ -6,7 +6,7 @@ if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\Pokies.safetensors (
 	curl -Lo zBoob\Pokies.safetensors^
 	https://civitai.com/api/download/models/32066
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -11,7 +11,7 @@ if not exist Train\ACertainty.ckpt (
 if not exist Train\ACertainty.png (
 	curl -Lo Train\ACertainty.png^
 	https://cdn-thumbnails.huggingface.co/social-thumbnails/models/JosephusCheung/ACertainty.png
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

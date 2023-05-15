@@ -6,7 +6,7 @@ if not exist Pose\ ( mkdir Pose\ )
 if not exist Pose\PovAcrossTable.safetensors (
 	curl -Lo Pose\PovAcrossTable.safetensors^
 	https://civitai.com/api/download/models/51048
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

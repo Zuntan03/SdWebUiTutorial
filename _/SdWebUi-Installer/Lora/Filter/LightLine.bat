@@ -11,7 +11,7 @@ if not exist Filter\LightLine.safetensors (
 if not exist Filter\LightLine.jpg (
 	curl -Lo Filter\LightLine.jpg^
 	https://i.imgur.com/0hLSJZq.jpg
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

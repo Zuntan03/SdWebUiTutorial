@@ -6,7 +6,7 @@ if not exist zPnsJob\ ( mkdir zPnsJob\ )
 if not exist zPnsJob\LickingNippleHandjob.safetensors (
 	curl -Lo zPnsJob\LickingNippleHandjob.safetensors^
 	https://civitai.com/api/download/models/30867
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

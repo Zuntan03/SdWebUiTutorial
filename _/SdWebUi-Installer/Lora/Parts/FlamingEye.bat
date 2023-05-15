@@ -6,7 +6,7 @@ if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\FlamingEye.safetensors (
 	curl -Lo Parts\FlamingEye.safetensors^
 	https://civitai.com/api/download/models/23880
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

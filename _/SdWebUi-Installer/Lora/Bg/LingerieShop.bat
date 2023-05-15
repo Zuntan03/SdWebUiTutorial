@@ -6,7 +6,7 @@ if not exist Bg\ ( mkdir Bg\ )
 if not exist Bg\LingerieShop.safetensors (
 	curl -Lo Bg\LingerieShop.safetensors^
 	https://civitai.com/api/download/models/21403
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

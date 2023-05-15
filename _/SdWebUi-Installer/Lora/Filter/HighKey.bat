@@ -6,7 +6,7 @@ if not exist Filter\ ( mkdir Filter\ )
 if not exist Filter\HighKey.safetensors (
 	curl -Lo Filter\HighKey.safetensors^
 	https://civitai.com/api/download/models/10914
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

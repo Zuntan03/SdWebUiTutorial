@@ -11,7 +11,7 @@ if not exist Style\WaterColor.safetensors (
 if not exist Style\WaterColor.png (
 	curl -Lo Style\WaterColor.png^
 	https://huggingface.co/fladdict/watercolor/resolve/main/05001-1160131662-watercolor%%20painting%%2C%%20landscape%%20of%%20castle%%2C%%20forest%%20and%%20river%%2C%%20dramatic%%20lighting.png
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd

@@ -6,7 +6,7 @@ if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\Spacesuit.safetensors (
 	curl -Lo Cos\Spacesuit.safetensors^
 	https://civitai.com/api/download/models/30205
-	timeout /t 3 /nobreak
+	timeout /t 1 /nobreak
 )
 
 popd
