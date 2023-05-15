@@ -8,6 +8,10 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/05/16
+- LoRA を 14 種追加しました。
+- TI を 2 種追加しました。
+
 ## 2023/05/15
 - **大幅な更新をしました。**  
 **簡単ローカル環境をすでにインストール済みの方は [SdWebUi の更新](#sdwebui-の更新) に沿って SdWebUi 本体と拡張機能を更新してください。**
