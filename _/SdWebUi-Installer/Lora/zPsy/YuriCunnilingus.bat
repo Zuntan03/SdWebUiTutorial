@@ -5,7 +5,7 @@ echo YuriCunnilingus.safetensors: https://civitai.com/models/23885/yuri-cunnilin
 if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\YuriCunnilingus.safetensors (
 	curl -Lo zPsy\YuriCunnilingus.safetensors^
-	https://civitai.com/api/download/models/30817
+	https://civitai.com/api/download/models/58951
 	timeout /t 1 /nobreak
 )
 

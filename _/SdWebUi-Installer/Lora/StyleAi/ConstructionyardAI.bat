@@ -5,7 +5,7 @@ echo ConstructionyardAI.safetensors: https://civitai.com/models/53493/constructi
 if not exist StyleAi\ ( mkdir StyleAi\ )
 if not exist StyleAi\ConstructionyardAI.safetensors (
 	curl -Lo StyleAi\ConstructionyardAI.safetensors^
-	https://civitai.com/api/download/models/57848
+	https://civitai.com/api/download/models/58671
 	timeout /t 1 /nobreak
 )
 

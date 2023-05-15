@@ -5,7 +5,7 @@ echo NeverEndingDream.safetensors: https://civitai.com/models/10028/neverending-
 if not exist zSemi_\ ( mkdir zSemi_\ )
 if not exist zSemi_\NeverEndingDream.safetensors (
 	curl -Lo zSemi_\NeverEndingDream.safetensors^
-	https://civitai.com/api/download/models/11925
+	https://civitai.com/api/download/models/64094
 )
 
 popd
