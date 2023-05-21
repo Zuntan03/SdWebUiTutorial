@@ -18,6 +18,7 @@ for /r .\Embedding\-Ng %%b in (*.bat) do (call "%%b")
 for /r .\Embedding\Parts %%b in (*.bat) do (call "%%b")
 for /r .\Embedding\Style %%b in (*.bat) do (call "%%b")
 for /r .\Extension %%b in (*.bat) do (call "%%b")
+for /r .\Upscaler %%b in (*.bat) do (call "%%b")
 for /r .\Vae %%b in (*.bat) do (call "%%b")
 
 call .\Model\Illust\AbyssOrangeMix2_SFW.bat

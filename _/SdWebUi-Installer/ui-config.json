@@ -6,5 +6,14 @@
 	"txt2img/Denoising strength/value": 0.6,
 	"txt2img/Upscale by/value": 1.5,
 	"txt2img/Height/value": 768,
-	"txt2img/CFG Scale/value": 8.0
+	"txt2img/CFG Scale/value": 8.0,
+	"img2img/Sampling method/value": "DPM++ 2M Karras",
+	"img2img/Sampling steps/value": 25,
+	"img2img/Denoising strength/value": 0.6,
+	"img2img/Height/value": 768,
+	"img2img/CFG Scale/value": 8.0,
+	"customscript/tilediffusion.py/img2img/Method/value": "Mixture of Diffusers",
+	"customscript/tilediffusion.py/img2img/Upscaler/value": "4x-UltraSharp",
+	"customscript/tilediffusion.py/img2img/Inversion steps/value": 15,
+	"customscript/tilediffusion.py/img2img/Renoise strength/value": 0
 }

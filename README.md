@@ -8,6 +8,16 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/05/21
+
+- チュートリアルに「[モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)」を追加しました。
+	- LamaCleaner はキホンのキなので使わなきゃソンです。
+-  [4x-UltraSharp.pth](https://upscale.wiki/wiki/Model_Database) および [4x-AnimeSharp.pth](https://upscale.wiki/wiki/Model_Database) を自動でインストールするようにしました。
+	- 簡単ローカル環境を導入済みの場合は、`UpdateResourceSfw.bat` または `UpdateResourceNsfw.bat` を実行するとインストールされます。
+- モデルを 1 種追加しました。
+- TI を 1 種追加しました。
+- LoRA を 8 種追加しました。
+
 ## 2023/05/16
 - LoRA を 14 種追加しました。
 - TI を 2 種追加しました。
@@ -49,6 +59,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - [2023/04/23] [最初の 1girl 画像生成](/_/doc/First1Girl/First1Girl.md)
 - [2023/04/24] [Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)
 - [2023/05/15] [簡単ポチガチャでステキな絵を探究する](./_/doc/PochiGacha/PochiGacha.md)
+- [2023/05/21] [モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)
 
 ## チュートリアル中級
 
@@ -123,6 +134,11 @@ SdWebUi や拡張機能の更新はトラブルが起きがちですので、時
 
 # ライセンス
 
-[MIT License](./LICENSE.txt)です。
+このリポジトリのスクリプトやドキュメントは、[MIT License](./LICENSE.txt)です。
 
 This software is released under the MIT License, see [LICENSE.txt](./LICENSE.txt).
+
+## 再配布物のライセンス
+
+- [4x-UltraSharp.pth](https://upscale.wiki/wiki/Model_Database) および [4x-AnimeSharp.pth](https://upscale.wiki/wiki/Model_Database)
+	- Author: [Kim2091](https://upscale.wiki/wiki/User:Kim2091)、License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)、改変なし

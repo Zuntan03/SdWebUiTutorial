@@ -57,6 +57,7 @@ for /r .\Embedding\-Ng %%b in (*.bat) do (call "%%b")
 for /r .\Embedding\Parts %%b in (*.bat) do (call "%%b")
 for /r .\Embedding\Style %%b in (*.bat) do (call "%%b")
 
+for /r .\Upscaler %%b in (*.bat) do (call "%%b")
 for /r .\Vae %%b in (*.bat) do (call "%%b")
 
 for /r .\Model\Anime %%b in (*.bat) do ( call "%%b" )
