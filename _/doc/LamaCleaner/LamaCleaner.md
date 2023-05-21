@@ -28,6 +28,10 @@ LamaCleaner の操作は線を引く操作ではなく、マスクを置く操�
 	![LamaBat](./img/LamaBat.png)
 - 公式のインストールや利用の手順は[こちら](https://github.com/Sanster/lama-cleaner)を参照してください。
 
+ワコムのタブレットで Lama Cleaner を用するには、Windows Ink を無効化してください。
+
+![Wacom](./img/Wacom.png)
+
 # LamaCleaner の使い方
 
 ![LamaCleaner](./img/LamaCleaner.png)
@@ -68,7 +72,7 @@ LamaCleaner の操作は線を引く操作ではなく、マスクを置く操�
 ## いらない指を消す
 
 手にありがちな、長い指やよくわからない突起物も削除できます。  
-他にも耳やあほ毛や乳首が増えたといった体のパーツが増える系に（消しても自然なら）対処できます。
+他にも耳やあほ毛や乳首が増えたといった、体のパーツが増える系に（消しても自然なら）対処できます。
 
 ![DeleteFinger](./img/DeleteFinger.webp)
 
@@ -88,7 +92,7 @@ LamaCleaner の操作は線を引く操作ではなく、マスクを置く操�
 
 ## いらないモノを消す
 
-アップスケールしたら手が生えてきたので、元画像からモノを削除しています。
+TileTileでアップスケールしたら手が生えてきたので、元画像から化ける元になったモノを削除しています。
 
 ![DeleteNazo](./img/DeleteNazo.webp)
 
