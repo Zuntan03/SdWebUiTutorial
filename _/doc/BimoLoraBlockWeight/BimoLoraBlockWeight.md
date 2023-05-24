@@ -2,6 +2,8 @@
 
 手軽（雑）に LoRA を階層適用したくなったので BIMO プリセットを用意しました。  
 
+概要は[こちら](https://twitter.com/Zuntan03/status/1661202375884046336)。
+
 BIMO プリセットは LoRA 階層適用の Base In Mid Out を 0 か 1 で手軽（雑）に設定するための [LoRA Block Weight 拡張](https://github.com/hako-mikan/sd-webui-lora-block-weight) のプリセット集で、プリセットを理解されている方向けのモノです。
 
 ![Bimo](./Bimo.png)
