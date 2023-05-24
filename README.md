@@ -8,6 +8,11 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/05/24
+
+- チュートリアルに「[BIMO プリセットで手抜き LoRA 階層適用](./_/doc/BimoLoraBlockWeight/BimoLoraBlockWeight.md)」を追加しました。
+- TI を 1 種追加しました。
+
 ## 2023/05/21
 
 - チュートリアルに「[モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)」を追加しました。
@@ -17,32 +22,6 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - モデルを 1 種追加しました。
 - TI を 1 種追加しました。
 - LoRA を 8 種追加しました。
-
-## 2023/05/16
-- LoRA を 14 種追加しました。
-- TI を 2 種追加しました。
-
-## 2023/05/15
-- **大幅な更新をしました。**  
-**簡単ローカル環境をすでにインストール済みの方は [SdWebUi の更新](#sdwebui-の更新) に沿って SdWebUi 本体と拡張機能を更新してください。**
-	- UI が英語表記になってしまった場合は「Settings」の「Bilingual Localization」にある「Enable Bilingual Localization」のチェックを外して SdWebUi を再起動してください。
-	- Stable Diffusion web UI のバージョンも 1.2.1 まで上がっていますので、`SdWebUi\stable-diffusion-webui\venv\` の削除と再起動が必要になる可能性もあります。
-- ボタンをポチポチするだけでステキな絵を生成するポチガチャと、チュートリアル「[簡単ポチガチャでステキな絵を探究する](./_/doc/PochiGacha/PochiGacha.md)」を公開しました。  
-	- [Wildcard](https://github.com/adieyal/sd-dynamic-prompts) の txt や [Easy Prompot Selector](https://github.com/blue-pen5805/sdweb-easy-prompt-selector) の yaml のセットアップを自動化しています。
-	- LoRA ガチャに対応しています。
-	- Sfw(Safe For Work) と Nsfw(Not Safe For Work) に対応しています。
-![GachaSet0H](./_/doc/PochiGacha/img/GachaSet0H.webp)
-	- 次回のチュートリアル更新で、ガチャの打率向上と後処理について説明するつもりです。
-![PostprocessV](./_/doc/PochiGacha/img/PostprocessV.webp)
-- ディスク容量の大部分を占めるモデルを、個別に選択してダウンロードするようにしました。
-	- 標準インストールでのディスク容量が 150GB 程度減ります。
-	- `_\SdWebUi-Installer\ModelAll\` 以下のバッチファイルを実行して、個別にモデルをダウンロードします。
-	- ディスク容量に数百 GB の余裕がある方は `UpdateResourceAllSfw.bat` や `UpdateResourceAllNsfw.bat` で、これまでと同様にすべてのモデルをダウンロードできます。
-- SdWebUiが生成した絵を自動的に大きく表示するツール `GenImageViewer.bat` を追加しました。
-- 生成した絵からいらないモノを消せるツール `LamaCleaner.bat` を追加しました。
-	- 初回起動時はインストールで数分程度の時間がかかります。
-- LoRA を 7 種追加しました。
-- 拡張機能を 4 種追加しました。
 
 [過去の更新履歴](./ChangeLog.md)
 
@@ -66,6 +45,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - [2023/02/26] [ControlNet の openpose と hed で、ポーズを指定しつつも詳細な背景と正常な手を無料で描画する手法](https://twitter.com/Zuntan03/status/1629739504801320960)
 - [2023/02/25] [Multi ControlNet の depth と hed で画像から形状のみを取り出す](https://twitter.com/Zuntan03/status/1629362974547906566)
 - [2023/02/23] [LatentCoupleHelperのつかいかた](https://twitter.com/Zuntan03/status/1628631380459663360)
+- [2023/05/24] [BIMO プリセットで手抜き LoRA 階層適用](./_/doc/BimoLoraBlockWeight/BimoLoraBlockWeight.md)
 
 ## チュートリアル上級
 

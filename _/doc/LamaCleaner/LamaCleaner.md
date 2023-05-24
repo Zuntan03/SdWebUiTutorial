@@ -20,13 +20,14 @@ LamaCleaner の操作は線を引く操作ではなく、マスクを置く操�
 
 # LamaCleaner のインストール
 
-- AI 画像生成の「簡単ローカル環境」を導入している場合は、`LamaCleaner.bat` を実行すればブラウザで開きます。  
+- AI 画像生成の [簡単ローカル環境](https://github.com/Zuntan03/SdWebUiTutorial/) を導入している場合は、`LamaCleaner.bat` を実行すればブラウザで開きます。  
 	- 初回起動時はインストールに数分かかります。
 	- LamaCleaner のブラウザを閉じてしまった場合は、コマンドプロンプトの先頭にある [`http://localhost:7859/`](http://localhost:7859/) を Ctrl+左クリックしてください。
 - 「簡単ローカル環境」を導入されていない方は「[LamaCleaner.bat](https://raw.githubusercontent.com/Zuntan03/SdWebUiTutorial/main/LamaCleaner.bat)」のリンクを右クリックから「名前を付けてリンク先を保存...」し、適当なフォルダに置いて実行することでも利用できます（要 Git & Python）。
 	- ダウンロードした `LamaCleaner.bat` を右クリックして「プロパティ」を開き、「全般」の「セキュリティ」を「許可する」と実行時の「Windows によって PC が保護されました」警告を表示しないようにできます。  
 	![LamaBat](./img/LamaBat.png)
 - 公式のインストールや利用の手順は[こちら](https://github.com/Sanster/lama-cleaner)を参照してください。
+- 720p までの解像度であれば[こちら](https://cleanup.pictures/)のオンラインサービスも無償で利用できます。
 
 ワコムのタブレットで Lama Cleaner を用するには、Windows Ink を無効化してください。
 
@@ -71,7 +72,7 @@ LamaCleaner の操作は線を引く操作ではなく、マスクを置く操�
 
 ## 無を消すと生まれる
 
-髪の毛のスキマやウェストポーチ？のスキマを消すと、モヤッとした毛っぽいモノが生まれます。  
+髪の毛のスキマやウェストポーチ？のスキマを消すと、モヤッとしたモノが生まれます。  
 モヤッとしてますが Tiled Diffusion & ControlNet Tile の TileTile アップスケールで右端のように書き直すので問題なしです（アプスケ後からするとウェストポーチではなかった様子）。
 
 ブラ紐や紐パンやガーターの切れた部分を消すと繋がったりもします。

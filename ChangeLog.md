@@ -1,5 +1,31 @@
 ﻿# 更新履歴
 
+## 2023/05/16
+- LoRA を 14 種追加しました。
+- TI を 2 種追加しました。
+
+## 2023/05/15
+- **大幅な更新をしました。**  
+**簡単ローカル環境をすでにインストール済みの方は [SdWebUi の更新](#sdwebui-の更新) に沿って SdWebUi 本体と拡張機能を更新してください。**
+	- UI が英語表記になってしまった場合は「Settings」の「Bilingual Localization」にある「Enable Bilingual Localization」のチェックを外して SdWebUi を再起動してください。
+	- Stable Diffusion web UI のバージョンも 1.2.1 まで上がっていますので、`SdWebUi\stable-diffusion-webui\venv\` の削除と再起動が必要になる可能性もあります。
+- ボタンをポチポチするだけでステキな絵を生成するポチガチャと、チュートリアル「[簡単ポチガチャでステキな絵を探究する](./_/doc/PochiGacha/PochiGacha.md)」を公開しました。  
+	- [Wildcard](https://github.com/adieyal/sd-dynamic-prompts) の txt や [Easy Prompot Selector](https://github.com/blue-pen5805/sdweb-easy-prompt-selector) の yaml のセットアップを自動化しています。
+	- LoRA ガチャに対応しています。
+	- Sfw(Safe For Work) と Nsfw(Not Safe For Work) に対応しています。
+![GachaSet0H](./_/doc/PochiGacha/img/GachaSet0H.webp)
+	- 次回のチュートリアル更新で、ガチャの打率向上と後処理について説明するつもりです。
+![PostprocessV](./_/doc/PochiGacha/img/PostprocessV.webp)
+- ディスク容量の大部分を占めるモデルを、個別に選択してダウンロードするようにしました。
+	- 標準インストールでのディスク容量が 150GB 程度減ります。
+	- `_\SdWebUi-Installer\ModelAll\` 以下のバッチファイルを実行して、個別にモデルをダウンロードします。
+	- ディスク容量に数百 GB の余裕がある方は `UpdateResourceAllSfw.bat` や `UpdateResourceAllNsfw.bat` で、これまでと同様にすべてのモデルをダウンロードできます。
+- SdWebUiが生成した絵を自動的に大きく表示するツール `GenImageViewer.bat` を追加しました。
+- 生成した絵からいらないモノを消せるツール `LamaCleaner.bat` を追加しました。
+	- 初回起動時はインストールで数分程度の時間がかかります。
+- LoRA を 7 種追加しました。
+- 拡張機能を 4 種追加しました。
+
 ## 2023/05/06
 - モデルを 1 種追加しました。
 - LoRA を 3 種追加しました。
