@@ -41,7 +41,7 @@ In と Out には 12 の層がありますが、「BIMO プリセット」では
 LoRA に手軽（雑）に階層適用をする手順です。
 
 1. プロンプトで `<lora:LoraName:1:BIMO>` と LoRA を階層適用パラメータ付きで呼び出します。
-2. 「X/Y/Z plyt」の「Prompt S/R」で `BIIMOO,bIIMOO,BiIMOO,BIiMOO,BIImOO,BIIMoO,BIIMOo,biimoo` と層別適用のバリエーションを生成します。
+2. 「X/Y/Z plot」の「Prompt S/R」で `BIIMOO,bIIMOO,BiIMOO,BIiMOO,BIImOO,BIIMoO,BIIMOo,biimoo` と層別適用のバリエーションを生成します。
 	- 左端は全層有効、右端は全層無効で、間は一箇所ずつ無効にしています。  
 	全層の有効無効を両端に並べることで、LoRA 効力全体のどの程度を残すのかを把握しながら調整できます。
 3. 生成した画像をもとに影響が最も小さかった箇所を選び、他のバリエーションの選んだ箇所を無効化します。
