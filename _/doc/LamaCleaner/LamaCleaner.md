@@ -75,9 +75,11 @@ LamaCleaner の操作は線を引く操作ではなく、マスクを置く操�
 髪の毛のスキマやウェストポーチ？のスキマを消すと、モヤッとしたモノが生まれます。  
 モヤッとしてますが Tiled Diffusion & ControlNet Tile の TileTile アップスケールで右端のように書き直すので問題なしです（アプスケ後からするとウェストポーチではなかった様子）。
 
+![DeleteEmpty](./img/DeleteEmpty.webp)
+
 ブラ紐や紐パンやガーターの切れた部分を消すと繋がったりもします。
 
-![DeleteEmpty](./img/DeleteEmpty.webp)
+![Line](./img/Line.png)
 
 ## いらない指を消す
 
