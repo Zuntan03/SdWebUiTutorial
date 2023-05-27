@@ -11,7 +11,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 ## 2023/05/27
 
 - LoHa の LoRA を使うための拡張を、locon から lycoris に変更しました。
-	- lycoris をインストールするために `_\SdWebUi-Installer\Extension\Lycoris.bat` を実行してください。
+	- lycoris をインストールするためにいずれかの `UpdateResource*.bat` を実行してから `_\SdWebUi-Installer\Extension\Lycoris.bat` を実行してください。
+		- `UpdateResource*.bat` の実行時に `launch.py: error: unrecognized arguments: --lyco-dir ../Lora` のエラーが表示されますが `Lycoris.bat` の実行で解消されます。
 	- locon をアンインストールするために `SdWebUi\stable-diffusion-webui\extensions\a1111-sd-webui-locon\` を削除してください。
 
 ## 2023/05/24
