@@ -12,7 +12,6 @@ set VENV_DIR=
 @rem --listen --port 7861 --enable-insecure-extension-access
 
 @rem https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris
-@rem --lyco-dir ../Lora
 
 @rem set PYTORCH_CUDA_ALLOC_CONF=garbage_collection_threshold:0.75,max_split_size_mb:128
 
@@ -21,6 +20,7 @@ set COMMANDLINE_ARGS=^
  --vae-dir ../Vae^
  --embeddings-dir ../Embedding^
  --lora-dir ../Lora^
+ --lyco-dir ../Lora^
  --xformers^
  --no-half-vae^
  --autolaunch^
