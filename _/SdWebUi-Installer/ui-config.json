@@ -13,7 +13,8 @@
 	"img2img/Height/value": 768,
 	"img2img/CFG Scale/value": 8.0,
 	"customscript/tilediffusion.py/img2img/Method/value": "Mixture of Diffusers",
-	"customscript/tilediffusion.py/img2img/Upscaler/value": "R-ESRGAN 4x+",
+	"customscript/tilediffusion.py/img2img/Latent tile overlap/value": 8,
+	"customscript/tilediffusion.py/img2img/Upscaler/value": "4x-UltraSharp",
 	"customscript/tilediffusion.py/img2img/Inversion steps/value": 15,
 	"customscript/tilediffusion.py/img2img/Renoise strength/value": 0
 }

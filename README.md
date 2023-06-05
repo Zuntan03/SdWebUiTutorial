@@ -8,6 +8,10 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/06/05
+
+- チュートリアルに「[高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)」を追加しました。
+
 ## 2023/06/01
 - チュートリアルに「[Hires. プロンプトで群衆遊びが簡単に！](https://twitter.com/Zuntan03/status/1664124771196612608)」を追加しました。
 
@@ -50,6 +54,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - [2023/04/24] [Civitai からのモデルや LoRA のダウンロード](./_/doc/DownloadFromCivitai/DownloadFromCivitai.md)
 - [2023/05/15] [簡単ポチガチャでステキな絵を探究する](./_/doc/PochiGacha/PochiGacha.md)
 - [2023/05/21] [モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)
+- [2023/06/05] [高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)
 
 ## チュートリアル中級
 
