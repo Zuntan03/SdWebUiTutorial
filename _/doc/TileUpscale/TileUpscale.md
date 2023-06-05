@@ -11,7 +11,7 @@ Geforce RTX 3060 で 2K 2分程度、4K 6～7分程度で Tile アプスケで�
 
 ![UpscaleGallery](./img/UpscaleGallery.webp)
 
-今回の高コスパな Tile アプスケでは、公式で 200 ともされている Inversion steps の計算量を 15 まで大幅に下げています。
+今回の高コスパな Tile アプスケでは、公式で 200 ともされている Inversion steps の計算量を 15 まで大幅に下げています。  
 少ない計算量でゴージャスさを維持するために、img2img でもなるべく txt2img と同様の絵を生成して、txt2img のディティールをそのまま強調する考え方です。  
 
 - [動作環境](#動作環境)
@@ -92,7 +92,7 @@ img2img の設定では `CFGスケール` と `ノイズ除去強度` を、ゴ�
 	- 0.8以上: ガンガン盛るが、絵の色味がさらに変わって背景がボケたりも
 		- 色味の変化を許容するか、あとで画像処理系ソフトで修正するか
 
-`CFGスケール` と `ノイズ除去強度` 以外は、元絵の生成パラメータのままです。
+`CFGスケール` と `ノイズ除去強度` 以外は、`シード` も含め元絵の生成パラメータのままです。
 
 ## [Tiled Diffusion & VAE](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) の設定
 
@@ -116,7 +116,7 @@ img2img の設定では `CFGスケール` と `ノイズ除去強度` を、ゴ�
 - 忘れずに `Enable Tiled VAE` を有効にします。
 - その他
 	- 右側の `Free GPU` は Noise Inversion のキャッシュをクリアして、メモリを整理します。  
-	Python と Torch のガベージコレクションを呼ぶのにも使えます。
+	Python と Torch のガベージコレクションを意図的に呼ぶのにも使えます。
 	- [After Detailder](https://github.com/Bing-su/adetailer) を元画像の生成に使用していた場合は、無効にしてください。
 
 ## [ControlNet Tile](https://github.com/Mikubill/sd-webui-controlnet) の設定
