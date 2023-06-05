@@ -1,6 +1,6 @@
 ﻿# 高コスパ！簡単ゴージャスアップスケール！
 
-<!-- TODO: 概要紹介は[こちら]()。-->
+概要紹介は[こちら](https://twitter.com/Zuntan03/status/1665553153654411265)。
 
 [Tiled Diffusion & VAE](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) と [ControlNet Tile](https://github.com/Mikubill/sd-webui-controlnet) によるアップスケール（Tile アプスケ）を、コスパとゴージャスな書き込みに尖らせて利用します。
 
