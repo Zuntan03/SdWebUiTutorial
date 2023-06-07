@@ -5,7 +5,7 @@ echo Gakkou.safetensors: https://civitai.com/models/20289/school-building-scener
 if not exist BgJp\ ( mkdir BgJp\ )
 if not exist BgJp\Gakkou.safetensors (
 	curl -Lo BgJp\Gakkou.safetensors^
-	https://civitai.com/api/download/models/24124
+	https://civitai.com/api/download/models/86421
 	timeout /t 1 /nobreak
 )
 

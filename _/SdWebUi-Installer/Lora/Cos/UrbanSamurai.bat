@@ -5,7 +5,7 @@ echo UrbanSamurai.safetensors: https://civitai.com/models/23337/urban-samurai-or
 if not exist Cos\ ( mkdir Cos\ )
 if not exist Cos\UrbanSamurai.safetensors (
 	curl -Lo Cos\UrbanSamurai.safetensors^
-	https://civitai.com/api/download/models/55962
+	https://civitai.com/api/download/models/27871
 	timeout /t 1 /nobreak
 )
 

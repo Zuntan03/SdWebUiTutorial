@@ -5,7 +5,7 @@ echo AsianGirlsFace.safetensors: https://civitai.com/models/23882/asian-girls-fa
 if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\AsianGirlsFace.safetensors (
 	curl -Lo Parts\AsianGirlsFace.safetensors^
-	https://civitai.com/api/download/models/28542
+	https://civitai.com/api/download/models/59880
 	timeout /t 1 /nobreak
 )
 

@@ -5,7 +5,7 @@ echo ReverseCowgirlAnalFrames.safetensors: https://civitai.com/models/25759/dd-r
 if not exist zAss\ ( mkdir zAss\ )
 if not exist zAss\ReverseCowgirlAnalFrames.safetensors (
 	curl -Lo zAss\ReverseCowgirlAnalFrames.safetensors^
-	https://civitai.com/api/download/models/58263
+	https://civitai.com/api/download/models/77218
 	timeout /t 1 /nobreak
 )
 

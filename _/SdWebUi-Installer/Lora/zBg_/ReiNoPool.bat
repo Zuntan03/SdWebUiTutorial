@@ -5,7 +5,7 @@ echo ReiNoPool.safetensors: https://civitai.com/models/10010/rei-no-pool-shinjuk
 if not exist zBg_\ ( mkdir zBg_\ )
 if not exist zBg_\ReiNoPool.safetensors (
 	curl -Lo zBg_\ReiNoPool.safetensors^
-	https://civitai.com/api/download/models/11903
+	https://civitai.com/api/download/models/11901
 	timeout /t 1 /nobreak
 )
 
