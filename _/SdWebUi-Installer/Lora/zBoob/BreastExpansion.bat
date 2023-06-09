@@ -5,7 +5,7 @@ echo BreastExpansion.safetensors: https://civitai.com/models/52028/breast-expans
 if not exist zBoob\ ( mkdir zBoob\ )
 if not exist zBoob\BreastExpansion.safetensors (
 	curl -Lo zBoob\BreastExpansion.safetensors^
-	https://civitai.com/api/download/models/70431
+	https://civitai.com/api/download/models/91184
 	timeout /t 1 /nobreak
 )
 

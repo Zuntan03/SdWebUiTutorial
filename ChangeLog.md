@@ -1,5 +1,18 @@
 ﻿# 更新履歴
 
+## 2023/05/24
+- チュートリアルに「[BIMO プリセットで手抜き LoRA 階層適用](./_/doc/BimoLoraBlockWeight/BimoLoraBlockWeight.md)」を追加しました。
+- TI を 1 種追加しました。
+
+## 2023/05/21
+- チュートリアルに「[モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)」を追加しました。
+	- LamaCleaner はキホンのキなので使わなきゃソンです。
+-  [4x-UltraSharp.pth](https://upscale.wiki/wiki/Model_Database) および [4x-AnimeSharp.pth](https://upscale.wiki/wiki/Model_Database) を自動でインストールするようにしました。
+	- 簡単ローカル環境を導入済みの場合は、`UpdateResourceSfw.bat` または `UpdateResourceNsfw.bat` を実行するとインストールされます。
+- モデルを 1 種追加しました。
+- TI を 1 種追加しました。
+- LoRA を 8 種追加しました。
+
 ## 2023/05/16
 - LoRA を 14 種追加しました。
 - TI を 2 種追加しました。
