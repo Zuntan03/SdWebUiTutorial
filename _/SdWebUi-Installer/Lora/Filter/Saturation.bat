@@ -1,16 +1,11 @@
 @echo off
 pushd %~dp0..\..\..\..\SdWebUi\Lora\
 
-echo Saturation.safetensors: https://twitter.com/2vXpSwA7/status/1656920989350105088
+echo Saturation.safetensors: https://civitai.com/models/81360/saturation
 if not exist Filter\ ( mkdir Filter\ )
 if not exist Filter\Saturation.safetensors (
 	curl -Lo Filter\Saturation.safetensors^
-	https://huggingface.co/2vXpSwA7/iroiro-lora/resolve/main/release/saturation.safetensors
-)
-
-if not exist Filter\Saturation.jpg (
-	curl -Lo Filter\Saturation.jpg^
-	https://pbs.twimg.com/media/Fv6hH7jaIAA2swB?format=jpg
+	https://civitai.com/api/download/models/86320
 	timeout /t 1 /nobreak
 )
 
