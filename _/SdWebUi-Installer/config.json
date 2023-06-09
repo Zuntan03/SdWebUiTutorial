@@ -20,6 +20,7 @@
 	"additional_networks_extra_lora_path": "../Lora",
 	"bilingual_localization_enabled": false,
 	"bilingual_localization_file": "ja_JP",
+	"canvas_zoom_enable_integration": true,
 	"control_net_models_path": "../ControlNetModel",
 	"control_net_max_models_num": 3,
 	"control_net_model_cache_size": 3,

@@ -9,6 +9,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 # 直近の更新履歴
 
 ## 2023/06/09
+- 拡張機能の [sd-webui-openpose-editor](https://github.com/huchenlei/sd-webui-openpose-editor) を追加しました。
 - モデルを 23 種追加しました。
 - LoRA を 76 種追加しました。
 - TI を 4 種追加しました。
