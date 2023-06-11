@@ -7,7 +7,7 @@
   制服: __Tsak/ClothingSet/ftbUniforms__
   ファンタジー: __Tsak/ClothingSet/ftbFantasies__
 FtbClothingSet他:
-  ポーズ: __Tsak/Pose__
+  腕ポーズ: __Tsak/ArmPose__
   美味ヤミ: __Tsak/Oiyami__
   FantasiesNoDH: __Tsak/FantasiesNoDH__
   Spoken: __Tsak/Spoken__
@@ -17,7 +17,10 @@ FtbClothingSet他:
   スポーツ競技: __Tsak/Sports__
   民族衣装＋地名: __Tsak/NationalCos__
 としあき他:
-  人物構図: __Tsak/Composition__
+  表情: __Tsak/Face__
+  ポーズ: __Tsak/Pose__
+  構図: __Tsak/Composition__
+  人物構図: __Tsak/FigureComposition__
   厨二病: __Tsak/Tyuuni__
   動物: __Tsak/Animal__
   メガネ: __Tsak/Glasses__

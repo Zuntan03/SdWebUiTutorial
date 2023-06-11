@@ -12,7 +12,8 @@ for /r .\Vae %%b in (*.bat) do (call "%%b")
 for /r .\Model %%b in (*.bat) do ( call "%%b" )
 for /r .\Lora %%b in (*.bat) do ( call "%%b" )
 for /r .\Wildcard %%b in (*.bat) do ( call "%%b" )
-for /r .\EasyPromptSelector %%b in (*.bat) do ( call "%%b" )
+for /r .\EasyPromptSelector\Sfw %%b in (*.bat) do ( call "%%b" )
+for /r .\EasyPromptSelector\Nsfw %%b in (*.bat) do ( call "%%b" )
 for /r .\LoraBlockWeight %%b in (*.bat) do ( call "%%b" )
 popd
 

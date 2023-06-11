@@ -4,6 +4,7 @@ NgQu: "(worst quality, low quality:1.4),"
 詳細1: "<lora:Flat1:-1:biimoO>"
 詳細2: "<lora:Flat2:-1:biimoO>"
 詳細3: "<lora:DetailTweaker:1:biimoO>"
+詳細4: "<lora:AddMoreDetails:1:biimoO>"
 KonyconiAiスタイル: "__LoraWc/KonyconiStyleAi__:1:BIimOO>,"
 Swingwings背景Sfw: "__LoraWc/SwingwingsBgSfw__:1:biIMOo>,"
 ことさん:
@@ -14,23 +15,32 @@ Swingwings背景Sfw: "__LoraWc/SwingwingsBgSfw__:1:biIMOo>,"
   フォーマル: __Tsak/ClothingSet/ftbFormals__
   ねまき: __Tsak/ClothingSet/ftbLingeries__
   水着: __Tsak/ClothingSet/ftbSwimsuits__
-  ポーズ: __Tsak/Pose__
+  腕ポーズ: __Tsak/ArmPose__
   美味ヤミ: __Tsak/Oiyami__
   FantasiesNoDH: __Tsak/FantasiesNoDH__
   Spoken: __Tsak/Spoken__
+愛音さん https://note.com/aine_miyabi/:
+  ロリータ風: "__Aine/LoCos__"
+  背景: "__Aine/Bg/*__"
+  ファッション: "__Aine/Fashion/*__"
 BDさん https://note.com/br_d/:
-  旅: "@BD_旅:旅@"
-  ファンタジーコーデ: "@BD_ファンタジコーデ:ファンタジーコーデ@"
-  コーデ: "@BD_コーデ:コーデ@"
-  感情: "@BD_感情:感情@"
-  エフェクト: "@BD_エフェクト:エフェクト@"
-  自然言語エフェクト: "@BD_自然言語エフェクト_3:（自然言語）エフェクト@"
+  旅: "__Bd/Journey__"
+  背景: "__Bd/Bg__"
+  ファンタジーコーデ: "__Bd/FantasyOutfit__"
+  コーデ: "__Bd/Outfit__"
+  感情: "__Bd/Emotion__"
+  エフェクト: "__Bd/Effect__"
+  エフェクト説明: "__Bd/NlEffect__"
+  シーン説明: "__Bd/NlSubject__"
 としあき:
   ファッション: __Tsak/Fasion__
+  表情: __Tsak/Face__
+  ポーズ: __Tsak/Pose__
+  構図: __Tsak/Composition__
   職業: __Tsak/Job__
   スポーツ競技: __Tsak/Sports__
   民族衣装＋地名: __Tsak/NationalCos__
-  人物構図: __Tsak/Composition__
+  人物構図: __Tsak/FigureComposition__
   厨二病: __Tsak/Tyuuni__
   動物: __Tsak/Animal__
   メガネ: __Tsak/Glasses__

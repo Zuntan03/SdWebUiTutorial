@@ -8,31 +8,20 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/06/11
+- 拡張機能の [sd-webui-photopea-embed](https://github.com/yankooliveira/sd-webui-photopea-embed) を追加しました。
+	- [公式によると編集中の画像はサーバーに送信されません。](https://www.photopea.com/learn/)
+	`Photopea は、Sketch や Photoshop と同じように、デバイス内で完全に実行されます。ファイルをインターネットにアップロードすることはありません。Photopea.com をロードし、インターネットから切断して、完全にオフラインで使用し続けることができます。ファイルがコンピュータから離れることはありません。`
+- [GoodHands-beta2](https://civitai.com/models/47085/envybetterhands-locon) を簡単に使うためのスタイルを追加しました。
+- Easy Prompt Selectorのカテゴリランダムをワイルドカードに変換しました。
+- モデルを 1 種追加しました。
+- LoRA を 23 種追加しました。
+
 ## 2023/06/09
 - 拡張機能の [sd-webui-openpose-editor](https://github.com/huchenlei/sd-webui-openpose-editor) を追加しました。
 - モデルを 23 種追加しました。
 - LoRA を 76 種追加しました。
 - TI を 4 種追加しました。
-
-## 2023/06/07
-- ダウンロードに失敗したファイルをリソースの更新前に削除していましたが、リソースの更新後に変更しました。
-	- 起動時にダウンロードに失敗したファイルのエラー表示が軽減されます。
-- モデルや LoRA のダウンロードバージョンの取り扱いを、Civitai Helper のバージョンチェック結果を優先する運用に変更しました。
-- モデルを 10 種追加しました。
-- LoRAを 12 種追加しました。
-
-## 2023/06/05
-- チュートリアルに「[高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)」と「[アプスケ前の手ガチャ](./_/doc/HandGacha/HandGacha.md)」を追加しました。
-
-## 2023/06/01
-- チュートリアルに「[Hires. プロンプトで群衆遊びが簡単に！](https://twitter.com/Zuntan03/status/1664124771196612608)」を追加しました。
-
-## 2023/05/27
-- LoHa 以降の LoRA を使うための拡張を、locon から lycoris に変更しました。
-	- lycoris をインストールするためにいずれかの `UpdateResource*.bat` を実行してから `_\SdWebUi-Installer\Extension\Lycoris.bat` を実行してください。
-		- `UpdateResource*.bat` の実行時に `launch.py: error: unrecognized arguments: --lyco-dir ../Lora` のエラーが表示されますが `Lycoris.bat` の実行で解消されます。
-	- locon をアンインストールするために `SdWebUi\stable-diffusion-webui\extensions\a1111-sd-webui-locon\` を削除してください。
-	- LoRA, Locon, LoRA-LierLa, LoRA-C3Lier は、これまで通り `<lora:NAME:1>` で利用できます。
 
 [過去の更新履歴](./ChangeLog.md)
 

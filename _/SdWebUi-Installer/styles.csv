@@ -1,0 +1,2 @@
+﻿name,prompt,negative_prompt
+GoodHands,"nice hands, perfect hands <lora:GoodHands-beta2:1>","(extra fingers, deformed hands, polydactyl:1.5)"

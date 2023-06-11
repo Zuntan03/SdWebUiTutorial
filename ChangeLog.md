@@ -1,5 +1,25 @@
 ﻿# 更新履歴
 
+## 2023/06/07
+- ダウンロードに失敗したファイルをリソースの更新前に削除していましたが、リソースの更新後に変更しました。
+	- 起動時にダウンロードに失敗したファイルのエラー表示が軽減されます。
+- モデルや LoRA のダウンロードバージョンの取り扱いを、Civitai Helper のバージョンチェック結果を優先する運用に変更しました。
+- モデルを 10 種追加しました。
+- LoRAを 12 種追加しました。
+
+## 2023/06/05
+- チュートリアルに「[高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)」と「[アプスケ前の手ガチャ](./_/doc/HandGacha/HandGacha.md)」を追加しました。
+
+## 2023/06/01
+- チュートリアルに「[Hires. プロンプトで群衆遊びが簡単に！](https://twitter.com/Zuntan03/status/1664124771196612608)」を追加しました。
+
+## 2023/05/27
+- LoHa 以降の LoRA を使うための拡張を、locon から lycoris に変更しました。
+	- lycoris をインストールするためにいずれかの `UpdateResource*.bat` を実行してから `_\SdWebUi-Installer\Extension\Lycoris.bat` を実行してください。
+		- `UpdateResource*.bat` の実行時に `launch.py: error: unrecognized arguments: --lyco-dir ../Lora` のエラーが表示されますが `Lycoris.bat` の実行で解消されます。
+	- locon をアンインストールするために `SdWebUi\stable-diffusion-webui\extensions\a1111-sd-webui-locon\` を削除してください。
+	- LoRA, Locon, LoRA-LierLa, LoRA-C3Lier は、これまで通り `<lora:NAME:1>` で利用できます。
+
 ## 2023/05/24
 - チュートリアルに「[BIMO プリセットで手抜き LoRA 階層適用](./_/doc/BimoLoraBlockWeight/BimoLoraBlockWeight.md)」を追加しました。
 - TI を 1 種追加しました。

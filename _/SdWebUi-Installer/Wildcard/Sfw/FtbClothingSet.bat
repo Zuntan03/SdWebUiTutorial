@@ -120,8 +120,8 @@ if not exist FantasiesNoDH.txt (
 	"https://drive.google.com/uc?export=download&id=1Kbbcz8nrYic8klInTB0XRcQyPkWQ7R7J"
 )
 
-if not exist Pose.txt (
-	curl -Lo Pose.txt^
+if not exist ArmPose.txt (
+	curl -Lo ArmPose.txt^
 	"https://drive.google.com/uc?export=download&id=1rtYhGqvOgSg7tq0bDYzQq-ETXqpybSO2"
 )
 
