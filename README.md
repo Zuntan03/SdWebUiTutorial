@@ -8,6 +8,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/07/20
+- チュートリアルに [お手軽！プロンプトでキャラ LoRA 作成](./_/doc/Txt2Lora/Txt2Lora.md) を追加しました。
+
 ## 2023/06/11
 - 拡張機能の [sd-webui-photopea-embed](https://github.com/yankooliveira/sd-webui-photopea-embed) を追加しました。
 	- [公式によると編集中の画像はサーバーに送信されません。](https://www.photopea.com/learn/)
@@ -41,6 +44,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - [2023/05/21] [モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)
 - [2023/06/05] [高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)
 - [2023/06/05] [アプスケ前の手ガチャ](./_/doc/HandGacha/HandGacha.md)
+- [2023/07/20] [お手軽！プロンプトでキャラ LoRA 作成](./_/doc/Txt2Lora/Txt2Lora.md)
 
 ## チュートリアル中級
 
