@@ -2,8 +2,8 @@
 
 <!--概要紹介は[こちら](https://twitter.com/Zuntan03/status/1665553153654411265)。-->
 
-[LECO](https://zenn.dev/aics/articles/lora_for_erasing_concepts_from_diffusion_models) でプロンプトからキャラ LoRA を手軽に作成してみる実験です。
-ローカル PC で画像を生成しながら、絵素材を用意することもなく、[Google Colab のサーバーで気軽に LoRA を学習できます](https://colab.research.google.com/drive/1HYxpHf6neCwK-yudMEexUT9mqjS3cCrD?usp=sharing)。
+[LECO](https://zenn.dev/aics/articles/lora_for_erasing_concepts_from_diffusion_models) でプロンプトからキャラ LoRA を手軽に作成してみる実験です。  
+ローカル PC で画像を生成しながら、絵素材を用意することもなく、[Google Colab のサーバーで気軽に LoRA を学習できます](https://colab.research.google.com/drive/1HYxpHf6neCwK-yudMEexUT9mqjS3cCrD?usp=sharing)。  
 学習の設定や学習結果の LoRA は [Google ドライブ](https://drive.google.com/)に保存します。
 
 # キャラ LoRA を作ってみる
@@ -23,7 +23,7 @@ LoRAは Google ドライブのマイドライブ以下の `/Txt2Lora/lora/krnkmd
 次の画像はこのLoRAを使い、 `krnkmd<lora:krnkmd:1>, shopping mall` のみのプロンプトで X/Y/Z プロットした画像です。
 ![krnkmd](./img/krnkmd.png)
 
-この画像の `shinto shrine` で巫女服になりかけているように、他のプロンプトに引っ張られて衣装などがあまり再現がされない場合があります。
+この画像の `shinto shrine` で巫女服になりかけているように、他のプロンプトに引っ張られて衣装などがあまり再現がされない場合があります。  
 打率の低い要素はプロンプトで補助してみてください。  
 例）`krnkmd <lora:krnkmd:1>, maid uniform, shopping mall` で、おつかいメイドさんの打率アップ、など
 
@@ -138,6 +138,7 @@ Regional Prompter プロンプト: `2girls, <lora:krnkmd_tyankmk:1> ADDCOMM (tya
 # まとめ
 
 - ローカル PC の画像生成と並行して、プロンプトを考えるだけで手軽に LoRA あそびができます。
+	- 顔 LoRA の使い勝手が良さそうでした。
 	- 絵素材不要の学習の手軽さは、品質を犠牲にしつつも新たな選択肢として面白いです。元々効きの悪いプロンプトを補助したりですとか。
 	- ﾃｷﾄｰなことを言いますが、一枚絵をプロンプトと併用して reference 系 ControlNet のように絵を寄せられると、夢が広がりそうです。
 - ステップ数 (train_iterations) や学習率 (train_lr) は控えめですので、物足りない方は増やしてください。
