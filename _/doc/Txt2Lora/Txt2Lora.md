@@ -1,6 +1,6 @@
 ﻿# お手軽！プロンプトでキャラ LoRA 作成
 
-<!--概要紹介は[こちら](https://twitter.com/Zuntan03/status/1665553153654411265)。-->
+[紹介つぶやき](https://twitter.com/Zuntan03/status/1681680640251682821)
 
 [LECO](https://zenn.dev/aics/articles/lora_for_erasing_concepts_from_diffusion_models) でプロンプトからキャラ LoRA を手軽に作成してみる実験です。  
 ローカル PC で画像を生成しながら、絵素材を用意することもなく、[Google Colab のサーバーで気軽に LoRA を学習できます](https://colab.research.google.com/drive/1HYxpHf6neCwK-yudMEexUT9mqjS3cCrD?usp=sharing)。  
