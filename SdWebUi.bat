@@ -20,9 +20,7 @@ set COMMANDLINE_ARGS=^
  --vae-dir ../Vae^
  --embeddings-dir ../Embedding^
  --lora-dir ../Lora^
- --lyco-dir ../Lora^
  --xformers^
- --no-half-vae^
  --autolaunch^
  %~1
 

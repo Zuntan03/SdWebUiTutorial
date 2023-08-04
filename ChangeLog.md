@@ -1,5 +1,20 @@
 ﻿# 更新履歴
 
+## 2023/06/11
+- 拡張機能の [sd-webui-photopea-embed](https://github.com/yankooliveira/sd-webui-photopea-embed) を追加しました。
+	- [公式によると編集中の画像はサーバーに送信されません。](https://www.photopea.com/learn/)
+	`Photopea は、Sketch や Photoshop と同じように、デバイス内で完全に実行されます。ファイルをインターネットにアップロードすることはありません。Photopea.com をロードし、インターネットから切断して、完全にオフラインで使用し続けることができます。ファイルがコンピュータから離れることはありません。`
+- [GoodHands-beta2](https://civitai.com/models/47085/envybetterhands-locon) を簡単に使うためのスタイルを追加しました。
+- Easy Prompt Selectorのカテゴリランダムをワイルドカードに変換しました。
+- モデルを 1 種追加しました。
+- LoRA を 23 種追加しました。
+
+## 2023/06/09
+- 拡張機能の [sd-webui-openpose-editor](https://github.com/huchenlei/sd-webui-openpose-editor) を追加しました。
+- モデルを 23 種追加しました。
+- LoRA を 76 種追加しました。
+- TI を 4 種追加しました。
+
 ## 2023/06/07
 - ダウンロードに失敗したファイルをリソースの更新前に削除していましたが、リソースの更新後に変更しました。
 	- 起動時にダウンロードに失敗したファイルのエラー表示が軽減されます。

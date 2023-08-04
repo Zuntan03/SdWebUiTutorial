@@ -8,23 +8,16 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/08/04
+- SdWebUi の version 1.5.1 に対応しました。
+	- `SdWebUi\stable-diffusion-webui\venv\` を削除してから、`_\SdWebUi-Update.bat` を実行してください。
+	- `SdWebUi\stable-diffusion-webui\extensions\a1111-sd-webui-lycoris` を削除してください。
+	- `--no-half-vae` オプションを削除しました。
+- プロンプトからの手軽なLoRA作成を、とても簡単に使える [簡単 LECO](https://twitter.com/Zuntan03/status/1685196983953436672) を追加しました。
+	- 無料のGoogleサーバーで、出先のスマホからでもLoRAを作成できます。
+
 ## 2023/07/20
 - チュートリアルに [お手軽！プロンプトでキャラ LoRA 作成](./_/doc/Txt2Lora/Txt2Lora.md) を追加しました。
-
-## 2023/06/11
-- 拡張機能の [sd-webui-photopea-embed](https://github.com/yankooliveira/sd-webui-photopea-embed) を追加しました。
-	- [公式によると編集中の画像はサーバーに送信されません。](https://www.photopea.com/learn/)
-	`Photopea は、Sketch や Photoshop と同じように、デバイス内で完全に実行されます。ファイルをインターネットにアップロードすることはありません。Photopea.com をロードし、インターネットから切断して、完全にオフラインで使用し続けることができます。ファイルがコンピュータから離れることはありません。`
-- [GoodHands-beta2](https://civitai.com/models/47085/envybetterhands-locon) を簡単に使うためのスタイルを追加しました。
-- Easy Prompt Selectorのカテゴリランダムをワイルドカードに変換しました。
-- モデルを 1 種追加しました。
-- LoRA を 23 種追加しました。
-
-## 2023/06/09
-- 拡張機能の [sd-webui-openpose-editor](https://github.com/huchenlei/sd-webui-openpose-editor) を追加しました。
-- モデルを 23 種追加しました。
-- LoRA を 76 種追加しました。
-- TI を 4 種追加しました。
 
 [過去の更新履歴](./ChangeLog.md)
 
@@ -44,7 +37,8 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - [2023/05/21] [モノを消すだけじゃない！Lama Cleaner の簡単で多様な高コスパ修正](./_/doc/LamaCleaner/LamaCleaner.md)
 - [2023/06/05] [高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)
 - [2023/06/05] [アプスケ前の手ガチャ](./_/doc/HandGacha/HandGacha.md)
-- [2023/07/20] [お手軽！プロンプトでキャラ LoRA 作成](./_/doc/Txt2Lora/Txt2Lora.md)
+- [2023/07/29] [簡単 LECO](https://twitter.com/Zuntan03/status/1685196983953436672)
+	- [2023/07/20] (旧)[お手軽！プロンプトでキャラ LoRA 作成](./_/doc/Txt2Lora/Txt2Lora.md)
 
 ## チュートリアル中級
 
