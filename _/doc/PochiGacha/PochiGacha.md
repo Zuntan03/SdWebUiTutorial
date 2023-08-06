@@ -149,7 +149,7 @@ Easy Prompt Selectorのタグを選択するリストから「BD_ファンタジ
 では最後に LoRA でもガチャってみましょう。
 
 1. 「-GachaSfw」の「KonyconiAiスタイル」と、ついでに「詳細2」も付け足します。  
-プロンプトに `__LoraWc/KonyconiStyleAi__:1:BIimOO>, <lora:Flat2:-1:biimoO>` が付け足されます。  
+プロンプトに `__LoraWc/KonyconiStyleAi__:1:1:lbw=BIimOO>, <lora:Flat2:0:-1:lbw=biimoO>` が付け足されます。  
 ![GachaLora](./img/GachaLora.png)
 	- 今回は複数の LoRA をそのまま利用していますが、複数の LoRA を使用する場合は LoRA のウェイトや「CFG スケール」を下げることで、ガチャの打率が高まる場合があります。
 	- LoRA のガチャは Wildcard 行の前半にキーワードプロンプトを、後半に LoRA 定義を記載しています。  

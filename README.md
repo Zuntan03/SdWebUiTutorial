@@ -8,6 +8,9 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 
 # 直近の更新履歴
 
+## 2023/08/06
+- LoRA Block Weight の新しい表記 (`<lora:name:1:1:lbw=LBW>`) に対応しました。
+
 ## 2023/08/04
 - SdWebUi の version 1.5.1 に対応しました。
 	- `SdWebUi\stable-diffusion-webui\venv\` を削除してから、`_\SdWebUi-Update.bat` を実行してください。
@@ -38,6 +41,7 @@ bat の実行だけで[SdWebUi](https://github.com/AUTOMATIC1111/stable-diffusio
 - [2023/06/05] [高コスパ！簡単ゴージャスアップスケール！](./_/doc/TileUpscale/TileUpscale.md)
 - [2023/06/05] [アプスケ前の手ガチャ](./_/doc/HandGacha/HandGacha.md)
 - [2023/07/29] [簡単 LECO](https://twitter.com/Zuntan03/status/1685196983953436672)
+	- English ver. [EasyLECO](https://twitter.com/Zuntan03/status/1687490648256196609)
 	- [2023/07/20] (旧)[お手軽！プロンプトでキャラ LoRA 作成](./_/doc/Txt2Lora/Txt2Lora.md)
 
 ## チュートリアル中級

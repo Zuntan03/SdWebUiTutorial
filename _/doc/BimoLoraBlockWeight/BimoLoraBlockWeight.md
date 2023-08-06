@@ -18,7 +18,7 @@ LoRA の階層適用に必要な LoRA Block Weight 拡張と BIMO プリセッ�
 
 # BIMO プリセットの使い方
 
-プロンプトの LoRA 呼び出しで `<lora:LoraName:1:BIMO>` と階層適用のパラメータに使用します。
+プロンプトの LoRA 呼び出しで `<lora:LoraName:1:1:lbw=BIMO>` と階層適用のパラメータに使用します。
 
 小文字なら `0` を、大文字なら `1` を設定しますので、`BIMO` なら Base In Mid Out がすべて `1`、bimo ならすべて `0`、`bImO` なら Base Mid が `0` で In と Out の全層が `1` になります。
 
@@ -33,14 +33,14 @@ In と Out には 12 の層がありますが、「BIMO プリセット」では
 - `BIIIIMOOOO` と I と O が 4 文字なら、I と O は前から 3 層ずつ指定
 	- `bIiIiMoOoO:0,1,1,1,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,1,0,0,0,1,1,1`
 
-[簡単ローカル環境](https://github.com/Zuntan03/SdWebUiTutorial/) では [flat LoRA](https://twitter.com/2vXpSwA7/status/1656930985924247552) では `<lora:flat:1:biimoO>` と Out 後半 6 層を有効にしています（つまり `<lora:flat:1::0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1>`）。  
+[簡単ローカル環境](https://github.com/Zuntan03/SdWebUiTutorial/) では [flat LoRA](https://twitter.com/2vXpSwA7/status/1656930985924247552) では `<lora:flat:0:-1:lbw=biimoO>` と Out 後半 6 層を有効にしています（つまり `<lora:flat:0:-1:lbw=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1>`）。  
 `biiiimooOo` も良かったのですが、私が試した範囲では予想外の影響が稀にあったので最後の 3 層も有効にしています。
 
 # BIMO プリセットで階層適用を調整する
 
 LoRA に手軽（雑）に階層適用をする手順です。
 
-1. プロンプトで `<lora:LoraName:1:BIMO>` と LoRA を階層適用パラメータ付きで呼び出します。
+1. プロンプトで `<lora:LoraName:1:1:lbw=BIMO>` と LoRA を階層適用パラメータ付きで呼び出します。
 2. 「X/Y/Z plot」の「Prompt S/R」で `BIIMOO,bIIMOO,BiIMOO,BIiMOO,BIImOO,BIIMoO,BIIMOo,biimoo` と層別適用のバリエーションを生成します。
 	- 左端は全層有効、右端は全層無効で、間は一箇所ずつ無効にしています。  
 	全層の有効無効を両端に並べることで、LoRA 効力全体のどの程度を残すのかを把握しながら調整できます。

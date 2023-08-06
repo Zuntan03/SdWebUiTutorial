@@ -1,12 +1,12 @@
 ﻿1girl: "1girl,"
 EsNg2: "EasyNegativeV2,"
 NgQu: "(worst quality, low quality:1.4),"
-詳細1: "<lora:Flat1:-1:biimoO>"
-詳細2: "<lora:Flat2:-1:biimoO>"
-詳細3: "<lora:DetailTweaker:1:biimoO>"
-詳細4: "<lora:AddMoreDetails:1:biimoO>"
-KonyconiAiスタイル: "__LoraWc/KonyconiStyleAi__:1:BIimOO>,"
-Swingwings背景Sfw: "__LoraWc/SwingwingsBgSfw__:1:biIMOo>,"
+詳細1: "<lora:Flat1:0:-1:lbw=biimoO>"
+詳細2: "<lora:Flat2:0:-1:lbw=biimoO>"
+詳細3: "<lora:DetailTweaker:0:1:lbw=biimoO>"
+詳細4: "<lora:AddMoreDetails:0:1:lbw=biimoO>"
+KonyconiAiスタイル: "__LoraWc/KonyconiStyleAi__:1:1:lbw=BIimOO>,"
+Swingwings背景Sfw: "__LoraWc/SwingwingsBgSfw__:1:1:lbw=biIMOo>,"
 ことさん:
   服全種: __Tsak/ClothingSet/ftbClothingset__
   ファンタジー: __Tsak/ClothingSet/ftbFantasies__
