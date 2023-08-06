@@ -5,7 +5,7 @@ echo AngelSleePeace.safetensors: https://civitai.com/models/64238/angel-sleepeac
 if not exist Pose\ ( mkdir Pose\ )
 if not exist Pose\AngelSleePeace.safetensors (
 	curl -Lo Pose\AngelSleePeace.safetensors^
-	https://civitai.com/api/download/models/68824
+	https://civitai.com/api/download/models/97781
 	timeout /t 1 /nobreak
 )
 

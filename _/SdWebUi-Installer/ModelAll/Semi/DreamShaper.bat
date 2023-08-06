@@ -5,7 +5,7 @@ echo DreamShaper.safetensors: https://civitai.com/models/4384/dreamshaper
 if not exist Semi\ ( mkdir Semi\ )
 if not exist Semi\DreamShaper.safetensors (
 	curl -Lo Semi\DreamShaper.safetensors^
-	https://civitai.com/api/download/models/109123
+	https://civitai.com/api/download/models/128713
 )
 
 popd

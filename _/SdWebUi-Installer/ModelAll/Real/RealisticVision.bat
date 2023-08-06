@@ -5,7 +5,7 @@ echo RealisticVision.safetensors: https://civitai.com/models/4201/realistic-visi
 if not exist Real\ ( mkdir Real\ )
 if not exist Real\RealisticVision.safetensors (
 	curl -Lo Real\RealisticVision.safetensors^
-	https://civitai.com/api/download/models/114367
+	https://civitai.com/api/download/models/130072
 )
 
 popd

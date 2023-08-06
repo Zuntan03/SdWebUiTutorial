@@ -5,7 +5,7 @@ echo ChubbyGirls.safetensors: https://civitai.com/models/33314/chubby-girls-bigg
 if not exist zChar_\ ( mkdir zChar_\ )
 if not exist zChar_\ChubbyGirls.safetensors (
 	curl -Lo zChar_\ChubbyGirls.safetensors^
-	https://civitai.com/api/download/models/39650
+	https://civitai.com/api/download/models/105577
 	timeout /t 1 /nobreak
 )
 

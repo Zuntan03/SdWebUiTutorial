@@ -5,7 +5,7 @@ echo ErectHorsePenis.safetensors: https://civitai.com/models/52023/erect-horse-p
 if not exist zPns\ ( mkdir zPns\ )
 if not exist zPns\ErectHorsePenis.safetensors (
 	curl -Lo zPns\ErectHorsePenis.safetensors^
-	https://civitai.com/api/download/models/76513
+	https://civitai.com/api/download/models/127862
 	timeout /t 1 /nobreak
 )
 

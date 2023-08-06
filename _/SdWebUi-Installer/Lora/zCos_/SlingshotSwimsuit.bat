@@ -5,7 +5,7 @@ echo SlingshotSwimsuit.safetensors: https://civitai.com/models/7957/slingshot-sw
 if not exist zCos_\ ( mkdir zCos_\ )
 if not exist zCos_\SlingshotSwimsuit.safetensors (
 	curl -Lo zCos_\SlingshotSwimsuit.safetensors^
-	https://civitai.com/api/download/models/81697
+	https://civitai.com/api/download/models/122473
 	timeout /t 1 /nobreak
 )
 

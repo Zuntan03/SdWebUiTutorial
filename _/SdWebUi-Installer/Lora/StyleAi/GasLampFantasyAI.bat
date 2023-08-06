@@ -5,7 +5,7 @@ echo GasLampFantasyAI.safetensors: https://civitai.com/models/71335/gaslampfanta
 if not exist StyleAi\ ( mkdir StyleAi\ )
 if not exist StyleAi\GasLampFantasyAI.safetensors (
 	curl -Lo StyleAi\GasLampFantasyAI.safetensors^
-	https://civitai.com/api/download/models/78503
+	https://civitai.com/api/download/models/94958
 	timeout /t 1 /nobreak
 )
 

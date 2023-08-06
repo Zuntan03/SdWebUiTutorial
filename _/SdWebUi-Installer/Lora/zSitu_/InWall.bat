@@ -5,7 +5,7 @@ echo InWall.safetensors: https://civitai.com/models/47514/concept-in-wall
 if not exist zSitu_\ ( mkdir zSitu_\ )
 if not exist zSitu_\InWall.safetensors (
 	curl -Lo zSitu_\InWall.safetensors^
-	https://civitai.com/api/download/models/52111
+	https://civitai.com/api/download/models/108945
 	timeout /t 1 /nobreak
 )
 

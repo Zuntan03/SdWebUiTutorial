@@ -5,7 +5,7 @@ echo FearExpression.safetensors: https://civitai.com/models/24955/fear-expressio
 if not exist Parts\ ( mkdir Parts\ )
 if not exist Parts\FearExpression.safetensors (
 	curl -Lo Parts\FearExpression.safetensors^
-	https://civitai.com/api/download/models/29855
+	https://civitai.com/api/download/models/95570
 	timeout /t 1 /nobreak
 )
 

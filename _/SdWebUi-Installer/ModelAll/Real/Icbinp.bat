@@ -5,7 +5,7 @@ echo Icbinp.safetensors: https://civitai.com/models/28059/icbinp-i-cant-believe-
 if not exist Real\ ( mkdir Real\ )
 if not exist Real\Icbinp.safetensors (
 	curl -Lo Real\Icbinp.safetensors^
-	https://civitai.com/api/download/models/89464
+	https://civitai.com/api/download/models/121557
 )
 
 popd

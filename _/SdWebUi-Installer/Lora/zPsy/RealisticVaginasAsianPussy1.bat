@@ -5,7 +5,7 @@ echo RealisticVaginasAsianPussy1.safetensors: https://civitai.com/models/15376/r
 if not exist zPsy\ ( mkdir zPsy\ )
 if not exist zPsy\RealisticVaginasAsianPussy1.safetensors (
 	curl -Lo zPsy\RealisticVaginasAsianPussy1.safetensors^
-	https://civitai.com/api/download/models/18117
+	https://civitai.com/api/download/models/104527
 	timeout /t 1 /nobreak
 )
 
