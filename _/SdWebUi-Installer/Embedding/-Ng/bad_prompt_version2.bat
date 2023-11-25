@@ -8,8 +8,8 @@ if not exist -Ng\bad_prompt_version2.pt (
 	https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_version2.pt
 )
 
-if not exist -Ng\bad_prompt_version2.jpg (
-	curl -Lo -Ng\bad_prompt_version2.jpg^
+if not exist -Ng\bad_prompt_version2.preview.jpg (
+	curl -Lo -Ng\bad_prompt_version2.preview.jpg^
 	https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_showcase.jpg
 )
 popd

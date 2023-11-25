@@ -8,6 +8,7 @@
 	"outdir_txt2img_grids": "../../SdGrid",
 	"outdir_img2img_grids": "../../SdGrid",
 	"outdir_save": "../../SdImage",
+	"show_gradio_deprecation_warnings": false,
 	"sd_checkpoint_cache": 3,
 	"sd_vae_checkpoint_cache": 3,
 	"sd_vae": "vae-ft-mse-840000-ema-pruned.safetensors",
