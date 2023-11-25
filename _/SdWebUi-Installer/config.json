@@ -18,6 +18,7 @@
 	"live_previews_enable": false,
 	"eta_noise_seed_delta": 31337,
 	"additional_networks_extra_lora_path": "../Lora",
+	"ad_script_names": "dynamic_prompting,dynamic_thresholding,wildcard_recursive,wildcards,negpip",
 	"bilingual_localization_enabled": false,
 	"bilingual_localization_file": "ja_JP",
 	"canvas_zoom_enable_integration": true,
